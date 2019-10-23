@@ -1,0 +1,7 @@
+Function	Freq
+F1	176
+F2	106
+F3	118
+F4	84
+F5	22
+Others	131

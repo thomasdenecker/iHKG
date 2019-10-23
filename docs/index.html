@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>iHKG</title>
+
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+  <link href="./assets/img/IronYeast_logo_mini.png" rel="icon" type="image/png">
+
+  <!-- Include HTML  -->
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              if (this.status == 404) {
+                elmnt.innerHTML = "Page not found.";
+              }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+  </script>
+
+  <!-- BOOTSTRAP  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- END BOOTSTRAP -->
+
+  <!-- Code graph -->
+  <script src="assets/js/cytoscape_functions.js"></script>
+  <!--  END Code graph -->
+
+  <!--  Jquery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <!-- END Jquery -->
+
+  <!-- Style  -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- END Style  -->
+
+  <!-- cytoscape  -->
+  <script src="./assets/js/cytoscape.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.0/jquery.qtip.min.js"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.0/jquery.qtip.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-qtip/2.7.0/cytoscape-qtip.js"></script>
+  <script src="./assets/js/cytoscape-automove.js"></script>
+  <!-- END cytoscape  -->
+
+  <link href="./assets/css/cytoscape.js-panzoom.css" rel="stylesheet" type="text/css" />
+  <script src="./assets/js/cytoscape-panzoom.js"></script>
+  <link href="./assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
+  <script src="./assets/js/FileSaver.min.js"></script>
+
+  <!-- layout  -->
+  <script src="./assets/js/cytoscape-cose-bilkent.js"></script>
+  <!-- END layout  -->
+
+
+</head>
+
+<body>
+  <div w3-include-html="navbar.html"></div>
+
+  <div class="container">
+    <br>
+    <h1 class="center">iHKG Viewer</h1>
+    <hr>
+    <!-- GRAPH  -->
+
+    <p style="font-size: 140%;color=#808080">To ensure the sharing of our data, as well as their subsequent exploitation by us or by others, we developed an interactive web viewer (called “iHKG viewer” for iron Homeostasis Key Genes - Viewer)
+      which is publicly accessible via Github pages. Several features were developed to i) enable a dynamic exploration of the two-faced functional sub-networks,
+      ii) enable a rapid location of any genes in the networks and iii) obtain for any gene, all the available annotations available in the public databases GRYC and CGD.</p>
+
+    <h1 class="center">Explore iron responsive genes</h1>
+    <hr>
+    <p>
+      In this study our aim was to identify the “key genes” required for iron homeostasis in the pathogenic yeast Candida glabrata. Referred as iHKG (iron homeostasis key genes), these genes are expected to have an activity which is important for the
+      “homeostasis”, i.e. the property of the cells to counterbalance intracellular physiological consequences of external changes (Figure 1A). In particular, we wanted to discriminate iHKG genes from the set of all other iron-responsive (or
+      sensitive) genes, which are genes exhibiting up- or down-regulations in response to iron fluctuations (Figure 1B). In this context, our working hypothesis was as follows. Because iHKG are involved in iron homeostasis specifically, and that
+      homeostasis is associated with a natural resistance to bidirectional changes (low or high availability of iron), iHKG should exhibit de-regulations in situations where iron sources are respectively low and high. Other iron responsive genes
+      should exhibit de-regulations in situations where iron availability is respectively low or high. Based on this, we defined two types of iHKG genes, referred hereafter as “Type I” and “Type II” (Figure 1C). Type I genes are those for which the
+      de-regulation is opposite in low and high iron conditions (respectively up- and down-regulated), whereas Type II genes are those for which the de-regulation is identical in low and high iron conditions (constantly up- or down-regulated). The
+      identification, the functional characterization and the discussion of the physiological roles played by iHKG of Type I and Type II, are the ultimate objective of this study.
+    </p>
+    <div class="center">
+      <a href="all.html" class="btn btn-primary center" style="width:200px">Explore</a>
+    </div>
+    <br>
+
+    <h1 class="center">Explore by Metago</h1>
+    <hr>
+    <p>Starting from the list of the 637 genes (iron responsive genes), which were found to be up- or down-regulated in at least one condition (the iron responsive genes, see previous sections), we wanted in this second part of the analysis, to infer
+      functional sub-networks
+      of genes. By “functional sub-networks”, we mean graphs in which genes (represented as nodes) are i) involved in a common cellular function and ii) are connected by arrows if they react similarly during iron homeostasis. On these graphs, the
+      iHKG genes will be easily highlighted and thus integrated into a complete functional context.
+    </p>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card  h-100">
+          <div class="card-body center d-flex flex-column">
+            <h5 class="card-title">F1 - Metabolism</h5>
+            <img src="./assets/img/home/F1.PNG" alt="F1 graph" width="100%">
+            <br>
+            <ul style="text-align: justify; text-justify: inter-word;">
+              <li>Nucleic acid, amino acid, fatty acid and lipid metabolism </li>
+              <li>Post-translational modifications (including protein phosphorylation, glycosylation, structural modification and degradation) </li>
+              <li>Carbon metabolism / energy production from respiratory and non respiratory origin</li>
+              <li>Membrane and cell wall biogenesis</li>
+              <li>Mitochondria functions (including biogenesis, mitophagy and functions other than redox signaling that is included in function F3, see below) </li>
+              <li>Ribosomal biogenesis (biosynthesis, RNA processing, and translation)</li>
+            </ul>
+
+            <a href="F1.html" class="btn btn-primary mt-auto">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card  h-100">
+          <div class="card-body center d-flex flex-column">
+            <h5 class="card-title">F2 - Regulation</h5>
+            <img src="./assets/img/home/F2.PNG" alt="F3 graph" width="100%">
+            <br>
+            <ul style="text-align: justify; text-justify: inter-word;">
+              <li>Transcriptional regulation (including general transcription)</li>
+              <li>Ribosome activity (including translation)</li>
+              <li>Signal transduction</li>
+              <li>RNA and protein fate</li>
+            </ul>
+            <a href="F2.html" class="btn btn-primary mt-auto">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card  h-100">
+          <div class="card-body center d-flex flex-column">
+            <h5 class="card-title">F3 - Redox signaling</h5>
+            <img src="./assets/img/home/F3.PNG" alt="F3 graph" width="100%">
+            <br>
+            <p style="text-align: justify; text-justify: inter-word;">Proteins with functions directly or indirectly linked with redox mechanisms:</p>
+            <ul style="text-align: justify; text-justify: inter-word;">
+              <li>oxygen dependant enzymes, flavo-hemoproteins including Cytochrome P dependent, membrane iron reductase, NADP/NADPH dependent enzymes, metalloenzymes</li>
+            </ul>
+            <p style="text-align: justify; text-justify: inter-word;">Also:</p>
+            <ul style="text-align: justify; text-justify: inter-word;">
+              <li>thiol and redox signaling pathways, respiratory chain components, peroxisome activity, ROS detoxification, carrier proteins, folate biosynthesis, heme biosynthesis, etc.</li>
+            </ul>
+            <a href="F3.html" class="btn btn-primary mt-auto">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card  h-100">
+          <div class="card-body center d-flex flex-column">
+            <h5 class="card-title">F4 - Transport / Trafficking</h5>
+            <img src="./assets/img/home/F4.PNG" alt="F4 graph" width="100%">
+            <ul style="text-align: justify; text-justify: inter-word;">
+              <li>cell exchanges between intra and extracellular compartments (directed movement of substances such as macromolecules, small molecules, ions, etc.)</li>
+              <li>processes for internal cell trafﬁcking</li>
+            </ul>
+            <a href="F4.html" class="btn btn-primary mt-auto">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card h-100">
+          <div class="card-body center d-flex flex-column">
+            <h5 class="card-title">F5 - ISC synthesis and assembly</h5>
+            <img src="./assets/img/home/F5.PNG" alt="F5 graph" width="100%">
+            <ul style="text-align: justify; text-justify: inter-word;">
+              <li>Chemical reactions and pathways involving sulfur or compounds that contain sulfur</li>
+            </ul>
+            <a href="F5.html" class="btn btn-primary mt-auto">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card  h-100">
+          <div class="card-body center d-flex flex-column">
+            <h5 class="card-title">Others</h5>
+            <img src="./assets/img/home/Others.png" alt="F5 graph" width="100%">
+
+            <p style="text-align: justify; text-justify: inter-word;">Remaining Meta-GO for which no classification was clear or not associated specifically to iron homeostasis:</p>
+            <ul style="text-align: justify; text-justify: inter-word;">
+              <li>“Unclassified” (73 Meta-GO)</li>
+              <li>“Stress Response” (26 Meta-GO)</li>
+              <li>“Membrane / Cell Wall” (8 Meta-GO)</li>
+              <li>“Pathogenesis” (5 Meta-GO)</li>
+            </ul>
+            <a href="Others.html" class="btn btn-primary mt-auto">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div w3-include-html="footer.html"></div>
+
+  <script>
+    includeHTML();
+  </script>
+</body>
+
+</html>

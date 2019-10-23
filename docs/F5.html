@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>F5</title>
+
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+  <link href="./assets/img/IronYeast_logo_mini.png" rel="icon" type="image/png">
+
+  <!-- Include HTML  -->
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              if (this.status == 404) {
+                elmnt.innerHTML = "Page not found.";
+              }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+  </script>
+
+  <!-- BOOTSTRAP  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- END BOOTSTRAP -->
+
+  <!-- Code graph -->
+  <script src="assets/js/cytoscape_functions.js"></script>
+  <script src="assets/graphs/F5.js"></script>
+  <!--  END Code graph -->
+
+  <!--  Jquery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <!-- END Jquery -->
+
+  <!-- Style  -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- END Style  -->
+
+  <!-- cytoscape  -->
+  <script src="./assets/js/cytoscape.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.0/jquery.qtip.min.js"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.0/jquery.qtip.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-qtip/2.7.0/cytoscape-qtip.js"></script>
+  <script src="./assets/js/cytoscape-automove.js"></script>
+  <!-- END cytoscape  -->
+
+  <link href="./assets/css/cytoscape.js-panzoom.css" rel="stylesheet" type="text/css" />
+  <script src="./assets/js/cytoscape-panzoom.js"></script>
+  <link href="./assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
+  <script src="./assets/js/FileSaver.min.js"></script>
+
+  <!-- plotly  -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+  <script src="assets/js/scriptPlotly.js"></script>
+  <!-- END plotly  -->
+
+  <!-- dataTable  -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+  <!-- END dataTable  -->
+
+</head>
+
+<body>
+  <div w3-include-html="navbar.html"></div>
+
+  <div class="container">
+
+    <h1 class="center">ISC synthesis and assembly</h1>
+    <hr>
+    <!-- GRAPH  -->
+
+    <div class="containerCY">
+      <div id="cy"></div>
+    </div>
+    <!-- END GRAPH  -->
+
+    <br>
+
+    <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="pills-exploration-tab" data-toggle="pill" href="#pills-exploration" role="tab" aria-controls="pills-exploration" aria-selected="true">Exploration</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-graphics-tab" data-toggle="pill" href="#pills-graphics" role="tab" aria-controls="pills-graphics" aria-selected="false">Graphics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-dt-tab" data-toggle="pill" href="#pills-dt" role="tab" aria-controls="pills-dt" aria-selected="false">Data table</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-export-tab" data-toggle="pill" href="#pills-export" role="tab" aria-controls="pills-export" aria-selected="false">Export</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-legends-tab" data-toggle="pill" href="#pills-legends" role="tab" aria-controls="pills-legends" aria-selected="false">Legends</a>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-exploration" role="tabpanel" aria-labelledby="pills-exploration-tab">
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="center">Exploration</h3>
+            <div class="border">
+              <h5 class="center">Gene information</h5>
+              <p class="info center">To explore the genes in the graph, you can click on
+                the nodes. You will find the name of the gene, its standard name (if it exists),
+                its description on the CGD as well as links to the CGD and GRYC for more
+                information</p>
+            </div>
+
+            <div class="border">
+              <h5 class="center">Change iron conditions</h5>
+              <p class="info center">You can switch between low iron and high iron conditions by clicking on the buttons below</p>
+              <div class="center-block text-center">
+                <button type="button" id="Low" class="iron selected">Low iron conditions</button>
+                <button type="button" id="High" class="iron unselected">High iron conditions</button>
+              </div>
+              <br>
+            </div>
+
+            <div class="border">
+              <h5 class="center">Search for a gene</h5>
+              <p class="info center">All the genes present in the graph are
+                referenced in the list below. By choosing a gene, the associated
+                node will be selected and the graph centered on it. The graph will
+                be reset if you press clear.</p>
+              <div class="center-block text-center">
+                <input name="gene" list="geneList" id="gene" />
+                <datalist id="geneList"></datalist>
+                <button type="button" id="Search" class="">Search</button>
+                <button type="button" id="Clear" class="">Clear</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-pane fade" id="pills-graphics" role="tabpanel" aria-labelledby="pills-graphics-tab">
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="center">Graphics</h3>
+            <div class="chart_div" align='center'>
+              <div id="piechart"></div>
+            </div>
+            <div class="remove-all-styles chart_div" align='center'>
+              <div id="Pie1"></div>
+              <div id="Pie2"></div>
+              <div id="Piealt"></div>
+              <div id="barplotDiv"></div>
+
+              <script> makeplot("F5"); </script>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="pills-dt" role="tabpanel" aria-labelledby="pills-dt-tab">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="center">Data table</h3>
+            <p class="info center">The following table is an extract from the Supp Data S2 table (DE genes) only for the genes involved in the function under study. </p>
+            <table id="dt" class="display nowrap" width="100%"></table>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="pills-export" role="tabpanel" aria-labelledby="pills-export-tab">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="center">Export</h3>
+            <p>All the files used in this page are available for download:</p>
+            <ul>
+              <li>The subtable can be downloaded in the Data Table tab</li>
+              <li> The Js file used to make the graph : <a href="./assets/graphs/F5.js">here</a></li>
+              <li> The file to create the pie chart of types : <a href="./assets/dataTable/F5/F5_P1.csv">here</a></li>
+              <li> The file to realize the pie charts of the differential expression: : <a href="./assets/dataTable/F5/F5_multiPies.csv">here</a></li>
+            </ul>
+
+            <p>You can also save the figures as PNG files. If you fly over the figures (piecharts) at the top right, you will find a camera (illustration below). By clicking on it, an image is saved.</p>
+            <img src="./assets/img/exportImage.PNG" alt="export Image" class="center">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="pills-legends" role="tabpanel" aria-labelledby="pills-legends-tab">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="center">Legends</h3>
+            <img src="./assets/img/legende.png" alt="Legende" class="center" height="250px">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div w3-include-html="footer.html"></div>
+
+  <script>
+    includeHTML();
+  </script>
+
+  <script type="text/javascript">
+    $('#Low').click(function() {
+      $('#Low').addClass('selected');
+      $('#High').addClass('unselected');
+      $('#Low').removeClass('unselected');
+      $('#High').removeClass('selected');
+    });
+
+    $('#High').click(function() {
+      $('#High').addClass('selected');
+      $('#Low').addClass('unselected');
+      $('#High').removeClass('unselected');
+      $('#Low').removeClass('selected');
+    });
+
+    $(document).ready(function() {
+      Plotly.d3.tsv("./assets/dataTable/F5/SupData2_F5.tsv", function(data) {
+
+        $('#dt').DataTable({
+          data: data,
+          dom: 'Bfrtip',
+          buttons: [
+            'copyHtml5',
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5'
+          ],
+          "scrollX": true,
+
+          columns: [{
+              title: "ORF (CGLAB)",
+              "data": "C1"
+            },
+            {
+              title: "Name",
+              "data": "C2"
+            },
+            {
+              title: "Description (extract from CGD database)",
+              "data": "C3"
+            },
+            {
+              title: "logFC (C1)",
+              "data": "C4"
+            },
+            {
+              title: "pval (C1)",
+              "data": "C5"
+            },
+            {
+              title: "logFC (C2)",
+              "data": "C6"
+            }, {
+              title: "pval (C2)",
+              "data": "C7"
+            }, {
+              title: "logFC (C3)",
+              "data": "C8"
+            }, {
+              title: "pval (C3)",
+              "data": "C9"
+            }, {
+              title: "logFC (C4)",
+              "data": "C10"
+            }, {
+              title: "pval (C4)",
+              "data": "C11"
+            }, {
+              title: "Zscore (C1)",
+              "data": "C12"
+            }, {
+              title: "Zscore (C2)",
+              "data": "C13"
+            }, {
+              title: "Zscore (C3)",
+              "data": "C14"
+            }, {
+              title: "Zscore (C4)",
+              "data": "C15"
+            }, {
+              title: "DE (C1)",
+              "data": "C16"
+            }, {
+              title: "DE (C2)",
+              "data": "C17"
+            }, {
+              title: "DE (C3)",
+              "data": "C18"
+            }, {
+              title: "DE (C4)",
+              "data": "C19"
+            }, {
+              title: "Ortho (SCERE)",
+              "data": "C20"
+            }, {
+              title: "Functional classe (this study)",
+              "data": "C21"
+            }, {
+              title: "Functional sub-class (this study)",
+              "data": "C22"
+            }, {
+              title: "Function label (this study)",
+              "data": "C23"
+            }, {
+              title: "ORF",
+              "data": "C24"
+            }, {
+              title: "iHKG (this study)",
+              "data": "C25"
+            }, {
+              title: "Regulation (C1)",
+              "data": "C26"
+            }, {
+              title: "Regulation (C2)",
+              "data": "C27"
+            }, {
+              title: "Regulation (C3)",
+              "data": "C28"
+            }, {
+              title: "Regulation (C4)",
+              "data": "C29"
+            }
+          ]
+        });
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

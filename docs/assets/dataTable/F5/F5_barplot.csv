@@ -1,0 +1,4 @@
+type,DOWN (30° and 37°),DOWN (30° or 37°),NO,UP (30° and 37°),UP (30° or 37°)
+iHKG - Type I,0,0,0,0,1
+iHKG - Type II,0,2,0,1,4
+Other iron responsive genes,1,3,6,0,4

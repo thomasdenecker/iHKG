@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Download</title>
+
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+  <link href="./assets/img/IronYeast_logo_mini.png" rel="icon" type="image/png">
+
+  <!-- Include HTML  -->
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              if (this.status == 404) {
+                elmnt.innerHTML = "Page not found.";
+              }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+  </script>
+
+  <!-- BOOTSTRAP  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- END BOOTSTRAP -->
+
+
+  <!--  Jquery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <!-- END Jquery -->
+
+  <!-- Style  -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- END Style  -->
+
+  <link href="./assets/css/cytoscape.js-panzoom.css" rel="stylesheet" type="text/css" />
+  <script src="./assets/js/cytoscape-panzoom.js"></script>
+  <link href="./assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
+  <script src="./assets/js/FileSaver.min.js"></script>
+
+
+</head>
+
+<body>
+  <div w3-include-html="navbar.html"></div>
+
+  <div class="container">
+
+    <h1 class="center">Download</h1>
+    <hr>
+    <h3>Graph data</h3>
+    <ul>
+      <li><a href="./assets/download/nodes.txt">Nodes</a> : Table with all nodes</li>
+      <li><a href="./assets/download/edges.txt">Edges</a> : Table with all edges</li>
+    </ul>
+
+    <h3>Complete table</h3>
+    <ul>
+      <li><a href="./assets/download/SuppData_S2.xlsx">Excel</a></li>
+      <li><a href="./assets/download/SuppData_S2.ods">ODS</a></li>
+      <li><a href="./assets/download/SuppData_S2.csv">CSV</a></li>
+      <li><a href="./assets/download/SuppData_S2.tsv">TSV</a></li>
+    </ul>
+
+    <h3>Function files</h3>
+    <p>All files to generate the figures, the co-expression graph and the table are available directly in the function pages :</p>
+    <ul>
+      <li>in the export section (figures and graph)</li>
+      <li>in the Data table section (for the table)</li>
+    </ul>
+
+    <h3>Citation</h3>
+    <p>If you use IronYeast viewer, please cite our article :</p>
+    
+
+
+  </div>
+
+  <div w3-include-html="footer.html"></div>
+
+  <script>
+    includeHTML();
+  </script>
+
+
+</body>
+
+</html>

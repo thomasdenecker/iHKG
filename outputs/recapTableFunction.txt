@@ -1,0 +1,4 @@
+type	F1	F2	F3	F4	F5	Others	Sum
+1	Type I	6	12	25	13	1	16	73
+2	Type II	55	19	25	8	7	27	141
+3	Sum	61	31	50	21	8	43	214

@@ -1,0 +1,6 @@
+labels,low,high
+DOWN (30° and 37°),21,2
+DOWN (30° or 37°),37,38
+NO,67,79
+UP (30° and 37°),21,12
+UP (30° or 37°),30,45
