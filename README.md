@@ -5,9 +5,9 @@ The objective of this repository is to propose the code to reproduce all the ana
 **Inferring two-faced functional sub-networks to highlight iron homeostasis key genes (iHKG) in the pathogenic yeast Candida glabrata** -
 Denecker *et al*
 
-To reproduce the analyses, we provide a docker image with Rstudio with Rstudio and all the necessary packages installed :
+To reproduce the analyses, we provide a docker image with Rstudio and all the necessary packages installed : https://cloud.docker.com/repository/docker/tdenecker/ihkg/general
 
-It is possible to find the complete source code for iHKG viewer hosted at the following address :
+It is possible to find the complete source code for iHKG viewer hosted at the following address : https://thomasdenecker.github.io/iHKG/
 
 
 ## Requirements
