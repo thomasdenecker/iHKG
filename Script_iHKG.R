@@ -10,7 +10,7 @@
 ################################################################################
 
 ################################################################################
-# Library
+# List of Libraries
 ################################################################################
 
 library(xlsx)
@@ -33,11 +33,10 @@ library(UpSetR)
 library(psy)
 library(tm)
 library(limma)
-library(xlsx)
 library(readODS)
 
 ################################################################################
-# Functions 
+# List of functions 
 ################################################################################
 
 subGraph <- function(groupName, nodes, edges){
@@ -335,8 +334,7 @@ subGraphWeb <- function(groupName, nodes, edges){
 ################################################################################
 
 #===============================================================================
-# Read Mango data 
-# From Supp Data S1 (all dataset)
+# Read Mango data file (from GEO database) 
 #===============================================================================
 
 allData = read.csv2("data/AllData_MANGO_Final.txt", sep = "\t",row.names = 1,
@@ -344,20 +342,14 @@ allData = read.csv2("data/AllData_MANGO_Final.txt", sep = "\t",row.names = 1,
 allData = data.matrix(allData)
 
 #===============================================================================
-# Identification of differentially expressed genes in microarray experiments
+# Identification of differentially expressed genes, from microarray results
 #===============================================================================
 
-#
-# WARNING !!! TO BE CHECKED LATER
-# Common reference is lablede in Cy5, and logFC is Cy3/Cy3. This is why opposite 
-# logFC values need to be considered.
-#
-
 #-------------------------------------------------------------------------------
-# C1 : Glucose, WT, 30 : BPS / Contrôle
+# Condition C1
 #-------------------------------------------------------------------------------
 
-# list of experiments to be compared
+# names of samples to be compared
 condA = c("log2.YPGlu30.Ref._YPGlu30.C.1", 
           "log2.YPGlu30.Ref._YPGlu30.C.2",
           "log2.YPGlu30.Ref._YPGlu30.C.3")
@@ -366,18 +358,14 @@ condB = c("log2.YPGluBPS30.Ref._YPGlu.BPS30.C.1",
           "log2.YPGluBPS30.Ref._YPGlu.BPS30.C.2",
           "log2.YPGluBPS30.Ref._YPGlu.BPS30.C.3")
 
-# check for data reproducibility
-plot(allData[, condA], pch = 20)
-plot(allData[, condB], pch = 20)
-
-# extract experiments
+# extract the sample from the entire dataset
 subData = allData[,c(condA, condB)]
 
 MA = data.matrix(subData)
 # change the names of the columns
 colnames(MA) = paste("Array", 1:6, sep = "")
 
-# create the matrix design (see LIMMA documentation --> page 52)
+# create the matrix design (see LIMMA documentation)
 design = cbind(c(rep(1, 3), rep(0, 3)), c(rep(0, 3), rep(1, 3)))
 row.names(design) = paste("Array", 1:6, sep = "")
 colnames(design)  = c("Control", "BPS")
@@ -387,44 +375,32 @@ cont.matrix <- makeContrasts(BPSvsControl = BPS - Control, levels = design)
 fit2 <- contrasts.fit(fit, cont.matrix)
 fit2 <- eBayes(fit2)
 
-LIMMAres = topTable(fit2, adjust="BH", number = nrow(MA))
+LIMMAres = topTable(fit2, adjust = "BH", number = nrow(MA))
 
-# results writing
+# result writing
 allRes = cbind(LIMMAres, subData[row.names(LIMMAres),])
 write.table(allRes, file = "outputs/diffResults_YPGlu30WT_BPS-Control.txt", 
             quote = F, sep = "\t")
 
 # ------------------------------------------------------------------------------
-# C2 : Glucose, WT, 37 : BPS / Contrôle
+# Condition C2
 # ------------------------------------------------------------------------------
 
-# list of experiments to be compared
 condA = c("log2.YPGlu37.Ref._YPGlu37.C.1",
           "log2.YPGlu37.Ref._YPGlu37.C.2",
           "log2.YPGlu37.Ref._YPGlu37.C.3")
-
 condB = c("log2.WT.Glu.BPS.37.Ref._WT.Glu.BPS.37.1",
           "log2.WT.Glu.BPS.37.Ref._WT.Glu.BPS.37.2")
 #    "log2.WT.Glu.BPS.37.Ref._WT.Glu.BPS.37.3")
-
-# check for data reproducibility
-plot(allData[, condA], pch = 20)
-plot(allData[, condB], pch = 20)
 # WARNING !!!!!!! Third replicate was removed from the analysis.
 
-# extract experiments
 subData = allData[,c(condA, condB)]
-
 MA = data.matrix(subData)
 # change the names of the columns
-#colnames(MA) = paste("Array", 1:6, sep = "")
 colnames(MA) = paste("Array", 1:5, sep = "")
 # WARNING !!!!!!! Third replicate was removed from the analysis.
 
 # create the matrix design (see LIMMA documentation --> page 52)
-#design = cbind(c(rep(1, 3), rep(0, 3)), c(rep(0, 3), rep(1, 3)))
-#row.names(design) = paste("Array", 1:6, sep = "")
-
 design = cbind(c(rep(1, 3), rep(0, 2)), c(rep(0, 3), rep(1, 2)))
 row.names(design) = paste("Array", 1:5, sep = "")
 # WARNING !!!!!!! Third replicate was removed from the analysis.
@@ -438,40 +414,30 @@ fit2 <- eBayes(fit2)
 
 LIMMAres = topTable(fit2, adjust="BH", number = nrow(MA))
 
-# results writing
+# result writing
 allRes2 = cbind(LIMMAres, subData[row.names(LIMMAres),])
 write.table(allRes2, file = "outputs/diffResults_YPGlu37WT_BPS-Control.txt", 
             quote = F, sep = "\t")
 
 
 #-------------------------------------------------------------------------------
-# C3 : Glucose, WT, 30 : Overload / Control
+# Condition C3
 #-------------------------------------------------------------------------------
 
-# list of experiments to be compared
 condA = c("log2.YPGlu30.Ref._YPGlu30.C.1", 
           "log2.YPGlu30.Ref._YPGlu30.C.2",
           "log2.YPGlu30.Ref._YPGlu30.C.3")
-
 
 condB = c("log2.WT.Glu.Fe.30.Ref._WT.Glu.Fe.30.1",
           "log2.WT.Glu.Fe.30.Ref._WT.Glu.Fe.30.2",
           "log2.WT.Glu.Fe.30.Ref._WT.Glu.Fe.30.3")
 
-# check for data reproducibility
-plot(allData[, condA], pch = 20)
-plot(allData[, condB], pch = 20)
-
-# extract experiments
 subData = allData[,c(condA, condB)]
 
 MA = data.matrix(subData)
-# change the names of the columns
 colnames(MA) = paste("Array", 1:6, sep = "")
 
-# create the matrix design (see LIMMA documentation --> page 52)
 design = cbind(c(rep(1, 3), rep(0, 3)), c(rep(0, 3), rep(1, 3)))
-
 row.names(design) = paste("Array", 1:6, sep = "")
 colnames(design)  = c("Control", "Overload")
 
@@ -482,16 +448,15 @@ fit2 <- eBayes(fit2)
 
 LIMMAres = topTable(fit2, adjust="BH", number = nrow(MA))
 
-# results writing
+# result writing
 allRes3 = cbind(LIMMAres, subData[row.names(LIMMAres),])
 write.table(allRes3, file = "outputs/diffResults_YPGlu30WT_Overload-Control.txt", 
             quote = F, sep = "\t")
 
 #-------------------------------------------------------------------------------
-# C4 : Glucose, WT, 37 : Overload / Control
+# Condition C4
 #-------------------------------------------------------------------------------
 
-# list of experiments to be compared
 condA = c("log2.YPGlu37.Ref._YPGlu37.C.1",
           "log2.YPGlu37.Ref._YPGlu37.C.2",
           "log2.YPGlu37.Ref._YPGlu37.C.3")
@@ -500,19 +465,11 @@ condB = c("log2.WT.Glu.Fe.37.Ref._WT.Glu.Fe.37.Fe.1",
           "log2.WT.Glu.Fe.37.Ref._WT.Glu.Fe.37.Fe.2",
           "log2.WT.Glu.Fe.37.Ref._WT.Glu.Fe.37.Fe.3")
 
-
-# check for data reproducibility
-plot(allData[, condA], pch = 20)
-plot(allData[, condB], pch = 20)
-
 # extract experiments
 subData = allData[,c(condA, condB)]
 
 MA = data.matrix(subData)
-# change the names of the columns
 colnames(MA) = paste("Array", 1:6, sep = "")
-
-# create the matrix design (see LIMMA documentation --> page 52)
 design = cbind(c(rep(1, 3), rep(0, 3)), c(rep(0, 3), rep(1, 3)))
 row.names(design) = paste("Array", 1:6, sep = "")
 colnames(design)  = c("Control", "Overload")
@@ -524,16 +481,15 @@ fit2 <- eBayes(fit2)
 
 LIMMAres = topTable(fit2, adjust="BH", number = nrow(MA))
 
-# results writing
+# result writing
 allRes4 = cbind(LIMMAres, subData[row.names(LIMMAres),])
 write.table(allRes4, file = "outputs/diffResults_YPGlu37WT_Overload-Control.txt", 
             quote = F, sep = "\t")
 
 #-------------------------------------------------------------------------------
-# C5 : Glucose, WT : 30 / 37
+# Condition C5
 #-------------------------------------------------------------------------------
 
-# list of experiments to be compared
 condA = c("log2.YPGlu30.Ref._YPGlu30.C.1", 
           "log2.YPGlu30.Ref._YPGlu30.C.2",
           "log2.YPGlu30.Ref._YPGlu30.C.3")
@@ -542,21 +498,13 @@ condB = c("log2.YPGlu37.Ref._YPGlu37.C.1",
           "log2.YPGlu37.Ref._YPGlu37.C.2",
           "log2.YPGlu37.Ref._YPGlu37.C.3")
 
-# check for data reproducibility
-plot(allData[, condA], pch = 20)
-plot(allData[, condB], pch = 20)
-
 # extract experiments
 subData = allData[,c(condA, condB)]
 
 MA = data.matrix(subData)
-# change the names of the columns
 colnames(MA) = paste("Array", 1:6, sep = "")
-
-# create the matrix design (see LIMMA documentation --> page 52)
 design = cbind(c(rep(1, 3), rep(0, 3)), c(rep(0, 3), rep(1, 3)))
 row.names(design) = paste("Array", 1:6, sep = "")
-
 colnames(design)  = c("temp30", "temp37")
 
 fit <- lmFit(MA, design)
@@ -566,14 +514,13 @@ fit2 <- eBayes(fit2)
 
 LIMMAres = topTable(fit2, adjust="BH", number = nrow(MA))
 
-# results writing
+# result writing
 allRes5 = cbind(LIMMAres, subData[row.names(LIMMAres),])
 write.table(allRes5, file = "outputs/diffResults_YPGlu_30-37.txt", 
             quote = F, sep = "\t")
 
-
 #-------------------------------------------------------------------------------
-# Results summary to check a few number of genes
+# Result summary to check a few number of genes
 #-------------------------------------------------------------------------------
 
 resSummary = cbind(allRes[row.names(allData), c("logFC", "adj.P.Val")],
@@ -588,7 +535,7 @@ colnames(resSummary) = c("C1", "P.Val1",
                          "C4", "P.Val4",
                          "C5", "P.Val5")
 
-# Genes for which information are available in S. cerevisiae
+# Genes for which annotation are avalailable in CGD
 CGD_annotation = read.csv2("data/C_glabrata_CBS138_current_chromosomal_feature.tab.txt",
                            sep = "\t", skip = 8,
                            header = F, stringsAsFactors = F)
@@ -622,19 +569,13 @@ resSummary = merge(resSummary,CGD_annotation[, c("Feature name (mandatory); this
 
 
 rownames(resSummary) = resSummary$Row.names
-# 
-# # Genes for which information are available in S. cerevisiae
-# glabGenes = as.vector(as.matrix(read.table("data/glabrata_genes.txt")))
-# 
-# resSummary = resSummary[glabGenes,]
 
-
+# Result writing
 write.table(resSummary, file = "outputs/resSummary_glabrataGenes.txt",
             quote = F, sep = "\t")
 
-
 #-------------------------------------------------------------------------------
-# Zscore calculation
+# Z-Score calculations
 #-------------------------------------------------------------------------------
 
 dataAll = resSummary %>% 
@@ -659,7 +600,7 @@ dataAll = resSummary %>%
 rownames(dataAll) = as.character(dataAll$Gene)
 
 #===============================================================================
-# ACP
+# PCA analyzes
 #===============================================================================
 
 interPCA = as.data.frame(data.matrix(dataAll[,paste0("Zscore",1:5)]))
@@ -674,7 +615,6 @@ dev.off()
 svg("outputs/ACP_3D.sng")
 sphpca(interPCA)
 dev.off()
-
 
 png("outputs/ACP_D1vsD2.png")
 plot.PCA(res.pca, axes=c(1, 2), choix="var")
@@ -699,8 +639,8 @@ corrplot(var$cos2, is.corr=FALSE)
 dev.off()
 
 #===============================================================================
-# 2- Selections of the genes differentially expressed for at least one of 
-# conditions C1 to C4 (Zscore 2 and pval 0.01).
+# Selection of the genes differentially expressed for at least one of 
+# conditions C1 to C4 --> Iron responsive genes
 #===============================================================================
 
 #-------------------------------------------------------------------------------
@@ -739,7 +679,7 @@ grid.draw(venn.plot);
 dev.off()
 
 #-------------------------------------------------------------------------------
-# Selection
+# Selection of genes (Z-Score > 2 and adj. pval < 0.05)
 #-------------------------------------------------------------------------------
 
 data = dataAll %>%
@@ -763,11 +703,8 @@ data = dataAll %>%
 
 rownames(data) = as.character(data$Gene)
 
-
-
-
 #-------------------------------------------------------------------------------
-# Import Metago
+# Import Metago and General Functions
 #-------------------------------------------------------------------------------
 
 metago = read.csv2("data/Metago.tsv", sep ="\t", 
@@ -787,7 +724,6 @@ rownames(data) = as.character(data$Gene)
 write.table(data, "outputs/dataSelectedByZscoreAndPvalue.txt", sep ="\t", quote = F, 
             row.names = F)
 
-
 recapUpDown = cbind(c(sum(data$Zscore1 >= 2), sum(data$Zscore1 <= -2)),
                     c(sum(data$Zscore2 >= 2), sum(data$Zscore2 <= -2)),
                     c(sum(data$Zscore3 >= 2), sum(data$Zscore3 <= -2)),
@@ -800,10 +736,10 @@ write.table(recapUpDown,
             "outputs/recapUpDown.txt", sep ="\t", quote = F)
 
 #===============================================================================
-# 3- Repartition in function F1 to F5
+# Location of genes in general functions
 #===============================================================================
 #-------------------------------------------------------------------------------
-# Function -pie chart
+# pie chart
 #-------------------------------------------------------------------------------
 
 pieData = as.data.frame(table(data$Fsimplify) ) %>%
@@ -836,7 +772,7 @@ write.table(pieData[,-3], "outputs/GeneNumberInFunction.txt", quote = F,
             row.names = F, sep ="\t")
 
 #===============================================================================
-# 4 - Definition of Key Genes : type I and II (Zscore 1.5 et pval 0.01)
+# Identification of Key Genes : type I and II (Zscore 1.5 et adj. pval < 0.01)
 #===============================================================================
 
 data = data %>%
@@ -912,9 +848,8 @@ write.table(data, "outputs/data.txt", quote = F, sep = "\t")
 
 rownames(data) = data$Row.names
 
-
 #===============================================================================
-# 5 - Distribution of Key Genes in functions F1 to F5 
+# Location of Key Genes in general functions 
 #===============================================================================
 #-------------------------------------------------------------------------------
 # Type I
@@ -1045,19 +980,18 @@ ggplot(data=as.data.frame(functionStudy), aes(x=Fsimplify, y=n, fill=type)) +
 ggsave("outputs/DistributionIronUpDownTemp.png")
 ggsave("outputs/DistributionIronUpDownTemp.svg")
 
-
 write.table(functionStudy, "outputs/DistributionIronUpDownTemp.txt",
             sep = "\t", quote = F, row.names = F)
 
 #===============================================================================
-# 6 - Representation of co-expression graphs for each function
+# Inference of functional networks of co-expressed genes
 #===============================================================================
 
 #-------------------------------------------------------------------------------
-# Distance between genes
+# Distance calculations between gene expresssion profiles (C1 to C4)
 #-------------------------------------------------------------------------------
 
-# matrix distance between genes
+# matrix distance
 rownames(data) = data$Gene
 d = dist(data[,paste0("Zscore",1:4)])
 d = as.data.frame(as.matrix(d))
@@ -1067,20 +1001,20 @@ triangMatrix = d[lower.tri(d, diag=FALSE)]
 triangMatrix = sort(triangMatrix)
 
 #-------------------------------------------------------------------------------
-# Selection threshold
+# Definition of a threshold
 #-------------------------------------------------------------------------------
 
 # Find top threshold
 TopThreshold = round(9 * length(triangMatrix) / 100)
 seuil = triangMatrix[TopThreshold]
 
-# hist of distance
+# hist of distances
 hist(triangMatrix, breaks = 100, xlab = "Distance", main = "")
 abline(v= seuil, col = "red", lty = 3)
 legend("topright", lty = 3, legend = "Top 5%", col = "red", box.lty = 0)
 
 #-------------------------------------------------------------------------------
-# Link between genes
+# Search for link between genes (if distance is lower than threshold)
 #-------------------------------------------------------------------------------
 
 lien = cbind(from = rownames(d)[which(d < seuil, arr.ind=TRUE)[,1]], 
@@ -1089,7 +1023,7 @@ lien = cbind(from = rownames(d)[which(d < seuil, arr.ind=TRUE)[,1]],
 # Remove link of gene with himself
 lien = lien[-which(lien[,1] == lien[,2]), ]
 
-# Remove double link : A->b & B->A 
+# Remove double link : A->B & B->A 
 cop = paste0(lien[,1], "_", lien[,2])
 invcop = paste0(lien[,2], "_", lien[,1])
 
@@ -1125,7 +1059,7 @@ subGraph("F5", nodes, edges)
 subGraph("Others", nodes, edges)
 
 #===============================================================================
-# Website
+# Website (iHKG viewer)
 #===============================================================================
 
 subGraphWeb("F1", nodes, edges)
@@ -1141,7 +1075,6 @@ write.table(edges, "docs/assets/files/edges.txt", sep = "\t", quote = F, row.nam
 
 write.table(nodes, "docs/assets/download/nodes.txt", sep = "\t", quote = F, row.names = F)
 write.table(edges, "docs/assets/download/edges.txt", sep = "\t", quote = F, row.names = F)
-
 
 #===============================================================================
 # Google chart - web site
@@ -1275,7 +1208,6 @@ for(groupName in c(unique(data$Fsimplify),"all") ){
   write.table(supTable, paste0("docs/assets/dataTable/",groupName,"/SupData2_",groupName,".tsv" ), 
               quote = F, sep = "\t", row.names = F)
   
-  
 }
 
 
@@ -1376,7 +1308,6 @@ orthologs = orthologs %>%
 
 rownames(orthologs) = orthologs$Gene
 
-
 #===============================================================================
 # Final table
 #===============================================================================
@@ -1476,9 +1407,8 @@ finalSupTable <- finalSupTable %>%
 
 finalSupTable <- finalSupTable[, -which(colnames(finalSupTable) %in% c("ORF.y","Row.names", "CGD_ID"))]
 
-
 #-------------------------------------------------------------------------------
-# write in different formats
+# write final results in different formats
 #-------------------------------------------------------------------------------
 
 write.table(finalSupTable, "docs/assets/download/SuppData_S2.tsv", quote = F, sep ="\t", 
