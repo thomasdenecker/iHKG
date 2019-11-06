@@ -112,19 +112,19 @@
 
     <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" id="pills-exploration-tab" data-toggle="pill" href="#pills-exploration" role="tab" aria-controls="pills-exploration" aria-selected="true">Exploration</a>
+        <a class="nav-link active h-100" id="pills-exploration-tab" data-toggle="pill" href="#pills-exploration" role="tab" aria-controls="pills-exploration" aria-selected="true">Network exploration</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="pills-graphics-tab" data-toggle="pill" href="#pills-graphics" role="tab" aria-controls="pills-graphics" aria-selected="false">Graphics</a>
+        <a class="nav-link h-100" id="pills-graphics-tab" data-toggle="pill" href="#pills-graphics" role="tab" aria-controls="pills-graphics" aria-selected="false">Descriptive statistics</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="pills-dt-tab" data-toggle="pill" href="#pills-dt" role="tab" aria-controls="pills-dt" aria-selected="false">Data table</a>
+        <a class="nav-link h-100" id="pills-dt-tab" data-toggle="pill" href="#pills-dt" role="tab" aria-controls="pills-dt" aria-selected="false">Data table</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="pills-export-tab" data-toggle="pill" href="#pills-export" role="tab" aria-controls="pills-export" aria-selected="false">Export</a>
+        <a class="nav-link h-100" id="pills-export-tab" data-toggle="pill" href="#pills-export" role="tab" aria-controls="pills-export" aria-selected="false">Export</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="pills-legends-tab" data-toggle="pill" href="#pills-legends" role="tab" aria-controls="pills-legends" aria-selected="false">Legends</a>
+        <a class="nav-link h-100" id="pills-legends-tab" data-toggle="pill" href="#pills-legends" role="tab" aria-controls="pills-legends" aria-selected="false">Legends</a>
       </li>
     </ul>
 
@@ -133,21 +133,20 @@
 
         <div class="card">
           <div class="card-body">
-            <h3 class="center">Exploration</h3>
+            <h3 class="center">Network exploration</h3>
             <div class="border">
               <h5 class="center">Gene information</h5>
-              <p class="info center">To explore the genes in the graph, you can click on
-                the nodes. You will find the name of the gene, its standard name (if it exists),
-                its description on the CGD as well as links to the CGD and GRYC for more
-                information</p>
+              <p class="info center">To explore the genes in the network, you can click on the nodes. You will
+                obtain the name of the gene, its standard name (if it exists), its description on the CGD as
+                well as direct links to CGD and GRYC databases, to get more detailed information.</p>
             </div>
 
             <div class="border">
               <h5 class="center">Change iron conditions</h5>
               <p class="info center">You can switch between low iron and high iron conditions by clicking on the buttons below</p>
               <div class="center-block text-center">
-                <button type="button" id="Low" class="iron selected">Low iron conditions</button>
-                <button type="button" id="High" class="iron unselected">High iron conditions</button>
+                <button type="button" id="Low" class="iron selected">Low Fe</button>
+                <button type="button" id="High" class="iron unselected">High Fe</button>
               </div>
               <br>
             </div>
@@ -174,7 +173,7 @@
 
         <div class="card">
           <div class="card-body">
-            <h3 class="center">Graphics</h3>
+            <h3 class="center">Descriptive statistics</h3>
             <div class="chart_div" align='center'>
               <div id="piechart"></div>
             </div>
@@ -184,7 +183,9 @@
               <div id="Piealt"></div>
               <div id="barplotDiv"></div>
 
-              <script> makeplot("F5"); </script>
+              <script>
+                makeplot("F5");
+              </script>
 
             </div>
           </div>
