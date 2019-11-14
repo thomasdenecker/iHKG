@@ -66,12 +66,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0A00979g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have cytosolic large ribosomal subunit, hyphal cell wall, yeast-form cell wall localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0A00979g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0A00979g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.08676999188495,
-                  y : 8.03115271993929
+                  x : 0.551460833584232,
+                  y : 2.30467265282647
                   },
                   position : {
-                  'x' : -30.8676999188495,
-                  'y' : 80.3115271993929
+                  'x' : 5.51460833584232,
+                  'y' : 23.0467265282647
                   },
   },
 {
@@ -87,12 +87,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0A02002g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog of S. cerevisiae : YOL024W and Saccharomyces cerevisiae S288C : YOL024W</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0A02002g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0A02002g'  target='_blank'> Link to GRYC</a>",
-                  x : 8.35384096056145,
-                  y : -0.756402550998455
+                  x : 2.33106952786909,
+                  y : -11.3218007701807
                   },
                   position : {
-                  'x' : 83.5384096056145,
-                  'y' : -7.56402550998455
+                  'x' : 23.3106952786909,
+                  'y' : -113.218007701807
                   },
   },
 {
@@ -108,12 +108,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0A02112g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have asparagine-tRNA ligase activity and role in asparaginyl-tRNA aminoacylation</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0A02112g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0A02112g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.87159322052399,
-                  y : 8.04258187210436
+                  x : 0.765374567437942,
+                  y : 1.98113580658619
                   },
                   position : {
-                  'x' : -28.7159322052399,
-                  'y' : 80.4258187210436
+                  'x' : 7.65374567437942,
+                  'y' : 19.8113580658619
                   },
   },
 {
@@ -129,12 +129,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0A04015g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in rRNA processing and box C/D snoRNP complex, nucleolus, small-subunit processome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0A04015g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0A04015g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.73738848479777,
-                  y : 7.42931559517214
+                  x : 0.419441267196794,
+                  y : 1.62489778950372
                   },
                   position : {
-                  'x' : -27.3738848479777,
-                  'y' : 74.2931559517214
+                  'x' : 4.19441267196794,
+                  'y' : 16.2489778950372
                   },
   },
 {
@@ -150,12 +150,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0A04653g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity, role in glutaminyl-tRNAGln biosynthesis via transamidation, mitochondrial translation and glutamyl-tRNA(Gln) amidotransferase complex, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0A04653g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0A04653g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.07495391849738,
-                  y : -1.36907176419643
+                  x : -5.60836432065723,
+                  y : -5.05332733120497
                   },
                   position : {
-                  'x' : -20.7495391849738,
-                  'y' : -13.6907176419643
+                  'x' : -56.0836432065722,
+                  'y' : -50.5332733120497
                   },
   },
 {
@@ -171,12 +171,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0A04829g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative hexokinase isoenzyme 2; protein differentially expressed in azole resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0A04829g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0A04829g'  target='_blank'> Link to GRYC</a>",
-                  x : 5.40669615132022,
-                  y : -2.60158451038318
+                  x : -2.40934907642371,
+                  y : -11.3437128484354
                   },
                   position : {
-                  'x' : 54.0669615132022,
-                  'y' : -26.0158451038318
+                  'x' : -24.0934907642371,
+                  'y' : -113.437128484354
                   },
   },
 {
@@ -192,12 +192,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0B00286g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have L-serine ammonia-lyase activity, L-threonine ammonia-lyase activity, role in L-serine catabolic process, threonine catabolic process and mitochondrial nucleoid localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B00286g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B00286g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.90268408281355,
-                  y : 7.66379023434855
+                  x : -0.0158304288598758,
+                  y : 2.52427680900159
                   },
                   position : {
-                  'x' : -39.0268408281355,
-                  'y' : 76.6379023434855
+                  'x' : -0.158304288598758,
+                  'y' : 25.2427680900159
                   },
   },
 {
@@ -213,12 +213,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0B00792g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA binding activity, role in regulation of translation and cytoplasmic stress granule, polysome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B00792g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B00792g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.99271164281076,
-                  y : 8.16715495955084
+                  x : 0.172882125062718,
+                  y : 3.0415062572517
                   },
                   position : {
-                  'x' : -39.9271164281076,
-                  'y' : 81.6715495955084
+                  'x' : 1.72882125062718,
+                  'y' : 30.415062572517
                   },
   },
 {
@@ -233,13 +233,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0B01507g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have N2-acetyl-L-ornithine:2-oxoglutarate 5-aminotransferase activity, role in arginine biosynthetic process, arginine biosynthetic process via ornithine, ornithine biosynthetic process and mitochondrial matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B01507g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B01507g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.24554739219591,
-                  y : 5.66876249000588
+                  content: "<h2>CAGL0B01507g</h2><hr><p><b>Gene name</b> : ARG8</p><p><b>Description</b> : Ortholog(s) have N2-acetyl-L-ornithine:2-oxoglutarate 5-aminotransferase activity, role in arginine biosynthetic process, arginine biosynthetic process via ornithine, ornithine biosynthetic process and mitochondrial matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B01507g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B01507g'  target='_blank'> Link to GRYC</a>",
+                  x : -1.30816118547863,
+                  y : 0.928622051955307
                   },
                   position : {
-                  'x' : -32.4554739219591,
-                  'y' : 56.6876249000588
+                  'x' : -13.0816118547863,
+                  'y' : 9.28622051955307
                   },
   },
 {
@@ -255,12 +255,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0B01727g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have D-ribulokinase activity and role in pentose metabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B01727g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B01727g'  target='_blank'> Link to GRYC</a>",
-                  x : 6.4512616695514,
-                  y : -0.812788639110464
+                  x : 0.293905849601131,
+                  y : -11.2550733112414
                   },
                   position : {
-                  'x' : 64.512616695514,
-                  'y' : -8.12788639110464
+                  'x' : 2.93905849601131,
+                  'y' : -112.550733112414
                   },
   },
 {
@@ -276,12 +276,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0B01881g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have tRNA (guanine-N2-)-methyltransferase activity, role in tRNA N2-guanine methylation, tRNA methylation and mitochondrion, nuclear envelope, nuclear inner membrane localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B01881g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B01881g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.79258251480229,
-                  y : 7.79520813260303
+                  x : 0.469352475604671,
+                  y : 1.90663190384154
                   },
                   position : {
-                  'x' : -27.9258251480229,
-                  'y' : 77.9520813260304
+                  'x' : 4.69352475604671,
+                  'y' : 19.0663190384154
                   },
   },
 {
@@ -297,12 +297,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0B02794g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have (S)-2-(5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido)succinate AMP-lyase (fumarate-forming) activity, N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B02794g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B02794g'  target='_blank'> Link to GRYC</a>",
-                  x : 1.00719267879592,
-                  y : 0.930954530201538
+                  x : -1.52622349585999,
+                  y : -5.2567738121616
                   },
                   position : {
-                  'x' : 10.0719267879592,
-                  'y' : 9.30954530201538
+                  'x' : -15.2622349585999,
+                  'y' : -52.567738121616
                   },
   },
 {
@@ -318,12 +318,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0B02860g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in autophagy of mitochondrion, macroautophagy and mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B02860g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B02860g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.37626231365384,
-                  y : -2.16372964126577
+                  x : -1.90230644578178,
+                  y : -10.2624840863196
                   },
                   position : {
-                  'x' : 43.7626231365384,
-                  'y' : -21.6372964126577
+                  'x' : -19.0230644578178,
+                  'y' : -102.624840863196
                   },
   },
 {
@@ -339,12 +339,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0B03619g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have endopeptidase activity, peptidase activity, serine-type endopeptidase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B03619g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B03619g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.65620542337411,
-                  y : -1.22246945918018
+                  x : -1.60672053186432,
+                  y : -10.7170956664723
                   },
                   position : {
-                  'x' : 46.5620542337411,
-                  'y' : -12.2246945918018
+                  'x' : -16.0672053186432,
+                  'y' : -107.170956664723
                   },
   },
 {
@@ -360,12 +360,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0B03663g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have citrate (Si)-synthase activity, role in citrate metabolic process and cytoplasm, peroxisome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B03663g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B03663g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.667037207613543,
-                  y : 11.6291619548531
+                  x : 5.74257342394715,
+                  y : 1.99831022260831
                   },
                   position : {
-                  'x' : 6.67037207613543,
-                  'y' : 116.291619548531
+                  'x' : 57.4257342394716,
+                  'y' : 19.9831022260831
                   },
   },
 {
@@ -381,12 +381,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0B03993g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have dihydroxy-acid dehydratase activity and role in branched-chain amino acid biosynthetic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B03993g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B03993g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.32092552384042,
-                  y : 4.91116965882312
+                  x : -1.89671213634366,
+                  y : 0.345519110920568
                   },
                   position : {
-                  'x' : -33.2092552384042,
-                  'y' : 49.1116965882312
+                  'x' : -18.9671213634366,
+                  'y' : 3.45519110920568
                   },
   },
 {
@@ -402,12 +402,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0C01595g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have glutaminase activity, imidazoleglycerol-phosphate synthase activity and role in histidine biosynthetic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C01595g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C01595g'  target='_blank'> Link to GRYC</a>",
-                  x : -1.84322125321503,
-                  y : -1.6058752279671
+                  x : -5.81335355966154,
+                  y : -5.3695362976511
                   },
                   position : {
-                  'x' : -18.4322125321503,
-                  'y' : -16.058752279671
+                  'x' : -58.1335355966154,
+                  'y' : -53.695362976511
                   },
   },
 {
@@ -423,12 +423,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0C02739g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in mitochondrion organization, phospholipid homeostasis and integral component of mitochondrial outer membrane localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C02739g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C02739g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.01183479160303,
-                  y : -2.16058772250632
+                  x : -2.31526130395448,
+                  y : -10.0724143970876
                   },
                   position : {
-                  'x' : 40.1183479160303,
-                  'y' : -21.6058772250632
+                  'x' : -23.1526130395448,
+                  'y' : -100.724143970876
                   },
   },
 {
@@ -444,12 +444,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0C03652g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have 4-hydroxybenzoate octaprenyltransferase activity, role in ubiquinone biosynthetic process and integral component of mitochondrial membrane, mitochondrial inner membrane, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C03652g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C03652g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.689110890383435,
-                  y : 9.51620416490064
+                  x : 3.35589112556899,
+                  y : 1.46851459369895
                   },
                   position : {
-                  'x' : -6.89110890383435,
-                  'y' : 95.1620416490064
+                  'x' : 33.5589112556899,
+                  'y' : 14.6851459369895
                   },
   },
 {
@@ -465,12 +465,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0C04279g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have dehydrodolichyl diphosphate synthase activity, prenyltransferase activity and role in dolichol biosynthetic process, endoplasmic reticulum to Golgi vesicle-mediated transport, protein glycosylation</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C04279g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C04279g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.96178453439811,
-                  y : 2.99080297116444
+                  x : -3.10736412178796,
+                  y : -1.29454110197128
                   },
                   position : {
-                  'x' : -29.6178453439811,
-                  'y' : 29.9080297116444
+                  'x' : -31.0736412178796,
+                  'y' : -12.9454110197128
                   },
   },
 {
@@ -486,12 +486,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0C04587g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog of S. cerevisiae : YJR098C, C. auris B8441 : B9J08_001284, Candida tenuis NRRL Y-1498 : CANTEDRAFT_135029, Pichia stipitis Pignal : PICST_42853 and Saccharomyces cerevisiae S288C : YJR098C</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C04587g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C04587g'  target='_blank'> Link to GRYC</a>",
-                  x : 3.74993641327229,
-                  y : -2.57789601716676
+                  x : -2.26930132972538,
+                  y : -9.66947972069068
                   },
                   position : {
-                  'x' : 37.4993641327229,
-                  'y' : -25.7789601716676
+                  'x' : -22.6930132972538,
+                  'y' : -96.6947972069068
                   },
   },
 {
@@ -507,12 +507,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0C04917g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity, role in arginine biosynthetic process and carbamoyl-phosphate synthase complex localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C04917g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C04917g'  target='_blank'> Link to GRYC</a>",
-                  x : -4.47028868754469,
-                  y : 6.65497427186856
+                  x : -1.28384911212067,
+                  y : 2.42612190878909
                   },
                   position : {
-                  'x' : -44.7028868754469,
-                  'y' : 66.5497427186856
+                  'x' : -12.8384911212067,
+                  'y' : 24.2612190878909
                   },
   },
 {
@@ -528,12 +528,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0C05027g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in acetate catabolic process, carnitine metabolic process, cellular respiration and cytosol, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C05027g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C05027g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.9659993821944,
-                  y : -3.52137134250126
+                  x : -4.22990737630185,
+                  y : -8.0844877410369
                   },
                   position : {
-                  'x' : 9.659993821944,
-                  'y' : -35.2137134250126
+                  'x' : -42.2990737630185,
+                  'y' : -80.844877410369
                   },
   },
 {
@@ -548,13 +548,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#cc0000',
                   faveShape: 'square',
                   type: 'bezier',
-                  content: "<h2>CAGL0C05115g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Argininosuccinate synthetase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C05115g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C05115g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.40611033891412,
-                  y : 3.87975177948614
+                  content: "<h2>CAGL0C05115g</h2><hr><p><b>Gene name</b> : ARG1</p><p><b>Description</b> : Argininosuccinate synthetase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C05115g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C05115g'  target='_blank'> Link to GRYC</a>",
+                  x : -1.91470648038446,
+                  y : -0.926297946322347
                   },
                   position : {
-                  'x' : -24.0611033891412,
-                  'y' : 38.7975177948614
+                  'x' : -19.1470648038446,
+                  'y' : -9.26297946322347
                   },
   },
 {
@@ -570,12 +570,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0D00880g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have ribonucleoprotein complex binding activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D00880g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D00880g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.86437300026263,
-                  y : 8.91132470907263
+                  x : 1.08069926769902,
+                  y : 3.13631370079062
                   },
                   position : {
-                  'x' : -38.6437300026263,
-                  'y' : 89.1132470907263
+                  'x' : 10.8069926769902,
+                  'y' : 31.3631370079062
                   },
   },
 {
@@ -590,13 +590,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0D01298g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative transketolase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D01298g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D01298g'  target='_blank'> Link to GRYC</a>",
-                  x : 5.16578775053433,
-                  y : -2.16132365652713
+                  content: "<h2>CAGL0D01298g</h2><hr><p><b>Gene name</b> : TKL1</p><p><b>Description</b> : Putative transketolase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D01298g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D01298g'  target='_blank'> Link to GRYC</a>",
+                  x : -1.31760233225616,
+                  y : -10.709884541285
                   },
                   position : {
-                  'x' : 51.6578775053433,
-                  'y' : -21.6132365652713
+                  'x' : -13.1760233225616,
+                  'y' : -107.09884541285
                   },
   },
 {
@@ -611,13 +611,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#ffffff',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0D01562g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have cytosine deaminase activity and role in cytidine metabolic process, cytosine metabolic process, pyrimidine-containing compound salvage</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D01562g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D01562g'  target='_blank'> Link to GRYC</a>",
-                  x : -5.76327073308204,
-                  y : 8.07902530554507
+                  content: "<h2>CAGL0D01562g</h2><hr><p><b>Gene name</b> : FCY1</p><p><b>Description</b> : Ortholog(s) have cytosine deaminase activity and role in cytidine metabolic process, cytosine metabolic process, pyrimidine-containing compound salvage</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D01562g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D01562g'  target='_blank'> Link to GRYC</a>",
+                  x : -0.961835941296415,
+                  y : 4.26466238688301
                   },
                   position : {
-                  'x' : -57.6327073308204,
-                  'y' : 80.7902530554507
+                  'x' : -9.61835941296415,
+                  'y' : 42.6466238688301
                   },
   },
 {
@@ -633,12 +633,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0D02134g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog of S. cerevisiae : YKL133C and Saccharomyces cerevisiae S288C : YKL133C</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D02134g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D02134g'  target='_blank'> Link to GRYC</a>",
-                  x : 3.14179824462121,
-                  y : -1.78044416462045
+                  x : -2.54076370342427,
+                  y : -9.13951748994451
                   },
                   position : {
-                  'x' : 31.4179824462121,
-                  'y' : -17.8044416462045
+                  'x' : -25.4076370342427,
+                  'y' : -91.3951748994451
                   },
   },
 {
@@ -654,12 +654,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0D02596g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in DNA-dependent DNA replication, double-strand break repair via break-induced replication, mitotic DNA replication initiation</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D02596g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D02596g'  target='_blank'> Link to GRYC</a>",
-                  x : -1.1527496602278,
-                  y : 10.3100292081549
+                  x : 3.64547091961704,
+                  y : 2.3971510244957
                   },
                   position : {
-                  'x' : -11.527496602278,
-                  'y' : 103.100292081549
+                  'x' : 36.4547091961704,
+                  'y' : 23.971510244957
                   },
   },
 {
@@ -675,12 +675,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0D04026g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have 4-aminobutyrate transaminase activity, pyridoxal phosphate binding activity and role in cellular amide catabolic process, gamma-aminobutyric acid catabolic process, glutamate metabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D04026g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D04026g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.02640237421341,
-                  y : -1.45054721721553
+                  x : -1.40596410033542,
+                  y : -9.65975403347223
                   },
                   position : {
-                  'x' : 40.2640237421341,
-                  'y' : -14.5054721721553
+                  'x' : -14.0596410033542,
+                  'y' : -96.5975403347223
                   },
   },
 {
@@ -696,12 +696,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0D05060g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted hydrolase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D05060g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D05060g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.47168275751091,
-                  y : 7.25940928899714
+                  x : -0.199772694963311,
+                  y : 2.04557687537471
                   },
                   position : {
-                  'x' : -34.7168275751091,
-                  'y' : 72.5940928899714
+                  'x' : -1.99772694963311,
+                  'y' : 20.4557687537471
                   },
   },
 {
@@ -717,12 +717,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0D05082g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Protein of unknown function</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D05082g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D05082g'  target='_blank'> Link to GRYC</a>",
-                  x : 5.70035744310625,
-                  y : -1.42621069658616
+                  x : -1.16384506083563,
+                  y : -11.4602962188574
                   },
                   position : {
-                  'x' : 57.0035744310625,
-                  'y' : -14.2621069658616
+                  'x' : -11.6384506083563,
+                  'y' : -114.602962188574
                   },
   },
 {
@@ -737,13 +737,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#ffb3b3',
                   faveShape: 'square',
                   type: 'bezier',
-                  content: "<h2>CAGL0D06424g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aconitate hydratase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D06424g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D06424g'  target='_blank'> Link to GRYC</a>",
-                  x : -6.88145060230939,
-                  y : 0.923532871889364
+                  content: "<h2>CAGL0D06424g</h2><hr><p><b>Gene name</b> : ACO1</p><p><b>Description</b> : Putative aconitate hydratase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D06424g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D06424g'  target='_blank'> Link to GRYC</a>",
+                  x : -7.20454039626133,
+                  y : 0.313672292430024
                   },
                   position : {
-                  'x' : -68.8145060230939,
-                  'y' : 9.23532871889364
+                  'x' : -72.0454039626133,
+                  'y' : 3.13672292430025
                   },
   },
 {
@@ -759,12 +759,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E01155g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA polymerase I activity, role in nucleolar large rRNA transcription by RNA polymerase I, transcription by RNA polymerase I and RNA polymerase I complex localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01155g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01155g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.26674049772573,
-                  y : 9.6926047929676
+                  x : 1.76000940891807,
+                  y : 3.52478453146243
                   },
                   position : {
-                  'x' : -32.6674049772572,
-                  'y' : 96.926047929676
+                  'x' : 17.6000940891807,
+                  'y' : 35.2478453146243
                   },
   },
 {
@@ -779,13 +779,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#ffffff',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0E01727g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01727g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01727g'  target='_blank'> Link to GRYC</a>",
-                  x : 8.77882328716494,
-                  y : 10.3160136958632
+                  content: "<h2>CAGL0E01727g</h2><hr><p><b>Gene name</b> : YPS3</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01727g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01727g'  target='_blank'> Link to GRYC</a>",
+                  x : 9.97798727882366,
+                  y : -7.24929306673582
                   },
                   position : {
-                  'x' : 87.7882328716494,
-                  'y' : 103.160136958632
+                  'x' : 99.7798727882366,
+                  'y' : -72.4929306673582
                   },
   },
 {
@@ -800,13 +800,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0E01771g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; gene is downregulated in azole-resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01771g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01771g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.44440055967775,
-                  y : 6.35016466210482
+                  content: "<h2>CAGL0E01771g</h2><hr><p><b>Gene name</b> : YPS5</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; gene is downregulated in azole-resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01771g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01771g'  target='_blank'> Link to GRYC</a>",
+                  x : -0.890658134786914,
+                  y : 1.43768694340795
                   },
                   position : {
-                  'x' : -34.4440055967775,
-                  'y' : 63.5016466210482
+                  'x' : -8.90658134786914,
+                  'y' : 14.3768694340795
                   },
   },
 {
@@ -821,13 +821,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#cc0000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0E01793g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; expression induced at high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01793g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01793g'  target='_blank'> Link to GRYC</a>",
-                  x : 6.73862863413349,
-                  y : -0.292921337085337
+                  content: "<h2>CAGL0E01793g</h2><hr><p><b>Gene name</b> : YPS6</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; expression induced at high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01793g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01793g'  target='_blank'> Link to GRYC</a>",
+                  x : -0.760127157613425,
+                  y : -12.6910741771273
                   },
                   position : {
-                  'x' : 67.3862863413349,
-                  'y' : -2.92921337085337
+                  'x' : -7.60127157613425,
+                  'y' : -126.910741771273
                   },
   },
 {
@@ -842,13 +842,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#cc0000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0E01815g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; induced in response to low pH and high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01815g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01815g'  target='_blank'> Link to GRYC</a>",
-                  x : 2.95615594138095,
-                  y : -2.08447944171132
+                  content: "<h2>CAGL0E01815g</h2><hr><p><b>Gene name</b> : YPS8</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; induced in response to low pH and high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01815g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01815g'  target='_blank'> Link to GRYC</a>",
+                  x : -2.42329397754731,
+                  y : -8.88740754831658
                   },
                   position : {
-                  'x' : 29.5615594138095,
-                  'y' : -20.8447944171131
+                  'x' : -24.2329397754731,
+                  'y' : -88.8740754831658
                   },
   },
 {
@@ -863,13 +863,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#ffb3b3',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0E01837g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; expression induced at high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01837g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01837g'  target='_blank'> Link to GRYC</a>",
-                  x : -1.25289206744757,
-                  y : -3.77541272082905
+                  content: "<h2>CAGL0E01837g</h2><hr><p><b>Gene name</b> : YPS9</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; expression induced at high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01837g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01837g'  target='_blank'> Link to GRYC</a>",
+                  x : -6.32256914611752,
+                  y : -7.05135110337321
                   },
                   position : {
-                  'x' : -12.5289206744757,
-                  'y' : -37.7541272082904
+                  'x' : -63.2256914611752,
+                  'y' : -70.5135110337321
                   },
   },
 {
@@ -885,12 +885,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E02013g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have cytosolic large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E02013g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E02013g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.65354157072352,
-                  y : 8.22413240619303
+                  x : 0.355286708277312,
+                  y : 2.88328949210357
                   },
                   position : {
-                  'x' : -36.5354157072352,
-                  'y' : 82.2413240619303
+                  'x' : 3.55286708277312,
+                  'y' : 28.8328949210357
                   },
   },
 {
@@ -906,12 +906,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E02651g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted identical protein binding, serine-type endopeptidase activity and role in negative regulation of catalytic activity, proteolysis</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E02651g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E02651g'  target='_blank'> Link to GRYC</a>",
-                  x : 3.08994162507124,
-                  y : -1.54891806283503
+                  x : -2.69529835727717,
+                  y : -9.28093962235793
                   },
                   position : {
-                  'x' : 30.8994162507124,
-                  'y' : -15.4891806283503
+                  'x' : -26.9529835727717,
+                  'y' : -92.8093962235793
                   },
   },
 {
@@ -927,12 +927,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E03520g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity and mitochondrial large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E03520g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E03520g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.04056958356601,
-                  y : -0.0875027693782146
+                  x : -5.47789003023727,
+                  y : -3.45277426114536
                   },
                   position : {
-                  'x' : -30.4056958356601,
-                  'y' : -0.875027693782146
+                  'x' : -54.7789003023727,
+                  'y' : -34.5277426114536
                   },
   },
 {
@@ -948,12 +948,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E03916g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have glycerol kinase activity, role in glycerol metabolic process and mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E03916g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E03916g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.165550105807441,
-                  y : -2.28814431839062
+                  x : -4.42187510336356,
+                  y : -6.52027771095027
                   },
                   position : {
-                  'x' : -1.65550105807441,
-                  'y' : -22.8814431839062
+                  'x' : -44.2187510336356,
+                  'y' : -65.2027771095027
                   },
   },
 {
@@ -969,12 +969,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E03938g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in maturation of LSU-rRNA and cytosolic large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E03938g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E03938g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.58815664938892,
-                  y : 8.54799840623649
+                  x : 1.34228192869932,
+                  y : 2.1925842657025
                   },
                   position : {
-                  'x' : -25.8815664938892,
-                  'y' : 85.4799840623649
+                  'x' : 13.4228192869932,
+                  'y' : 21.925842657025
                   },
   },
 {
@@ -990,12 +990,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E04510g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have phospholipase activity, role in cardiolipin metabolic process, phosphatidylethanolamine metabolic process, phospholipid metabolic process and mitochondrial matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E04510g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E04510g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.91323027871087,
-                  y : -1.40582362842615
+                  x : -0.89079229759111,
+                  y : -10.2867543900598
                   },
                   position : {
-                  'x' : 49.1323027871087,
-                  'y' : -14.0582362842615
+                  'x' : -8.9079229759111,
+                  'y' : -102.867543900598
                   },
   },
 {
@@ -1011,12 +1011,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E04994g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity, role in cytoplasmic translation and cytosolic large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E04994g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E04994g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.71623285181024,
-                  y : 7.9928176488751
+                  x : 0.264970673703872,
+                  y : 2.67021496385301
                   },
                   position : {
-                  'x' : -37.1623285181024,
-                  'y' : 79.928176488751
+                  'x' : 2.64970673703872,
+                  'y' : 26.7021496385301
                   },
   },
 {
@@ -1032,12 +1032,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E05148g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have alpha-mannosidase activity, role in mannose catabolic process, oligosaccharide catabolic process and Cvt complex, fungal-type vacuole membrane localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E05148g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E05148g'  target='_blank'> Link to GRYC</a>",
-                  x : 5.18609602907921,
-                  y : -1.30649795381505
+                  x : -1.5338515695172,
+                  y : -11.086379920077
                   },
                   position : {
-                  'x' : 51.8609602907921,
-                  'y' : -13.0649795381505
+                  'x' : -15.338515695172,
+                  'y' : -110.86379920077
                   },
   },
 {
@@ -1053,12 +1053,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E05500g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA polymerase I activity, promoter-specific chromatin binding activity and role in nucleolar large rRNA transcription by RNA polymerase I, transcription by RNA polymerase I</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E05500g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E05500g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.64122517051182,
-                  y : 7.54035760514694
+                  x : -0.0997847568017666,
+                  y : 2.39225228146709
                   },
                   position : {
-                  'x' : -36.4122517051182,
-                  'y' : 75.4035760514694
+                  'x' : -0.997847568017666,
+                  'y' : 23.9225228146709
                   },
   },
 {
@@ -1074,12 +1074,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E05654g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have phosphatidylglycerol phospholipase C activity, role in cell-abiotic substrate adhesion, glycerophospholipid catabolic process, phosphatidylglycerol catabolic process and lipid droplet, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E05654g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E05654g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.273767017206656,
-                  y : -5.61419036430714
+                  x : -1.41904167161216,
+                  y : -7.4752493385883
                   },
                   position : {
-                  'x' : 2.73767017206656,
-                  'y' : -56.1419036430714
+                  'x' : -14.1904167161216,
+                  'y' : -74.752493385883
                   },
   },
 {
@@ -1095,12 +1095,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0E06380g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have ATP-dependent NAD(P)H-hydrate dehydratase activity and role in nicotinamide nucleotide metabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E06380g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E06380g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.24070895999193,
-                  y : -2.85123415359021
+                  x : -2.45685815559196,
+                  y : -10.2893815443886
                   },
                   position : {
-                  'x' : 42.4070895999193,
-                  'y' : -28.5123415359021
+                  'x' : -24.5685815559196,
+                  'y' : -102.893815443886
                   },
   },
 {
@@ -1116,12 +1116,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F00429g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have GTP diphosphatase activity, ITP diphosphatase activity, UTP diphosphatase activity, XTP diphosphatase activity, dATP pyrophosphohydrolase activity and dCTP diphosphatase activity, more</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F00429g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F00429g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.27963135810664,
-                  y : 8.94102728069825
+                  x : 1.30795401352463,
+                  y : 2.99014798311395
                   },
                   position : {
-                  'x' : -32.7963135810664,
-                  'y' : 89.4102728069825
+                  'x' : 13.0795401352463,
+                  'y' : 29.9014798311395
                   },
   },
 {
@@ -1137,12 +1137,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F00649g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted ATP binding, protein kinase activity, protein tyrosine kinase activity and role in protein phosphorylation</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F00649g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F00649g'  target='_blank'> Link to GRYC</a>",
-                  x : 1.20299258259744,
-                  y : 10.9597000513833
+                  x : 5.58055010385885,
+                  y : 1.12068337915599
                   },
                   position : {
-                  'x' : 12.0299258259744,
-                  'y' : 109.597000513833
+                  'x' : 55.8055010385885,
+                  'y' : 11.2068337915599
                   },
   },
 {
@@ -1158,12 +1158,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F00715g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Protein of unknown function</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F00715g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F00715g'  target='_blank'> Link to GRYC</a>",
-                  x : 8.80842300873565,
-                  y : 0.898860637865756
+                  x : 3.13659791111549,
+                  y : -11.9126343558345
                   },
                   position : {
-                  'x' : 88.0842300873565,
-                  'y' : 8.98860637865756
+                  'x' : 31.3659791111549,
+                  'y' : -119.126343558345
                   },
   },
 {
@@ -1179,12 +1179,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F01749g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative serine hydroxymethyltransferase; protein differentially expressed in azole resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F01749g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F01749g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.924315542618409,
-                  y : 0.109641802452384
+                  x : -2.16595210396546,
+                  y : -5.86759465436494
                   },
                   position : {
-                  'x' : 9.24315542618409,
-                  'y' : 1.09641802452384
+                  'x' : -21.6595210396546,
+                  'y' : -58.6759465436494
                   },
   },
 {
@@ -1200,12 +1200,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F02233g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have dipeptidase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F02233g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F02233g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.50521402240062,
-                  y : 6.99232936732987
+                  x : 0.190558194418877,
+                  y : 1.12227629519557
                   },
                   position : {
-                  'x' : -25.0521402240062,
-                  'y' : 69.9232936732987
+                  'x' : 1.90558194418877,
+                  'y' : 11.2227629519557
                   },
   },
 {
@@ -1220,13 +1220,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0F02431g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in mitochondrial translation and cytoplasm, mitochondrion, nucleus localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F02431g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F02431g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.88642455834057,
-                  y : 6.57858869900646
+                  content: "<h2>CAGL0F02431g</h2><hr><p><b>Gene name</b> : ACO2</p><p><b>Description</b> : Ortholog(s) have role in mitochondrial translation and cytoplasm, mitochondrion, nucleus localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F02431g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F02431g'  target='_blank'> Link to GRYC</a>",
+                  x : -0.975068224823967,
+                  y : 1.92018458253674
                   },
                   position : {
-                  'x' : -38.8642455834057,
-                  'y' : 65.7858869900646
+                  'x' : -9.75068224823967,
+                  'y' : 19.2018458253674
                   },
   },
 {
@@ -1241,13 +1241,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#009900',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0F02563g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative hypoxanthine guanine phosphoribosyl transferase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F02563g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F02563g'  target='_blank'> Link to GRYC</a>",
-                  x : -5.04540936258647,
-                  y : 8.4644581019766
+                  content: "<h2>CAGL0F02563g</h2><hr><p><b>Gene name</b> : HPT1</p><p><b>Description</b> : Putative hypoxanthine guanine phosphoribosyl transferase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F02563g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F02563g'  target='_blank'> Link to GRYC</a>",
+                  x : -0.294146043356571,
+                  y : 4.02163708957279
                   },
                   position : {
-                  'x' : -50.4540936258647,
-                  'y' : 84.644581019766
+                  'x' : -2.94146043356571,
+                  'y' : 40.2163708957279
                   },
   },
 {
@@ -1263,12 +1263,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F03927g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have GMP synthase (glutamine-hydrolyzing) activity and role in GMP biosynthetic process, GMP metabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F03927g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F03927g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.15036868778534,
-                  y : 9.13489765668284
+                  x : 1.27830966863051,
+                  y : 3.29780081686512
                   },
                   position : {
-                  'x' : -31.5036868778534,
-                  'y' : 91.3489765668284
+                  'x' : 12.7830966863051,
+                  'y' : 32.9780081686512
                   },
   },
 {
@@ -1284,12 +1284,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F04411g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity, role in mitochondrial translation and mitochondrial large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F04411g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F04411g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.39123682356936,
-                  y : -0.769071153352194
+                  x : -5.54581737255834,
+                  y : -4.41490836755669
                   },
                   position : {
-                  'x' : -23.9123682356936,
-                  'y' : -7.69071153352194
+                  'x' : -55.4581737255834,
+                  'y' : -44.1490836755669
                   },
   },
 {
@@ -1305,12 +1305,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F04917g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative regulatory subunit for protein phosphatase; gene is upregulated in azole-resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F04917g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F04917g'  target='_blank'> Link to GRYC</a>",
-                  x : -6.51729856588725,
-                  y : 8.50094886822975
+                  x : -1.16763099799252,
+                  y : 5.12844037442424
                   },
                   position : {
-                  'x' : -65.1729856588725,
-                  'y' : 85.0094886822975
+                  'x' : -11.6763099799252,
+                  'y' : 51.2844037442424
                   },
   },
 {
@@ -1326,12 +1326,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F06501g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have acetyl-CoA:L-glutamate N-acetyltransferase activity, glutamate N-acetyltransferase activity, role in ornithine biosynthetic process and mitochondrial matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F06501g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F06501g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.727308536429177,
-                  y : -0.352419544332057
+                  x : -3.76410676819418,
+                  y : -4.97190801938753
                   },
                   position : {
-                  'x' : -7.27308536429177,
-                  'y' : -3.52419544332057
+                  'x' : -37.6410676819418,
+                  'y' : -49.7190801938753
                   },
   },
 {
@@ -1347,12 +1347,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0F08261g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have high molecular weight kininogen binding, phosphopyruvate hydratase activity, protein-glutamine gamma-glutamyltransferase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F08261g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F08261g'  target='_blank'> Link to GRYC</a>",
-                  x : 10.4437795546292,
-                  y : 0.50860189318425
+                  x : 4.70007428698614,
+                  y : -12.3071312678195
                   },
                   position : {
-                  'x' : 104.437795546292,
-                  'y' : 5.0860189318425
+                  'x' : 47.0007428698614,
+                  'y' : -123.071312678195
                   },
   },
 {
@@ -1368,12 +1368,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G01826g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in ribosomal large subunit assembly and cytosolic large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G01826g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G01826g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.88892993469139,
-                  y : 8.32556402626581
+                  x : 0.533046249530692,
+                  y : 2.8665368020456
                   },
                   position : {
-                  'x' : -38.8892993469139,
-                  'y' : 83.2556402626581
+                  'x' : 5.33046249530692,
+                  'y' : 28.665368020456
                   },
   },
 {
@@ -1389,12 +1389,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G02563g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted thiol-dependent ubiquitinyl hydrolase activity and role in protein deubiquitination, ubiquitin-dependent protein catabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G02563g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G02563g'  target='_blank'> Link to GRYC</a>",
-                  x : 7.61127698849795,
-                  y : 0.885593179356737
+                  x : 2.59503920797068,
+                  y : -10.6678369263789
                   },
                   position : {
-                  'x' : 76.1127698849795,
-                  'y' : 8.85593179356737
+                  'x' : 25.9503920797068,
+                  'y' : -106.678369263789
                   },
   },
 {
@@ -1410,12 +1410,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G02937g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have pyruvate decarboxylase activity and role in L-phenylalanine catabolic process, aromatic amino acid family catabolic process to alcohol via Ehrlich pathway, ethanol metabolic process, tryptophan catabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G02937g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G02937g'  target='_blank'> Link to GRYC</a>",
-                  x : 9.34591244462114,
-                  y : 3.40976971065119
+                  x : 5.79703924998868,
+                  y : -10.0218006651892
                   },
                   position : {
-                  'x' : 93.4591244462114,
-                  'y' : 34.0976971065119
+                  'x' : 57.9703924998868,
+                  'y' : -100.218006651892
                   },
   },
 {
@@ -1431,12 +1431,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G03575g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted structural constituent of ribosome activity, role in translation and ribosome localization; evidence for a extended second exon by 2 amino acids</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G03575g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G03575g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.85013420056173,
-                  y : 9.4598100885837
+                  x : 1.32353525898207,
+                  y : 3.73230579491113
                   },
                   position : {
-                  'x' : -38.5013420056173,
-                  'y' : 94.598100885837
+                  'x' : 13.2353525898207,
+                  'y' : 37.3230579491113
                   },
   },
 {
@@ -1452,12 +1452,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G03883g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have ADP binding, ATP binding, ATPase activity, ATPase activity, coupled, chaperone binding, misfolded protein binding, unfolded protein binding activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G03883g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G03883g'  target='_blank'> Link to GRYC</a>",
-                  x : 2.91925301875022,
-                  y : -2.79268093630401
+                  x : -1.84527470989102,
+                  y : -8.57532728841125
                   },
                   position : {
-                  'x' : 29.1925301875022,
-                  'y' : -27.9268093630401
+                  'x' : -18.4527470989102,
+                  'y' : -85.7532728841125
                   },
   },
 {
@@ -1473,12 +1473,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G05874g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have DNA-directed 5'-3' RNA polymerase activity, RNA polymerase I activity, RNA polymerase II activity, RNA polymerase III activity, RNA-directed 5'-3' RNA polymerase activity, zinc ion binding activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G05874g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G05874g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.95132313308995,
-                  y : 9.56521729631273
+                  x : 1.88450099825945,
+                  y : 3.21915263519075
                   },
                   position : {
-                  'x' : -29.5132313308995,
-                  'y' : 95.6521729631273
+                  'x' : 18.8450099825945,
+                  'y' : 32.1915263519075
                   },
   },
 {
@@ -1494,12 +1494,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G06248g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA), maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA and LSU-rRNA), more</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G06248g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G06248g'  target='_blank'> Link to GRYC</a>",
-                  x : -4.14736521054065,
-                  y : 7.84530574226858
+                  x : -0.164633402772399,
+                  y : 2.89659860754516
                   },
                   position : {
-                  'x' : -41.4736521054065,
-                  'y' : 78.4530574226858
+                  'x' : -1.64633402772399,
+                  'y' : 28.9659860754516
                   },
   },
 {
@@ -1515,12 +1515,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G06490g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in ribosome biogenesis and small-subunit processome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G06490g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G06490g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.27825427969673,
-                  y : 8.67667360160826
+                  x : 1.15436369374559,
+                  y : 2.52846456544614
                   },
                   position : {
-                  'x' : -32.7825427969673,
-                  'y' : 86.7667360160826
+                  'x' : 11.5436369374559,
+                  'y' : 25.2846456544614
                   },
   },
 {
@@ -1536,12 +1536,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G06732g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have 2-isopropylmalate synthase activity, role in leucine biosynthetic process and mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G06732g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G06732g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.88457004636259,
-                  y : -2.95306810426261
+                  x : -7.4793724464874,
+                  y : -5.62575751358237
                   },
                   position : {
-                  'x' : -28.8457004636259,
-                  'y' : -29.5306810426261
+                  'x' : -74.793724464874,
+                  'y' : -56.2575751358237
                   },
   },
 {
@@ -1556,13 +1556,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#009900',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0G07106g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative adenine phosphoribosyltransferase; protein abundance decreased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G07106g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G07106g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.54823910639692,
-                  y : 9.64551282047446
+                  content: "<h2>CAGL0G07106g</h2><hr><p><b>Gene name</b> : APT1</p><p><b>Description</b> : Putative adenine phosphoribosyltransferase; protein abundance decreased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G07106g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G07106g'  target='_blank'> Link to GRYC</a>",
+                  x : 1.8723350896161,
+                  y : 2.47616813375041
                   },
                   position : {
-                  'x' : -35.4823910639692,
-                  'y' : 96.4551282047446
+                  'x' : 18.723350896161,
+                  'y' : 24.7616813375041
                   },
   },
 {
@@ -1578,12 +1578,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G07821g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity, role in glutaminyl-tRNAGln biosynthesis via transamidation and glutamyl-tRNA(Gln) amidotransferase complex, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G07821g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G07821g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.400123123503929,
-                  y : -1.62983132717107
+                  x : -5.01577284320755,
+                  y : -6.59653369409052
                   },
                   position : {
-                  'x' : -4.00123123503929,
-                  'y' : -16.2983132717107
+                  'x' : -50.1577284320755,
+                  'y' : -65.9653369409052
                   },
   },
 {
@@ -1599,12 +1599,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G08734g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted rRNA binding, structural constituent of ribosome activity, role in translation and ribosome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G08734g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G08734g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.48144830740811,
-                  y : 8.06561897377669
+                  x : 0.406944394676186,
+                  y : 2.51261785797155
                   },
                   position : {
-                  'x' : -34.8144830740811,
-                  'y' : 80.6561897377669
+                  'x' : 4.06944394676186,
+                  'y' : 25.1261785797155
                   },
   },
 {
@@ -1620,12 +1620,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G09064g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in glycerol biosynthetic process and cytosol, nucleus localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G09064g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G09064g'  target='_blank'> Link to GRYC</a>",
-                  x : 9.56722188127772,
-                  y : 9.29730716856606
+                  x : 10.8267054267489,
+                  y : -3.31141508880983
                   },
                   position : {
-                  'x' : 95.6722188127772,
-                  'y' : 92.9730716856606
+                  'x' : 108.267054267489,
+                  'y' : -33.1141508880983
                   },
   },
 {
@@ -1641,12 +1641,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G09130g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in maturation of LSU-rRNA, ribosomal large subunit biogenesis and cytoplasm, cytosolic large ribosomal subunit, nucleolus localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G09130g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G09130g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.56983638888946,
-                  y : 8.7922674021715
+                  x : 1.56136636675518,
+                  y : 2.23399810552801
                   },
                   position : {
-                  'x' : -25.6983638888946,
-                  'y' : 87.922674021715
+                  'x' : 15.6136636675518,
+                  'y' : 22.3399810552801
                   },
   },
 {
@@ -1662,12 +1662,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0G09691g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have O-phospho-L-serine:2-oxoglutarate aminotransferase activity, role in L-serine biosynthetic process, purine nucleobase biosynthetic process, serine family amino acid biosynthetic process and intracellular localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G09691g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G09691g'  target='_blank'> Link to GRYC</a>",
-                  x : 1.21197076781916,
-                  y : -1.0777876219505
+                  x : -2.84777735089022,
+                  y : -6.89989889504298
                   },
                   position : {
-                  'x' : 12.1197076781916,
-                  'y' : -10.777876219505
+                  'x' : -28.4777735089022,
+                  'y' : -68.9989889504298
                   },
   },
 {
@@ -1683,12 +1683,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H00418g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Protein of unknown function</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H00418g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H00418g'  target='_blank'> Link to GRYC</a>",
-                  x : 1.89656135957505,
-                  y : -3.07056002238035
+                  x : -3.26842076529917,
+                  y : -8.41057921686915
                   },
                   position : {
-                  'x' : 18.9656135957505,
-                  'y' : -30.7056002238035
+                  'x' : -32.6842076529917,
+                  'y' : -84.1057921686915
                   },
   },
 {
@@ -1704,12 +1704,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H00682g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted mannosyl-oligosaccharide glucosidase activity and role in oligosaccharide metabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H00682g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H00682g'  target='_blank'> Link to GRYC</a>",
-                  x : 2.85738897104939,
-                  y : -2.26807149009094
+                  x : -2.15951219967773,
+                  y : -8.68618305891608
                   },
                   position : {
-                  'x' : 28.5738897104939,
-                  'y' : -22.6807149009094
+                  'x' : -21.5951219967773,
+                  'y' : -86.8618305891608
                   },
   },
 {
@@ -1725,12 +1725,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H00704g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in autophagosome assembly, autophagy of mitochondrion, macroautophagy, protein localization by the Cvt pathway</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H00704g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H00704g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.774394639977,
-                  y : -0.823634680046625
+                  x : -0.982938310365705,
+                  y : -10.7072240902313
                   },
                   position : {
-                  'x' : 47.74394639977,
-                  'y' : -8.23634680046625
+                  'x' : -9.82938310365705,
+                  'y' : -107.072240902313
                   },
   },
 {
@@ -1746,12 +1746,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H02101g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in RNA metabolic process and fungal biofilm matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H02101g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H02101g'  target='_blank'> Link to GRYC</a>",
-                  x : 10.2563950625772,
-                  y : 8.13449478657435
+                  x : 10.5561258091868,
+                  y : -4.64696632263392
                   },
                   position : {
-                  'x' : 102.563950625772,
-                  'y' : 81.3449478657434
+                  'x' : 105.561258091868,
+                  'y' : -46.4696632263392
                   },
   },
 {
@@ -1767,12 +1767,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H02387g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative trehalose-6-phosphate synthase/phosphatase subunit; gene is upregulated in azole-resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H02387g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H02387g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.88801665142344,
-                  y : -2.02155896261905
+                  x : -0.747494136107461,
+                  y : -9.96765523582656
                   },
                   position : {
-                  'x' : 48.8801665142344,
-                  'y' : -20.2155896261905
+                  'x' : -7.47494136107461,
+                  'y' : -99.6765523582656
                   },
   },
 {
@@ -1788,12 +1788,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H02585g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have glutamate decarboxylase activity and role in cellular response to oxidative stress, glutamate catabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H02585g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H02585g'  target='_blank'> Link to GRYC</a>",
-                  x : 5.26991408335224,
-                  y : -0.751923836602747
+                  x : -0.502514943509405,
+                  y : -10.8041927310459
                   },
                   position : {
-                  'x' : 52.6991408335224,
-                  'y' : -7.51923836602747
+                  'x' : -5.02514943509405,
+                  'y' : -108.041927310459
                   },
   },
 {
@@ -1809,12 +1809,12 @@ $(function() { // on dom ready
                   faveShape: 'square',
                   type: 'bezier',
                   content: "<h2>CAGL0H03993g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have citrate (Si)-synthase activity, role in acetyl-CoA catabolic process, citrate metabolic process, tricarboxylic acid cycle and mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H03993g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H03993g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.15409955123099,
-                  y : 3.73379755876089
+                  x : -2.66579872934239,
+                  y : -0.620355479398954
                   },
                   position : {
-                  'x' : -31.5409955123099,
-                  'y' : 37.3379755876089
+                  'x' : -26.6579872934239,
+                  'y' : -6.20355479398954
                   },
   },
 {
@@ -1829,13 +1829,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#66ff66',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0H04081g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : 3-hydroxy-3-methylglutaryl coenzyme A synthase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H04081g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H04081g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.3103652756193,
-                  y : 10.9275581303445
+                  content: "<h2>CAGL0H04081g</h2><hr><p><b>Gene name</b> : ERG13</p><p><b>Description</b> : 3-hydroxy-3-methylglutaryl coenzyme A synthase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H04081g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H04081g'  target='_blank'> Link to GRYC</a>",
+                  x : 2.61154979429781,
+                  y : 4.44918115724133
                   },
                   position : {
-                  'x' : -33.103652756193,
-                  'y' : 109.275581303445
+                  'x' : 26.1154979429781,
+                  'y' : 44.4918115724133
                   },
   },
 {
@@ -1851,12 +1851,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H04851g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have phosphatase activity, protein serine/threonine phosphatase activity and role in cellular protein localization, cellular sodium ion homeostasis, protein dephosphorylation</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H04851g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H04851g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.23996639858837,
-                  y : -1.77520301063664
+                  x : -1.75027198758753,
+                  y : -9.9999047855826
                   },
                   position : {
-                  'x' : 42.3996639858837,
-                  'y' : -17.7520301063664
+                  'x' : -17.5027198758753,
+                  'y' : -99.9990478558259
                   },
   },
 {
@@ -1871,13 +1871,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0H05445g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Glucose-6-phosphate isomerase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H05445g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H05445g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.50416274284199,
-                  y : -2.56083578979894
+                  content: "<h2>CAGL0H05445g</h2><hr><p><b>Gene name</b> : PGI1</p><p><b>Description</b> : Glucose-6-phosphate isomerase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H05445g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H05445g'  target='_blank'> Link to GRYC</a>",
+                  x : -2.24361387555459,
+                  y : -10.576145196878
                   },
                   position : {
-                  'x' : 45.0416274284199,
-                  'y' : -25.6083578979894
+                  'x' : -22.4361387555459,
+                  'y' : -105.76145196878
                   },
   },
 {
@@ -1893,12 +1893,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H05643g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity and role in maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H05643g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H05643g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.52168949749953,
-                  y : 8.29057076261739
+                  x : 1.24327401556157,
+                  y : 1.86073887468366
                   },
                   position : {
-                  'x' : -25.2168949749953,
-                  'y' : 82.9057076261739
+                  'x' : 12.4327401556157,
+                  'y' : 18.6073887468366
                   },
   },
 {
@@ -1914,12 +1914,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H06545g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in autophagy of mitochondrion, mitochondria-nucleus signaling pathway and integral component of mitochondrial outer membrane localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H06545g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H06545g'  target='_blank'> Link to GRYC</a>",
-                  x : 10.2399391390387,
-                  y : 5.08272059523778
+                  x : 7.69926418899558,
+                  y : -9.48064223595234
                   },
                   position : {
-                  'x' : 102.399391390387,
-                  'y' : 50.8272059523778
+                  'x' : 76.9926418899558,
+                  'y' : -94.8064223595234
                   },
   },
 {
@@ -1935,12 +1935,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H07051g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have asparaginase activity and role in asparagine catabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H07051g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H07051g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.76991776848358,
-                  y : 9.13383409093373
+                  x : 1.67411428279828,
+                  y : 2.80854204991691
                   },
                   position : {
-                  'x' : -27.6991776848358,
-                  'y' : 91.3383409093373
+                  'x' : 16.7411428279828,
+                  'y' : 28.0854204991691
                   },
   },
 {
@@ -1956,12 +1956,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H07887g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have phosphoribosylamine-glycine ligase activity, phosphoribosylformylglycinamidine cyclo-ligase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H07887g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H07887g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.290304957107202,
-                  y : -0.936007476721263
+                  x : -3.26080041311917,
+                  y : -6.07156511791385
                   },
                   position : {
-                  'x' : 2.90304957107202,
-                  'y' : -9.36007476721263
+                  'x' : -32.6080041311917,
+                  'y' : -60.7156511791385
                   },
   },
 {
@@ -1977,12 +1977,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H08261g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in autophagy of mitochondrion</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H08261g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H08261g'  target='_blank'> Link to GRYC</a>",
-                  x : 2.02479779923229,
-                  y : -3.3817681459378
+                  x : -3.73919781776043,
+                  y : -8.77426859587244
                   },
                   position : {
-                  'x' : 20.2479779923229,
-                  'y' : -33.817681459378
+                  'x' : -37.3919781776043,
+                  'y' : -87.7426859587244
                   },
   },
 {
@@ -1997,13 +1997,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0H09064g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative uracil phosphoribosyltransferase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H09064g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H09064g'  target='_blank'> Link to GRYC</a>",
-                  x : -4.75387705730664,
-                  y : 4.27704270025398
+                  content: "<h2>CAGL0H09064g</h2><hr><p><b>Gene name</b> : FUR1</p><p><b>Description</b> : Putative uracil phosphoribosyltransferase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H09064g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H09064g'  target='_blank'> Link to GRYC</a>",
+                  x : -3.32497468999855,
+                  y : 1.03398342238216
                   },
                   position : {
-                  'x' : -47.5387705730664,
-                  'y' : 42.7704270025398
+                  'x' : -33.2497468999855,
+                  'y' : 10.3398342238216
                   },
   },
 {
@@ -2019,12 +2019,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0H09460g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have long-chain fatty acid-CoA ligase activity, medium-chain fatty acid-CoA ligase activity, very long-chain fatty acid-CoA ligase activity and role in fatty acid metabolic process, long-chain fatty acid metabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H09460g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H09460g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.0786084132941761,
-                  y : -3.72240750656782
+                  x : -4.73246517904585,
+                  y : -7.54100555306528
                   },
                   position : {
-                  'x' : -0.786084132941761,
-                  'y' : -37.2240750656782
+                  'x' : -47.3246517904585,
+                  'y' : -75.4100555306528
                   },
   },
 {
@@ -2039,13 +2039,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0H10142g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative 2-dehydro-3-deoxyphosphoheptonate aldolase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H10142g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H10142g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.96939677044211,
-                  y : 4.1548354060705
+                  content: "<h2>CAGL0H10142g</h2><hr><p><b>Gene name</b> : ARO3</p><p><b>Description</b> : Putative 2-dehydro-3-deoxyphosphoheptonate aldolase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H10142g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H10142g'  target='_blank'> Link to GRYC</a>",
+                  x : -2.87961929389543,
+                  y : 0.400682623076211
                   },
                   position : {
-                  'x' : -39.6939677044211,
-                  'y' : 41.548354060705
+                  'x' : -28.7961929389543,
+                  'y' : 4.00682623076211
                   },
   },
 {
@@ -2061,12 +2061,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I00528g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have mRNA binding, pre-mRNA 5'-splice site binding activity and role in mRNA 5'-splice site recognition, mRNA splicing, via spliceosome, positive regulation of RNA binding</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I00528g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I00528g'  target='_blank'> Link to GRYC</a>",
-                  x : 3.55304242340792,
-                  y : -2.2818294077235
+                  x : -1.9825388695504,
+                  y : -9.30231607211058
                   },
                   position : {
-                  'x' : 35.5304242340792,
-                  'y' : -22.818294077235
+                  'x' : -19.825388695504,
+                  'y' : -93.0231607211058
                   },
   },
 {
@@ -2082,12 +2082,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I00792g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I00792g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I00792g'  target='_blank'> Link to GRYC</a>",
-                  x : -4.097804636871,
-                  y : 9.27467406475955
+                  x : 1.00861048157329,
+                  y : 3.82267814622073
                   },
                   position : {
-                  'x' : -40.97804636871,
-                  'y' : 92.7467406475955
+                  'x' : 10.0861048157329,
+                  'y' : 38.2267814622073
                   },
   },
 {
@@ -2103,12 +2103,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I01298g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have aminopeptidase activity, metalloaminopeptidase activity, role in cellular response to drug, chaperone-mediated protein folding, proteolysis and extracellular region, fungal-type vacuole lumen localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I01298g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I01298g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.71691634292937,
-                  y : 6.48416271435487
+                  x : -0.336919245706662,
+                  y : 0.951499853792319
                   },
                   position : {
-                  'x' : -27.1691634292937,
-                  'y' : 64.8416271435487
+                  'x' : -3.36919245706662,
+                  'y' : 9.51499853792319
                   },
   },
 {
@@ -2124,12 +2124,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I03036g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity and mitochondrial large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I03036g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I03036g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.22541489707669,
-                  y : -0.177244290200584
+                  x : -4.95354627839725,
+                  y : -4.04872851367167
                   },
                   position : {
-                  'x' : -22.2541489707669,
-                  'y' : -1.77244290200584
+                  'x' : -49.5354627839725,
+                  'y' : -40.4872851367167
                   },
   },
 {
@@ -2144,13 +2144,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#ffb3b3',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0I03080g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Orotidine 5'-phosphate decarboxylase, catalyzes a step in pyrimidine biosynthesis; protein abundance decreased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I03080g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I03080g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.54226273732855,
-                  y : -2.31739158134145
+                  content: "<h2>CAGL0I03080g</h2><hr><p><b>Gene name</b> : URA3</p><p><b>Description</b> : Orotidine 5'-phosphate decarboxylase, catalyzes a step in pyrimidine biosynthesis; protein abundance decreased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I03080g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I03080g'  target='_blank'> Link to GRYC</a>",
+                  x : -6.5012540911779,
+                  y : -5.18589703026258
                   },
                   position : {
-                  'x' : -25.4226273732855,
-                  'y' : -23.1739158134145
+                  'x' : -65.012540911779,
+                  'y' : -51.8589703026258
                   },
   },
 {
@@ -2166,12 +2166,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I03234g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA binding, U3 snoRNA binding, U4 snRNA binding activity and role in mRNA splicing, via spliceosome, maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I03234g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I03234g'  target='_blank'> Link to GRYC</a>",
-                  x : -4.36320851327247,
-                  y : 8.44025147971067
+                  x : 0.172702533750416,
+                  y : 3.51616531728858
                   },
                   position : {
-                  'x' : -43.6320851327247,
-                  'y' : 84.4025147971067
+                  'x' : 1.72702533750416,
+                  'y' : 35.1616531728858
                   },
   },
 {
@@ -2187,12 +2187,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I04048g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have fructose 1,6-bisphosphate 1-phosphatase activity, role in carbon utilization, cellular response to glucose starvation and intracellular localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I04048g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I04048g'  target='_blank'> Link to GRYC</a>",
-                  x : 2.26025678012207,
-                  y : -2.40375889567081
+                  x : -2.88060407997439,
+                  y : -8.43903584866909
                   },
                   position : {
-                  'x' : 22.6025678012207,
-                  'y' : -24.0375889567081
+                  'x' : -28.8060407997439,
+                  'y' : -84.3903584866909
                   },
   },
 {
@@ -2208,12 +2208,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I04444g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have phosphoribosylaminoimidazolesuccinocarboxamide synthase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I04444g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I04444g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.462309004006568,
-                  y : -0.258547865955169
+                  x : -2.73689080769188,
+                  y : -5.72051952526832
                   },
                   position : {
-                  'x' : 4.62309004006568,
-                  'y' : -2.58547865955169
+                  'x' : -27.3689080769188,
+                  'y' : -57.2051952526832
                   },
   },
 {
@@ -2229,12 +2229,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I04752g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have phosphatidate cytidylyltransferase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I04752g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I04752g'  target='_blank'> Link to GRYC</a>",
-                  x : -1.30539642107569,
-                  y : 7.9673956235685
+                  x : 1.73331484963783,
+                  y : 0.838970589782646
                   },
                   position : {
-                  'x' : -13.0539642107569,
-                  'y' : 79.673956235685
+                  'x' : 17.3331484963783,
+                  'y' : 8.38970589782646
                   },
   },
 {
@@ -2250,12 +2250,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I04972g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in telomere maintenance via recombination and Ino80 complex localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I04972g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I04972g'  target='_blank'> Link to GRYC</a>",
-                  x : 3.83227095800815,
-                  y : -3.26144669781047
+                  x : -3.15932144456882,
+                  y : -10.5127607426193
                   },
                   position : {
-                  'x' : 38.3227095800815,
-                  'y' : -32.6144669781047
+                  'x' : -31.5932144456882,
+                  'y' : -105.127607426193
                   },
   },
 {
@@ -2271,12 +2271,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I06006g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA polymerase I activity, role in nucleolar large rRNA transcription by RNA polymerase I, transcription elongation from RNA polymerase I promoter and RNA polymerase I complex, nucleolus, nucleus localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I06006g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I06006g'  target='_blank'> Link to GRYC</a>",
-                  x : -4.44587901705471,
-                  y : 8.90327581114868
+                  x : 0.458426627396042,
+                  y : 3.85658868517436
                   },
                   position : {
-                  'x' : -44.4587901705471,
-                  'y' : 89.0327581114868
+                  'x' : 4.58426627396041,
+                  'y' : 38.5658868517436
                   },
   },
 {
@@ -2291,13 +2291,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#ffb3b3',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0I06050g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative inositol 1-phosphate synthase; regulated by the transcriptional activators Ino2p and Ino4p; protein differentially expressed in azole resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I06050g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I06050g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.982986114694921,
-                  y : -7.61625022187153
+                  content: "<h2>CAGL0I06050g</h2><hr><p><b>Gene name</b> : INO1</p><p><b>Description</b> : Putative inositol 1-phosphate synthase; regulated by the transcriptional activators Ino2p and Ino4p; protein differentially expressed in azole resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I06050g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I06050g'  target='_blank'> Link to GRYC</a>",
+                  x : 1.85017183041681,
+                  y : -7.47606375962048
                   },
                   position : {
-                  'x' : -9.82986114694921,
-                  'y' : -76.1625022187153
+                  'x' : 18.5017183041681,
+                  'y' : -74.7606375962048
                   },
   },
 {
@@ -2313,12 +2313,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I07887g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have protein binding, bridging activity and role in cellular protein-containing complex localization, ubiquitin-dependent ERAD pathway, vesicle organization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I07887g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I07887g'  target='_blank'> Link to GRYC</a>",
-                  x : 2.70101290255989,
-                  y : -1.96640308232319
+                  x : -2.72174777911123,
+                  y : -8.89081088575255
                   },
                   position : {
-                  'x' : 27.0101290255989,
-                  'y' : -19.6640308232319
+                  'x' : -27.2174777911123,
+                  'y' : -88.9081088575255
                   },
   },
 {
@@ -2334,12 +2334,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I08305g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have carnitine O-acetyltransferase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I08305g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I08305g'  target='_blank'> Link to GRYC</a>",
-                  x : 2.13679852066234,
-                  y : -2.03514740292713
+                  x : -2.72517116937852,
+                  y : -8.16205649877744
                   },
                   position : {
-                  'x' : 21.3679852066234,
-                  'y' : -20.3514740292713
+                  'x' : -27.2517116937852,
+                  'y' : -81.6205649877744
                   },
   },
 {
@@ -2355,12 +2355,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I08987g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted argininosuccinate lyase activity and role in arginine biosynthetic process via ornithine</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I08987g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I08987g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.02116450780473,
-                  y : 6.33740797060598
+                  x : -0.66720549974142,
+                  y : 1.07592640159333
                   },
                   position : {
-                  'x' : -30.2116450780473,
-                  'y' : 63.3740797060598
+                  'x' : -6.6720549974142,
+                  'y' : 10.7592640159333
                   },
   },
 {
@@ -2376,12 +2376,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I09009g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have histidinol-phosphatase activity and role in histidine biosynthetic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I09009g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I09009g'  target='_blank'> Link to GRYC</a>",
-                  x : -1.64095932156667,
-                  y : -1.24834921715335
+                  x : -5.28131928370657,
+                  y : -5.23961491870866
                   },
                   position : {
-                  'x' : -16.4095932156667,
-                  'y' : -12.4834921715335
+                  'x' : -52.8131928370657,
+                  'y' : -52.3961491870866
                   },
   },
 {
@@ -2397,12 +2397,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I09284g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have glycine hydroxymethyltransferase activity, role in one-carbon metabolic process and mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I09284g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I09284g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.598236470599409,
-                  y : -2.17224280165047
+                  x : -4.79336423629435,
+                  y : -6.31154238246331
                   },
                   position : {
-                  'x' : -5.98236470599409,
-                  'y' : -21.7224280165047
+                  'x' : -47.9336423629435,
+                  'y' : -63.1154238246331
                   },
   },
 {
@@ -2418,12 +2418,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I09790g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in endonucleolytic cleavage in 5'-ETS of tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA and LSU-rRNA), more</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I09790g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I09790g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.71604053626905,
-                  y : 7.75196300256938
+                  x : -0.0844898143980821,
+                  y : 2.65958408307996
                   },
                   position : {
-                  'x' : -37.1604053626905,
-                  'y' : 77.5196300256938
+                  'x' : -0.844898143980821,
+                  'y' : 26.5958408307996
                   },
   },
 {
@@ -2439,12 +2439,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I10406g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in establishment of cell polarity, proteasomal ubiquitin-independent protein catabolic process, proteasome core complex assembly, proteasome-mediated ubiquitin-dependent protein catabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I10406g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I10406g'  target='_blank'> Link to GRYC</a>",
-                  x : -1.10814353678718,
-                  y : -1.16883771480739
+                  x : -5.15714348687068,
+                  y : -5.69057914236995
                   },
                   position : {
-                  'x' : -11.0814353678718,
-                  'y' : -11.6883771480739
+                  'x' : -51.5714348687068,
+                  'y' : -56.9057914236995
                   },
   },
 {
@@ -2460,12 +2460,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I10670g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Protein of unknown function</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I10670g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I10670g'  target='_blank'> Link to GRYC</a>",
-                  x : -4.3812043243623,
-                  y : 8.71059291405414
+                  x : 0.375121709117086,
+                  y : 3.66500839940091
                   },
                   position : {
-                  'x' : -43.812043243623,
-                  'y' : 87.1059291405414
+                  'x' : 3.75121709117086,
+                  'y' : 36.6500839940091
                   },
   },
 {
@@ -2481,12 +2481,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0I10791g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have ornithine carbamoyltransferase activity, role in arginine biosynthetic process, arginine biosynthetic process via ornithine, asexual sporulation and intracellular, mitochondrial matrix, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I10791g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I10791g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.16253878659267,
-                  y : 7.27141771818618
+                  x : -0.0236497563205595,
+                  y : 1.82651135939118
                   },
                   position : {
-                  'x' : -31.6253878659267,
-                  'y' : 72.7141771818618
+                  'x' : -0.236497563205595,
+                  'y' : 18.2651135939118
                   },
   },
 {
@@ -2502,12 +2502,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J00473g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have large ribosomal subunit rRNA binding, proteasome binding, protein binding, bridging, rRNA binding activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J00473g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J00473g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.40601273487292,
-                  y : 8.14261555747861
+                  x : 1.15967865702705,
+                  y : 1.94589085298784
                   },
                   position : {
-                  'x' : -24.0601273487292,
-                  'y' : 81.4261555747861
+                  'x' : 11.5967865702705,
+                  'y' : 19.4589085298784
                   },
   },
 {
@@ -2523,12 +2523,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J01045g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA helicase activity, RNA-dependent ATPase activity, U3 snoRNA binding, box C/D snoRNA binding activity, role in rRNA processing and small-subunit processome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J01045g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J01045g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.703914986630088,
-                  y : 1.60171969459316
+                  x : -2.2435849657415,
+                  y : -3.70715881723736
                   },
                   position : {
-                  'x' : -7.03914986630088,
-                  'y' : 16.0171969459316
+                  'x' : -22.435849657415,
+                  'y' : -37.0715881723736
                   },
   },
 {
@@ -2544,12 +2544,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J01848g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA polymerase I activity, role in nucleolar large rRNA transcription by RNA polymerase I, transcription by RNA polymerase I and RNA polymerase I complex localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J01848g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J01848g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.34581405184645,
-                  y : 9.29975765492152
+                  x : 1.48860517233491,
+                  y : 3.24383190364728
                   },
                   position : {
-                  'x' : -33.4581405184645,
-                  'y' : 92.9975765492152
+                  'x' : 14.8860517233491,
+                  'y' : 32.4383190364728
                   },
   },
 {
@@ -2565,12 +2565,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J03234g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J03234g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J03234g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.59335435576214,
-                  y : 9.16123999431625
+                  x : 1.0714488718068,
+                  y : 3.38836449942784
                   },
                   position : {
-                  'x' : -35.9335435576214,
-                  'y' : 91.6123999431625
+                  'x' : 10.714488718068,
+                  'y' : 33.8836449942784
                   },
   },
 {
@@ -2585,13 +2585,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#cc0000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0J03762g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have tetrahydrofolylpolyglutamate synthase activity, role in one-carbon metabolic process and cytoplasm, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J03762g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J03762g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.0861970830594665,
-                  y : -3.06004055890461
+                  content: "<h2>CAGL0J03762g</h2><hr><p><b>Gene name</b> : MET7</p><p><b>Description</b> : Ortholog(s) have tetrahydrofolylpolyglutamate synthase activity, role in one-carbon metabolic process and cytoplasm, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J03762g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J03762g'  target='_blank'> Link to GRYC</a>",
+                  x : -5.67490447578915,
+                  y : -7.85677426682193
                   },
                   position : {
-                  'x' : 0.861970830594665,
-                  'y' : -30.6004055890461
+                  'x' : -56.7490447578915,
+                  'y' : -78.5677426682193
                   },
   },
 {
@@ -2607,12 +2607,12 @@ $(function() { // on dom ready
                   faveShape: 'square',
                   type: 'bezier',
                   content: "<h2>CAGL0J03916g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have lipid binding, oxysterol binding, sterol transfer activity and role in endocytosis, exocytosis, maintenance of cell polarity, piecemeal microautophagy of the nucleus, sterol transport</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J03916g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J03916g'  target='_blank'> Link to GRYC</a>",
-                  x : 10.4402345705919,
-                  y : -0.475166304712623
+                  x : 4.9571518522801,
+                  y : -11.0207702637956
                   },
                   position : {
-                  'x' : 104.402345705919,
-                  'y' : -4.75166304712624
+                  'x' : 49.571518522801,
+                  'y' : -110.207702637956
                   },
   },
 {
@@ -2628,12 +2628,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J04070g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA polymerase I activity, RNA polymerase II activity, RNA polymerase III activity, RNA-directed 5'-3' RNA polymerase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J04070g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J04070g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.84985424942636,
-                  y : 9.20335825106435
+                  x : 1.04428479197915,
+                  y : 3.60607925490827
                   },
                   position : {
-                  'x' : -38.4985424942636,
-                  'y' : 92.0335825106435
+                  'x' : 10.4428479197915,
+                  'y' : 36.0607925490827
                   },
   },
 {
@@ -2649,12 +2649,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J04950g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in mitotic recombination and cellular bud localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J04950g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J04950g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.818612767879537,
-                  y : 11.2114229680698
+                  x : 5.76878589017853,
+                  y : 1.52769728783222
                   },
                   position : {
-                  'x' : 8.18612767879537,
-                  'y' : 112.114229680698
+                  'x' : 57.6878589017853,
+                  'y' : 15.2769728783222
                   },
   },
 {
@@ -2670,12 +2670,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J05082g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted ATP binding, protein kinase activity, protein tyrosine kinase activity and role in protein phosphorylation</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J05082g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J05082g'  target='_blank'> Link to GRYC</a>",
-                  x : 5.98881332429243,
-                  y : -0.214806821054406
+                  x : 0.511743573375078,
+                  y : -10.823287746856
                   },
                   position : {
-                  'x' : 59.8881332429243,
-                  'y' : -2.14806821054406
+                  'x' : 5.11743573375078,
+                  'y' : -108.23287746856
                   },
   },
 {
@@ -2691,12 +2691,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J05258g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity and mitochondrial large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J05258g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J05258g'  target='_blank'> Link to GRYC</a>",
-                  x : -1.73452432670691,
-                  y : -2.05632662974746
+                  x : -5.95356179885414,
+                  y : -5.79901706967758
                   },
                   position : {
-                  'x' : -17.3452432670691,
-                  'y' : -20.5632662974746
+                  'x' : -59.5356179885414,
+                  'y' : -57.9901706967758
                   },
   },
 {
@@ -2712,12 +2712,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J05478g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity and mitochondrial small ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J05478g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J05478g'  target='_blank'> Link to GRYC</a>",
-                  x : -1.94586235406204,
-                  y : -0.68130313480977
+                  x : -5.07129640840432,
+                  y : -4.56228397452452
                   },
                   position : {
-                  'x' : -19.4586235406204,
-                  'y' : -6.8130313480977
+                  'x' : -50.7129640840432,
+                  'y' : -45.6228397452452
                   },
   },
 {
@@ -2733,12 +2733,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J05984g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have adenine deaminase activity and role in adenine catabolic process, cell-abiotic substrate adhesion, hypoxanthine salvage, purine-containing compound salvage, regulation of G2/M transition of mitotic cell cycle</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J05984g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J05984g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.81801525813064,
-                  y : 7.00567799761446
+                  x : -0.742666261267627,
+                  y : 2.34116486926935
                   },
                   position : {
-                  'x' : -38.1801525813064,
-                  'y' : 70.0567799761446
+                  'x' : -7.42666261267627,
+                  'y' : 23.4116486926935
                   },
   },
 {
@@ -2754,12 +2754,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J07766g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA polymerase I activity and role in nucleolar large rRNA transcription by RNA polymerase I, transcription by RNA polymerase I, transcription elongation from RNA polymerase I promoter</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J07766g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J07766g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.54685260092054,
-                  y : 8.46289139748545
+                  x : 0.762145479122613,
+                  y : 2.74671512364589
                   },
                   position : {
-                  'x' : -35.4685260092054,
-                  'y' : 84.6289139748545
+                  'x' : 7.62145479122613,
+                  'y' : 27.4671512364589
                   },
   },
 {
@@ -2775,12 +2775,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J08547g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Protein of unknown function</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J08547g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J08547g'  target='_blank'> Link to GRYC</a>",
-                  x : 1.20781290738061,
-                  y : -1.97488628323698
+                  x : -3.37516706749042,
+                  y : -7.44641865927731
                   },
                   position : {
-                  'x' : 12.0781290738061,
-                  'y' : -19.7488628323698
+                  'x' : -33.7516706749042,
+                  'y' : -74.4641865927731
                   },
   },
 {
@@ -2796,12 +2796,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J08679g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in cytoplasmic translation and cytoplasm localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J08679g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J08679g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.17316536701763,
-                  y : 8.14770971287576
+                  x : 0.761657154965965,
+                  y : 2.25878929139674
                   },
                   position : {
-                  'x' : -31.7316536701763,
-                  'y' : 81.4770971287576
+                  'x' : 7.61657154965965,
+                  'y' : 22.5878929139674
                   },
   },
 {
@@ -2816,13 +2816,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#ffb3b3',
                   faveShape: 'square',
                   type: 'bezier',
-                  content: "<h2>CAGL0J09240g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Homocitrate synthase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J09240g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J09240g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.92349611440108,
-                  y : 2.3321276907896
+                  content: "<h2>CAGL0J09240g</h2><hr><p><b>Gene name</b> : LYS21</p><p><b>Description</b> : Homocitrate synthase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J09240g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J09240g'  target='_blank'> Link to GRYC</a>",
+                  x : -4.16673916661652,
+                  y : -0.883147335709677
                   },
                   position : {
-                  'x' : -39.2349611440108,
-                  'y' : 23.321276907896
+                  'x' : -41.6673916661652,
+                  'y' : -8.83147335709677
                   },
   },
 {
@@ -2838,12 +2838,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J09614g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have box H/ACA snoRNA binding activity, role in cleavage involved in rRNA processing, rRNA pseudouridine synthesis, snRNA pseudouridine synthesis and box H/ACA snoRNP complex, nucleolus localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J09614g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J09614g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.93277126814429,
-                  y : 6.95615884694053
+                  x : -0.581174152974587,
+                  y : 2.10511228877411
                   },
                   position : {
-                  'x' : -39.3277126814429,
-                  'y' : 69.5615884694053
+                  'x' : -5.81174152974587,
+                  'y' : 21.0511228877411
                   },
   },
 {
@@ -2859,12 +2859,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J09724g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity and mitochondrial large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J09724g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J09724g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.62824238957144,
-                  y : 0.426466777581897
+                  x : -4.85307145321826,
+                  y : -3.3573212638369
                   },
                   position : {
-                  'x' : -26.2824238957144,
-                  'y' : 4.26466777581897
+                  'x' : -48.5307145321826,
+                  'y' : -33.573212638369
                   },
   },
 {
@@ -2880,12 +2880,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J10010g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have tRNA (adenine-N1-)-methyltransferase activity, role in tRNA methylation and nucleus, tRNA (m1A) methyltransferase complex localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J10010g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J10010g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.38825951437526,
-                  y : 7.62140562448406
+                  x : 0.14282524327979,
+                  y : 2.22921192823908
                   },
                   position : {
-                  'x' : -33.8825951437526,
-                  'y' : 76.2140562448406
+                  'x' : 1.4282524327979,
+                  'y' : 22.2921192823908
                   },
   },
 {
@@ -2900,13 +2900,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#009900',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0J10164g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative ribosomal protein</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J10164g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J10164g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.95848560720325,
-                  y : 8.83838486906131
+                  content: "<h2>CAGL0J10164g</h2><hr><p><b>Gene name</b> : RPL16A</p><p><b>Description</b> : Putative ribosomal protein</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J10164g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J10164g'  target='_blank'> Link to GRYC</a>",
+                  x : 1.3456511379451,
+                  y : 2.72307658044376
                   },
                   position : {
-                  'x' : -29.5848560720325,
-                  'y' : 88.3838486906131
+                  'x' : 13.456511379451,
+                  'y' : 27.2307658044376
                   },
   },
 {
@@ -2922,12 +2922,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0J10824g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have lanosterol synthase activity, role in ergosterol biosynthetic process and lipid droplet localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J10824g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J10824g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.67024635169867,
-                  y : 11.0117315715929
+                  x : 3.12787006304622,
+                  y : 3.99745274371659
                   },
                   position : {
-                  'x' : -26.7024635169867,
-                  'y' : 110.117315715929
+                  'x' : 31.2787006304622,
+                  'y' : 39.9745274371659
                   },
   },
 {
@@ -2942,13 +2942,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#cc0000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0J11858g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity, role in mitochondrial translation and mitochondrial large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J11858g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J11858g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.93798805349416,
-                  y : 0.325465720001372
+                  content: "<h2>CAGL0J11858g</h2><hr><p><b>Gene name</b> : RML2</p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity, role in mitochondrial translation and mitochondrial large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J11858g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J11858g'  target='_blank'> Link to GRYC</a>",
+                  x : -5.13415166979116,
+                  y : -3.20396259346557
                   },
                   position : {
-                  'x' : -29.3798805349416,
-                  'y' : 3.25465720001372
+                  'x' : -51.3415166979116,
+                  'y' : -32.0396259346557
                   },
   },
 {
@@ -2964,12 +2964,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0K02233g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA), maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA and LSU-rRNA), more</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K02233g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K02233g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.11366411367098,
-                  y : 6.7809711494684
+                  x : -0.307634338590338,
+                  y : 1.40095870787372
                   },
                   position : {
-                  'x' : -31.1366411367098,
-                  'y' : 67.809711494684
+                  'x' : -3.07634338590338,
+                  'y' : 14.0095870787372
                   },
   },
 {
@@ -2985,12 +2985,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0K04103g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have dolichyldiphosphatase activity, role in lipid biosynthetic process, protein N-linked glycosylation and integral component of endoplasmic reticulum membrane localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K04103g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K04103g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.67649154663388,
-                  y : 10.2838927185036
+                  x : 3.95458914891228,
+                  y : 2.01013484186346
                   },
                   position : {
-                  'x' : -6.7649154663388,
-                  'y' : 102.838927185036
+                  'x' : 39.5458914891228,
+                  'y' : 20.1013484186346
                   },
   },
 {
@@ -3005,13 +3005,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#66ff66',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0K04279g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog of S. cerevisiae : SCM4 and Saccharomyces cerevisiae S288C : YGR049W</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K04279g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K04279g'  target='_blank'> Link to GRYC</a>",
-                  x : 7.97010400627782,
-                  y : 11.4484388660668
+                  content: "<h2>CAGL0K04279g</h2><hr><p><b>Gene name</b> : SCM4</p><p><b>Description</b> : Ortholog of S. cerevisiae : SCM4 and Saccharomyces cerevisiae S288C : YGR049W</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K04279g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K04279g'  target='_blank'> Link to GRYC</a>",
+                  x : 10.3477033901248,
+                  y : -5.91813046002536
                   },
                   position : {
-                  'x' : 79.7010400627782,
-                  'y' : 114.484388660668
+                  'x' : 103.477033901248,
+                  'y' : -59.1813046002536
                   },
   },
 {
@@ -3027,12 +3027,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0K04301g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative mitochondrial Ser/Thr protein kinase; gene is upregulated in azole-resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K04301g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K04301g'  target='_blank'> Link to GRYC</a>",
-                  x : 4.7282785947099,
-                  y : -1.73375556511995
+                  x : -1.4262608921735,
+                  y : -10.3792495627351
                   },
                   position : {
-                  'x' : 47.282785947099,
-                  'y' : -17.3375556511995
+                  'x' : -14.262608921735,
+                  'y' : -103.792495627351
                   },
   },
 {
@@ -3048,12 +3048,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0K04499g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have phosphoribosylformylglycinamidine synthase activity and role in purine nucleotide biosynthetic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K04499g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K04499g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.221612970401457,
-                  y : 0.610255029292799
+                  x : -2.72351817393159,
+                  y : -4.69231569025492
                   },
                   position : {
-                  'x' : -2.21612970401457,
-                  'y' : 6.10255029292799
+                  'x' : -27.2351817393159,
+                  'y' : -46.9231569025492
                   },
   },
 {
@@ -3068,13 +3068,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#cc0000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0K05357g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have glutamate-ammonia ligase activity, role in ammonia assimilation cycle, glutamine biosynthetic process, nitrogen compound metabolic process and nuclear periphery localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K05357g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K05357g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.49995453183487,
-                  y : -4.88086753967649
+                  content: "<h2>CAGL0K05357g</h2><hr><p><b>Gene name</b> : GLN1</p><p><b>Description</b> : Ortholog(s) have glutamate-ammonia ligase activity, role in ammonia assimilation cycle, glutamine biosynthetic process, nitrogen compound metabolic process and nuclear periphery localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K05357g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K05357g'  target='_blank'> Link to GRYC</a>",
+                  x : -8.62507022940377,
+                  y : -7.33162099909593
                   },
                   position : {
-                  'x' : -24.9995453183487,
-                  'y' : -48.8086753967649
+                  'x' : -86.2507022940377,
+                  'y' : -73.3162099909593
                   },
   },
 {
@@ -3090,12 +3090,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0K06567g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have preribosome, large subunit precursor localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K06567g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K06567g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.61623418600754,
-                  y : 8.65297119971037
+                  x : 0.576188809599427,
+                  y : 3.23132800637064
                   },
                   position : {
-                  'x' : -36.1623418600754,
-                  'y' : 86.5297119971037
+                  'x' : 5.76188809599427,
+                  'y' : 32.3132800637064
                   },
   },
 {
@@ -3110,13 +3110,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0K08536g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Vacuolar aminopeptidase I</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K08536g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K08536g'  target='_blank'> Link to GRYC</a>",
-                  x : 9.97085276213345,
-                  y : 1.04870776792122
+                  content: "<h2>CAGL0K08536g</h2><hr><p><b>Gene name</b> : APE1</p><p><b>Description</b> : Vacuolar aminopeptidase I</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K08536g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K08536g'  target='_blank'> Link to GRYC</a>",
+                  x : 4.39017481308565,
+                  y : -11.7992120633138
                   },
                   position : {
-                  'x' : 99.7085276213345,
-                  'y' : 10.4870776792122
+                  'x' : 43.9017481308565,
+                  'y' : -117.992120633138
                   },
   },
 {
@@ -3131,13 +3131,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#cc0000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0K10340g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative phosphoribosylaminoimidazole carboxylase; aminoimidazole ribonucleotide (AIR) carboxylase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K10340g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K10340g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.733294339368985,
-                  y : -0.744303775865715
+                  content: "<h2>CAGL0K10340g</h2><hr><p><b>Gene name</b> : ADE2</p><p><b>Description</b> : Putative phosphoribosylaminoimidazole carboxylase; aminoimidazole ribonucleotide (AIR) carboxylase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K10340g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K10340g'  target='_blank'> Link to GRYC</a>",
+                  x : -2.87622656134889,
+                  y : -6.27246650799386
                   },
                   position : {
-                  'x' : 7.33294339368985,
-                  'y' : -7.44303775865714
+                  'x' : -28.7622656134889,
+                  'y' : -62.7246650799386
                   },
   },
 {
@@ -3153,12 +3153,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0K10428g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have enzyme inhibitor activity and role in negative regulation of glycogen catabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K10428g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K10428g'  target='_blank'> Link to GRYC</a>",
-                  x : 3.35900028593677,
-                  y : -3.16668374923495
+                  x : -3.36767674307087,
+                  y : -10.0366900331637
                   },
                   position : {
-                  'x' : 33.5900028593677,
-                  'y' : -31.6668374923495
+                  'x' : -33.6767674307087,
+                  'y' : -100.366900331637
                   },
   },
 {
@@ -3174,12 +3174,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0K12518g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have alanine-glyoxylate transaminase activity, role in glycine biosynthetic process, by transamination of glyoxylate and fungal biofilm matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K12518g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K12518g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.594351372384844,
-                  y : -1.47197739129857
+                  x : -3.72107386734992,
+                  y : -6.82279972237878
                   },
                   position : {
-                  'x' : 5.94351372384844,
-                  'y' : -14.7197739129857
+                  'x' : -37.2107386734992,
+                  'y' : -68.2279972237878
                   },
   },
 {
@@ -3194,13 +3194,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#ffb3b3',
                   faveShape: 'square',
                   type: 'bezier',
-                  content: "<h2>CAGL0L00759g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : ATP phosphoribosyltransferase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L00759g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L00759g'  target='_blank'> Link to GRYC</a>",
-                  x : -4.20772076629028,
-                  y : -0.6061379438597
+                  content: "<h2>CAGL0L00759g</h2><hr><p><b>Gene name</b> : HIS1</p><p><b>Description</b> : ATP phosphoribosyltransferase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L00759g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L00759g'  target='_blank'> Link to GRYC</a>",
+                  x : -6.50351644906715,
+                  y : -2.77134168328877
                   },
                   position : {
-                  'x' : -42.0772076629028,
-                  'y' : -6.061379438597
+                  'x' : -65.0351644906715,
+                  'y' : -27.7134168328877
                   },
   },
 {
@@ -3216,12 +3216,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L00979g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in endoplasmic reticulum to Golgi vesicle-mediated transport</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L00979g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L00979g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.47214293935935,
-                  y : 6.81980906927802
+                  x : -0.496220604819882,
+                  y : 1.73037954560076
                   },
                   position : {
-                  'x' : -34.7214293935935,
-                  'y' : 68.1980906927802
+                  'x' : -4.96220604819881,
+                  'y' : 17.3037954560076
                   },
   },
 {
@@ -3236,13 +3236,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0L02937g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative imidazoleglycerol-phosphate dehydratase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L02937g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L02937g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.21011661623545,
-                  y : 6.24372960643388
+                  content: "<h2>CAGL0L02937g</h2><hr><p><b>Gene name</b> : HIS3</p><p><b>Description</b> : Putative imidazoleglycerol-phosphate dehydratase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L02937g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L02937g'  target='_blank'> Link to GRYC</a>",
+                  x : -0.758887612484878,
+                  y : 1.23666514630088
                   },
                   position : {
-                  'x' : -32.1011661623545,
-                  'y' : 62.4372960643388
+                  'x' : -7.58887612484878,
+                  'y' : 12.3666514630088
                   },
   },
 {
@@ -3258,12 +3258,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L03806g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have rRNA binding activity and role in actomyosin contractile ring assembly, maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA), ribosomal large subunit biogenesis</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L03806g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L03806g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.86102924571658,
-                  y : 8.34534554138063
+                  x : 1.03185667367336,
+                  y : 2.26277866419123
                   },
                   position : {
-                  'x' : -28.6102924571658,
-                  'y' : 83.4534554138063
+                  'x' : 10.3185667367336,
+                  'y' : 22.6277866419123
                   },
   },
 {
@@ -3279,12 +3279,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L03982g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have malate synthase activity, role in acetate catabolic process, carbon utilization, fatty acid catabolic process, glyoxylate cycle and cytosol, peroxisomal matrix, peroxisome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L03982g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L03982g'  target='_blank'> Link to GRYC</a>",
-                  x : -0.81008808928555,
-                  y : -1.7244897381888
+                  x : -4.69008442479522,
+                  y : -5.91376063199922
                   },
                   position : {
-                  'x' : -8.1008808928555,
-                  'y' : -17.244897381888
+                  'x' : -46.9008442479522,
+                  'y' : -59.1376063199922
                   },
   },
 {
@@ -3300,12 +3300,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L04070g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity and mitochondrial large ribosomal subunit, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L04070g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L04070g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.86206812947412,
-                  y : -1.26680288318447
+                  x : -6.27322775487879,
+                  y : -4.43799250032045
                   },
                   position : {
-                  'x' : -28.6206812947412,
-                  'y' : -12.6680288318447
+                  'x' : -62.7322775487879,
+                  'y' : -44.3799250032045
                   },
   },
 {
@@ -3320,13 +3320,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0L04664g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have 2 iron, 2 sulfur cluster binding, ferrochelatase activity, role in heme biosynthetic process and mitochondrial inner membrane localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L04664g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L04664g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.61887497850087,
-                  y : 5.66161128554852
+                  content: "<h2>CAGL0L04664g</h2><hr><p><b>Gene name</b> : HEM15</p><p><b>Description</b> : Ortholog(s) have 2 iron, 2 sulfur cluster binding, ferrochelatase activity, role in heme biosynthetic process and mitochondrial inner membrane localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L04664g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L04664g'  target='_blank'> Link to GRYC</a>",
+                  x : -1.53614246061118,
+                  y : 1.13367882753776
                   },
                   position : {
-                  'x' : -36.1887497850087,
-                  'y' : 56.6161128554852
+                  'x' : -15.3614246061118,
+                  'y' : 11.3367882753776
                   },
   },
 {
@@ -3342,12 +3342,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L05500g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in ribosomal large subunit biogenesis and cytoplasm, nucleus localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L05500g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L05500g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.80928753460606,
-                  y : 9.36160104549877
+                  x : 1.85501776568116,
+                  y : 2.97952344933091
                   },
                   position : {
-                  'x' : -28.0928753460606,
-                  'y' : 93.6160104549877
+                  'x' : 18.5501776568116,
+                  'y' : 29.7952344933091
                   },
   },
 {
@@ -3363,12 +3363,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L08114g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted structural constituent of ribosome activity, role in translation and ribosome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08114g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08114g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.30402107347817,
-                  y : 7.99684449003602
+                  x : 0.61222679339577,
+                  y : 2.44112236353608
                   },
                   position : {
-                  'x' : -33.0402107347817,
-                  'y' : 79.9684449003602
+                  'x' : 6.1222679339577,
+                  'y' : 24.4112236353608
                   },
   },
 {
@@ -3384,12 +3384,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L08118g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have mRNA binding activity, role in maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA), ribosomal small subunit assembly and small-subunit processome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08118g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08118g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.56820881457446,
-                  y : 8.88942760318331
+                  x : 0.836911504871434,
+                  y : 3.30476956211124
                   },
                   position : {
-                  'x' : -35.6820881457446,
-                  'y' : 88.8942760318331
+                  'x' : 8.36911504871434,
+                  'y' : 33.0476956211124
                   },
   },
 {
@@ -3404,13 +3404,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0L08184g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Predicted fatty acid elongase with role in sphingolipid biosynthetic process; mutants show reduced sensitivity to caspofungin and increased sensitivity to micafungin</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08184g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08184g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.03803014996284,
-                  y : 7.79319078315114
+                  content: "<h2>CAGL0L08184g</h2><hr><p><b>Gene name</b> : FEN1</p><p><b>Description</b> : Predicted fatty acid elongase with role in sphingolipid biosynthetic process; mutants show reduced sensitivity to caspofungin and increased sensitivity to micafungin</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08184g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08184g'  target='_blank'> Link to GRYC</a>",
+                  x : 0.583379982655752,
+                  y : 2.04129172054161
                   },
                   position : {
-                  'x' : -30.3803014996284,
-                  'y' : 77.9319078315115
+                  'x' : 5.83379982655751,
+                  'y' : 20.4129172054161
                   },
   },
 {
@@ -3425,13 +3425,13 @@ $(function() { // on dom ready
                   faveColorHigh: '#000000',
                   faveShape: 'ellipse',
                   type: 'bezier',
-                  content: "<h2>CAGL0L08426g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in protein catabolic process and mitochondrial envelope localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08426g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08426g'  target='_blank'> Link to GRYC</a>",
-                  x : 5.33117694339648,
-                  y : -3.30714595690947
+                  content: "<h2>CAGL0L08426g</h2><hr><p><b>Gene name</b> : SUE1</p><p><b>Description</b> : Ortholog(s) have role in protein catabolic process and mitochondrial envelope localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08426g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08426g'  target='_blank'> Link to GRYC</a>",
+                  x : -2.20870104536013,
+                  y : -11.6762123304145
                   },
                   position : {
-                  'x' : 53.3117694339648,
-                  'y' : -33.0714595690947
+                  'x' : -22.0870104536013,
+                  'y' : -116.762123304145
                   },
   },
 {
@@ -3447,12 +3447,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L08756g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) and nucleus, preribosome, small subunit precursor localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08756g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08756g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.29368688501873,
-                  y : 8.43180409766502
+                  x : 0.894074477188998,
+                  y : 2.87229424999074
                   },
                   position : {
-                  'x' : -32.9368688501873,
-                  'y' : 84.3180409766502
+                  'x' : 8.94074477188998,
+                  'y' : 28.7229424999074
                   },
   },
 {
@@ -3468,12 +3468,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L09086g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have 2-methylcitrate synthase activity, citrate (Si)-synthase activity, role in propionate catabolic process, 2-methylcitrate cycle, tricarboxylic acid cycle and mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L09086g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L09086g'  target='_blank'> Link to GRYC</a>",
-                  x : 2.15662730225314,
-                  y : -1.52987481479557
+                  x : -2.46162807248506,
+                  y : -7.90924033563106
                   },
                   position : {
-                  'x' : 21.5662730225314,
-                  'y' : -15.2987481479557
+                  'x' : -24.6162807248506,
+                  'y' : -79.0924033563106
                   },
   },
 {
@@ -3489,12 +3489,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L09108g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in propionate metabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L09108g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L09108g'  target='_blank'> Link to GRYC</a>",
-                  x : 2.90574442666876,
-                  y : -1.73537333671722
+                  x : -2.98841749535629,
+                  y : -9.31250276423321
                   },
                   position : {
-                  'x' : 29.0574442666876,
-                  'y' : -17.3537333671722
+                  'x' : -29.8841749535629,
+                  'y' : -93.1250276423321
                   },
   },
 {
@@ -3510,12 +3510,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L09273g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have isocitrate lyase activity, methylisocitrate lyase activity, role in propionate catabolic process, 2-methylcitrate cycle and mitochondrial matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L09273g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L09273g'  target='_blank'> Link to GRYC</a>",
-                  x : 6.7626344232613,
-                  y : 1.29011689984453
+                  x : 1.22286012468679,
+                  y : -12.4312142243984
                   },
                   position : {
-                  'x' : 67.626344232613,
-                  'y' : 12.9011689984453
+                  'x' : 12.2286012468679,
+                  'y' : -124.312142243984
                   },
   },
 {
@@ -3531,12 +3531,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L10582g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted mannosyl-oligosaccharide glucosidase activity and role in oligosaccharide metabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L10582g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L10582g'  target='_blank'> Link to GRYC</a>",
-                  x : 3.78073552350199,
-                  y : -1.79808248569745
+                  x : -1.69287006714119,
+                  y : -9.52794813282453
                   },
                   position : {
-                  'x' : 37.8073552350199,
-                  'y' : -17.9808248569745
+                  'x' : -16.9287006714119,
+                  'y' : -95.2794813282453
                   },
   },
 {
@@ -3552,12 +3552,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L10890g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in cellular response to biotic stimulus, cellular response to starvation, chromosome organization and filamentous growth, more</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L10890g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L10890g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.83053501465958,
-                  y : 8.57920307218215
+                  x : 0.395476942866755,
+                  y : 3.16501956630646
                   },
                   position : {
-                  'x' : -38.3053501465958,
-                  'y' : 85.7920307218215
+                  'x' : 3.95476942866755,
+                  'y' : 31.6501956630646
                   },
   },
 {
@@ -3573,12 +3573,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L11000g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have uroporphyrinogen-III synthase activity and role in heme biosynthetic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L11000g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L11000g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.05511694636469,
-                  y : 7.00739127512129
+                  x : -0.105801260241055,
+                  y : 1.5516244888379
                   },
                   position : {
-                  'x' : -30.5511694636469,
-                  'y' : 70.0739127512129
+                  'x' : -1.05801260241055,
+                  'y' : 15.516244888379
                   },
   },
 {
@@ -3594,12 +3594,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0L11902g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have adenylate kinase activity, nucleoside triphosphate adenylate kinase activity, role in nucleotide metabolic process and mitochondrial inner membrane, mitochondrial matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L11902g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L11902g'  target='_blank'> Link to GRYC</a>",
-                  x : 1.16445231884676,
-                  y : -2.36891014429532
+                  x : -3.79733200520233,
+                  y : -7.77604000378492
                   },
                   position : {
-                  'x' : 11.6445231884676,
-                  'y' : -23.6891014429532
+                  'x' : -37.9733200520233,
+                  'y' : -77.7604000378493
                   },
   },
 {
@@ -3615,12 +3615,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0M02167g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog of S. cerevisiae : PRM4 and Saccharomyces cerevisiae S288C : YPL156C</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0M02167g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0M02167g'  target='_blank'> Link to GRYC</a>",
-                  x : 1.12888592178706,
-                  y : -1.39967049999017
+                  x : -3.04552975190977,
+                  y : -6.95248600613491
                   },
                   position : {
-                  'x' : 11.2888592178706,
-                  'y' : -13.9967049999017
+                  'x' : -30.4552975190977,
+                  'y' : -69.5248600613491
                   },
   },
 {
@@ -3636,12 +3636,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0M02915g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in autophagy of peroxisome and peroxisome localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0M02915g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0M02915g'  target='_blank'> Link to GRYC</a>",
-                  x : 5.13611434602666,
-                  y : -1.877617602067
+                  x : -1.07771894760698,
+                  y : -10.2305055320612
                   },
                   position : {
-                  'x' : 51.3611434602666,
-                  'y' : -18.77617602067
+                  'x' : -10.7771894760698,
+                  'y' : -102.305055320612
                   },
   },
 {
@@ -3657,12 +3657,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0M05775g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Has domain(s) with predicted RNA binding activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0M05775g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0M05775g'  target='_blank'> Link to GRYC</a>",
-                  x : -4.00166405367892,
-                  y : 8.51748262594985
+                  x : 0.677453544741514,
+                  y : 3.11330620130299
                   },
                   position : {
-                  'x' : -40.0166405367892,
-                  'y' : 85.1748262594985
+                  'x' : 6.77453544741514,
+                  'y' : 31.1330620130299
                   },
   },
 {
@@ -3678,12 +3678,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0M09669g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have calcium-dependent cysteine-type endopeptidase activity, cysteine-type endopeptidase activity</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0M09669g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0M09669g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.237672584599772,
-                  y : -1.71626431982071
+                  x : -4.38675561431535,
+                  y : -7.01781991918551
                   },
                   position : {
-                  'x' : 2.37672584599772,
-                  'y' : -17.1626431982071
+                  'x' : -43.8675561431535,
+                  'y' : -70.1781991918551
                   },
   },
 {
@@ -3699,12 +3699,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0M10241g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have RNA binding activity, role in macroautophagy and cytosolic large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0M10241g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0M10241g'  target='_blank'> Link to GRYC</a>",
-                  x : -2.3875139827063,
-                  y : 9.20682493804671
+                  x : 2.07103406187116,
+                  y : 2.5317329928602
                   },
                   position : {
-                  'x' : -23.875139827063,
-                  'y' : 92.0682493804671
+                  'x' : 20.7103406187116,
+                  'y' : 25.317329928602
                   },
   },
 {
@@ -3720,12 +3720,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0M11110g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in rRNA processing and preribosome, large subunit precursor localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0M11110g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0M11110g'  target='_blank'> Link to GRYC</a>",
-                  x : -3.08200911206203,
-                  y : 8.58310962870779
+                  x : 1.07183320635925,
+                  y : 2.7162291117041
                   },
                   position : {
-                  'x' : -30.8200911206203,
-                  'y' : 85.8310962870779
+                  'x' : 10.7183320635925,
+                  'y' : 27.162291117041
                   },
   },
 {
@@ -3741,12 +3741,12 @@ $(function() { // on dom ready
                   faveShape: 'ellipse',
                   type: 'bezier',
                   content: "<h2>CAGL0M13717g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have amidophosphoribosyltransferase activity and role in 'de novo' IMP biosynthetic process, adenine metabolic process</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0M13717g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0M13717g'  target='_blank'> Link to GRYC</a>",
-                  x : 0.0696773955074775,
-                  y : 0.720921817254338
+                  x : -2.42572731841421,
+                  y : -4.80407316801637
                   },
                   position : {
-                  'x' : 0.696773955074775,
-                  'y' : 7.20921817254338
+                  'x' : -24.2572731841421,
+                  'y' : -48.0407316801637
                   },
   },
 {
@@ -24385,7 +24385,7 @@ cy.$('#CAGL0B00792g').qtip({
                   }
   });
 cy.$('#CAGL0B01507g').qtip({
-                  content: "<h2>CAGL0B01507g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have N2-acetyl-L-ornithine:2-oxoglutarate 5-aminotransferase activity, role in arginine biosynthetic process, arginine biosynthetic process via ornithine, ornithine biosynthetic process and mitochondrial matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B01507g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B01507g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0B01507g</h2><hr><p><b>Gene name</b> : ARG8</p><p><b>Description</b> : Ortholog(s) have N2-acetyl-L-ornithine:2-oxoglutarate 5-aminotransferase activity, role in arginine biosynthetic process, arginine biosynthetic process via ornithine, ornithine biosynthetic process and mitochondrial matrix localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0B01507g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0B01507g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -24595,7 +24595,7 @@ cy.$('#CAGL0C05027g').qtip({
                   }
   });
 cy.$('#CAGL0C05115g').qtip({
-                  content: "<h2>CAGL0C05115g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Argininosuccinate synthetase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C05115g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C05115g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0C05115g</h2><hr><p><b>Gene name</b> : ARG1</p><p><b>Description</b> : Argininosuccinate synthetase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0C05115g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0C05115g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -24623,7 +24623,7 @@ cy.$('#CAGL0D00880g').qtip({
                   }
   });
 cy.$('#CAGL0D01298g').qtip({
-                  content: "<h2>CAGL0D01298g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative transketolase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D01298g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D01298g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0D01298g</h2><hr><p><b>Gene name</b> : TKL1</p><p><b>Description</b> : Putative transketolase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D01298g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D01298g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -24637,7 +24637,7 @@ cy.$('#CAGL0D01298g').qtip({
                   }
   });
 cy.$('#CAGL0D01562g').qtip({
-                  content: "<h2>CAGL0D01562g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have cytosine deaminase activity and role in cytidine metabolic process, cytosine metabolic process, pyrimidine-containing compound salvage</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D01562g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D01562g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0D01562g</h2><hr><p><b>Gene name</b> : FCY1</p><p><b>Description</b> : Ortholog(s) have cytosine deaminase activity and role in cytidine metabolic process, cytosine metabolic process, pyrimidine-containing compound salvage</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D01562g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D01562g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -24721,7 +24721,7 @@ cy.$('#CAGL0D05082g').qtip({
                   }
   });
 cy.$('#CAGL0D06424g').qtip({
-                  content: "<h2>CAGL0D06424g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aconitate hydratase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D06424g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D06424g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0D06424g</h2><hr><p><b>Gene name</b> : ACO1</p><p><b>Description</b> : Putative aconitate hydratase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0D06424g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0D06424g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -24749,7 +24749,7 @@ cy.$('#CAGL0E01155g').qtip({
                   }
   });
 cy.$('#CAGL0E01727g').qtip({
-                  content: "<h2>CAGL0E01727g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01727g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01727g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0E01727g</h2><hr><p><b>Gene name</b> : YPS3</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01727g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01727g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -24763,7 +24763,7 @@ cy.$('#CAGL0E01727g').qtip({
                   }
   });
 cy.$('#CAGL0E01771g').qtip({
-                  content: "<h2>CAGL0E01771g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; gene is downregulated in azole-resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01771g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01771g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0E01771g</h2><hr><p><b>Gene name</b> : YPS5</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; gene is downregulated in azole-resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01771g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01771g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -24777,7 +24777,7 @@ cy.$('#CAGL0E01771g').qtip({
                   }
   });
 cy.$('#CAGL0E01793g').qtip({
-                  content: "<h2>CAGL0E01793g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; expression induced at high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01793g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01793g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0E01793g</h2><hr><p><b>Gene name</b> : YPS6</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; expression induced at high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01793g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01793g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -24791,7 +24791,7 @@ cy.$('#CAGL0E01793g').qtip({
                   }
   });
 cy.$('#CAGL0E01815g').qtip({
-                  content: "<h2>CAGL0E01815g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; induced in response to low pH and high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01815g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01815g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0E01815g</h2><hr><p><b>Gene name</b> : YPS8</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; induced in response to low pH and high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01815g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01815g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -24805,7 +24805,7 @@ cy.$('#CAGL0E01815g').qtip({
                   }
   });
 cy.$('#CAGL0E01837g').qtip({
-                  content: "<h2>CAGL0E01837g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; expression induced at high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01837g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01837g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0E01837g</h2><hr><p><b>Gene name</b> : YPS9</p><p><b>Description</b> : Putative aspartic protease; predicted GPI-anchor; member of a YPS gene cluster that is required for virulence in mice; expression induced at high temperature</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0E01837g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0E01837g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25043,7 +25043,7 @@ cy.$('#CAGL0F02233g').qtip({
                   }
   });
 cy.$('#CAGL0F02431g').qtip({
-                  content: "<h2>CAGL0F02431g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in mitochondrial translation and cytoplasm, mitochondrion, nucleus localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F02431g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F02431g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0F02431g</h2><hr><p><b>Gene name</b> : ACO2</p><p><b>Description</b> : Ortholog(s) have role in mitochondrial translation and cytoplasm, mitochondrion, nucleus localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F02431g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F02431g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25057,7 +25057,7 @@ cy.$('#CAGL0F02431g').qtip({
                   }
   });
 cy.$('#CAGL0F02563g').qtip({
-                  content: "<h2>CAGL0F02563g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative hypoxanthine guanine phosphoribosyl transferase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F02563g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F02563g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0F02563g</h2><hr><p><b>Gene name</b> : HPT1</p><p><b>Description</b> : Putative hypoxanthine guanine phosphoribosyl transferase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0F02563g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0F02563g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25267,7 +25267,7 @@ cy.$('#CAGL0G06732g').qtip({
                   }
   });
 cy.$('#CAGL0G07106g').qtip({
-                  content: "<h2>CAGL0G07106g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative adenine phosphoribosyltransferase; protein abundance decreased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G07106g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G07106g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0G07106g</h2><hr><p><b>Gene name</b> : APT1</p><p><b>Description</b> : Putative adenine phosphoribosyltransferase; protein abundance decreased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0G07106g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0G07106g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25449,7 +25449,7 @@ cy.$('#CAGL0H03993g').qtip({
                   }
   });
 cy.$('#CAGL0H04081g').qtip({
-                  content: "<h2>CAGL0H04081g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : 3-hydroxy-3-methylglutaryl coenzyme A synthase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H04081g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H04081g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0H04081g</h2><hr><p><b>Gene name</b> : ERG13</p><p><b>Description</b> : 3-hydroxy-3-methylglutaryl coenzyme A synthase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H04081g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H04081g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25477,7 +25477,7 @@ cy.$('#CAGL0H04851g').qtip({
                   }
   });
 cy.$('#CAGL0H05445g').qtip({
-                  content: "<h2>CAGL0H05445g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Glucose-6-phosphate isomerase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H05445g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H05445g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0H05445g</h2><hr><p><b>Gene name</b> : PGI1</p><p><b>Description</b> : Glucose-6-phosphate isomerase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H05445g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H05445g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25561,7 +25561,7 @@ cy.$('#CAGL0H08261g').qtip({
                   }
   });
 cy.$('#CAGL0H09064g').qtip({
-                  content: "<h2>CAGL0H09064g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative uracil phosphoribosyltransferase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H09064g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H09064g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0H09064g</h2><hr><p><b>Gene name</b> : FUR1</p><p><b>Description</b> : Putative uracil phosphoribosyltransferase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H09064g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H09064g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25589,7 +25589,7 @@ cy.$('#CAGL0H09460g').qtip({
                   }
   });
 cy.$('#CAGL0H10142g').qtip({
-                  content: "<h2>CAGL0H10142g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative 2-dehydro-3-deoxyphosphoheptonate aldolase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H10142g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H10142g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0H10142g</h2><hr><p><b>Gene name</b> : ARO3</p><p><b>Description</b> : Putative 2-dehydro-3-deoxyphosphoheptonate aldolase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0H10142g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0H10142g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25659,7 +25659,7 @@ cy.$('#CAGL0I03036g').qtip({
                   }
   });
 cy.$('#CAGL0I03080g').qtip({
-                  content: "<h2>CAGL0I03080g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Orotidine 5'-phosphate decarboxylase, catalyzes a step in pyrimidine biosynthesis; protein abundance decreased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I03080g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I03080g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0I03080g</h2><hr><p><b>Gene name</b> : URA3</p><p><b>Description</b> : Orotidine 5'-phosphate decarboxylase, catalyzes a step in pyrimidine biosynthesis; protein abundance decreased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I03080g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I03080g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25757,7 +25757,7 @@ cy.$('#CAGL0I06006g').qtip({
                   }
   });
 cy.$('#CAGL0I06050g').qtip({
-                  content: "<h2>CAGL0I06050g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative inositol 1-phosphate synthase; regulated by the transcriptional activators Ino2p and Ino4p; protein differentially expressed in azole resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I06050g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I06050g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0I06050g</h2><hr><p><b>Gene name</b> : INO1</p><p><b>Description</b> : Putative inositol 1-phosphate synthase; regulated by the transcriptional activators Ino2p and Ino4p; protein differentially expressed in azole resistant strain</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0I06050g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0I06050g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -25953,7 +25953,7 @@ cy.$('#CAGL0J03234g').qtip({
                   }
   });
 cy.$('#CAGL0J03762g').qtip({
-                  content: "<h2>CAGL0J03762g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have tetrahydrofolylpolyglutamate synthase activity, role in one-carbon metabolic process and cytoplasm, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J03762g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J03762g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0J03762g</h2><hr><p><b>Gene name</b> : MET7</p><p><b>Description</b> : Ortholog(s) have tetrahydrofolylpolyglutamate synthase activity, role in one-carbon metabolic process and cytoplasm, mitochondrion localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J03762g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J03762g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26107,7 +26107,7 @@ cy.$('#CAGL0J08679g').qtip({
                   }
   });
 cy.$('#CAGL0J09240g').qtip({
-                  content: "<h2>CAGL0J09240g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Homocitrate synthase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J09240g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J09240g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0J09240g</h2><hr><p><b>Gene name</b> : LYS21</p><p><b>Description</b> : Homocitrate synthase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J09240g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J09240g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26163,7 +26163,7 @@ cy.$('#CAGL0J10010g').qtip({
                   }
   });
 cy.$('#CAGL0J10164g').qtip({
-                  content: "<h2>CAGL0J10164g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative ribosomal protein</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J10164g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J10164g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0J10164g</h2><hr><p><b>Gene name</b> : RPL16A</p><p><b>Description</b> : Putative ribosomal protein</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J10164g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J10164g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26191,7 +26191,7 @@ cy.$('#CAGL0J10824g').qtip({
                   }
   });
 cy.$('#CAGL0J11858g').qtip({
-                  content: "<h2>CAGL0J11858g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity, role in mitochondrial translation and mitochondrial large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J11858g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J11858g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0J11858g</h2><hr><p><b>Gene name</b> : RML2</p><p><b>Description</b> : Ortholog(s) have structural constituent of ribosome activity, role in mitochondrial translation and mitochondrial large ribosomal subunit localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0J11858g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0J11858g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26233,7 +26233,7 @@ cy.$('#CAGL0K04103g').qtip({
                   }
   });
 cy.$('#CAGL0K04279g').qtip({
-                  content: "<h2>CAGL0K04279g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog of S. cerevisiae : SCM4 and Saccharomyces cerevisiae S288C : YGR049W</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K04279g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K04279g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0K04279g</h2><hr><p><b>Gene name</b> : SCM4</p><p><b>Description</b> : Ortholog of S. cerevisiae : SCM4 and Saccharomyces cerevisiae S288C : YGR049W</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K04279g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K04279g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26275,7 +26275,7 @@ cy.$('#CAGL0K04499g').qtip({
                   }
   });
 cy.$('#CAGL0K05357g').qtip({
-                  content: "<h2>CAGL0K05357g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have glutamate-ammonia ligase activity, role in ammonia assimilation cycle, glutamine biosynthetic process, nitrogen compound metabolic process and nuclear periphery localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K05357g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K05357g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0K05357g</h2><hr><p><b>Gene name</b> : GLN1</p><p><b>Description</b> : Ortholog(s) have glutamate-ammonia ligase activity, role in ammonia assimilation cycle, glutamine biosynthetic process, nitrogen compound metabolic process and nuclear periphery localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K05357g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K05357g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26303,7 +26303,7 @@ cy.$('#CAGL0K06567g').qtip({
                   }
   });
 cy.$('#CAGL0K08536g').qtip({
-                  content: "<h2>CAGL0K08536g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Vacuolar aminopeptidase I</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K08536g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K08536g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0K08536g</h2><hr><p><b>Gene name</b> : APE1</p><p><b>Description</b> : Vacuolar aminopeptidase I</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K08536g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K08536g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26317,7 +26317,7 @@ cy.$('#CAGL0K08536g').qtip({
                   }
   });
 cy.$('#CAGL0K10340g').qtip({
-                  content: "<h2>CAGL0K10340g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative phosphoribosylaminoimidazole carboxylase; aminoimidazole ribonucleotide (AIR) carboxylase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K10340g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K10340g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0K10340g</h2><hr><p><b>Gene name</b> : ADE2</p><p><b>Description</b> : Putative phosphoribosylaminoimidazole carboxylase; aminoimidazole ribonucleotide (AIR) carboxylase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0K10340g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0K10340g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26359,7 +26359,7 @@ cy.$('#CAGL0K12518g').qtip({
                   }
   });
 cy.$('#CAGL0L00759g').qtip({
-                  content: "<h2>CAGL0L00759g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : ATP phosphoribosyltransferase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L00759g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L00759g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0L00759g</h2><hr><p><b>Gene name</b> : HIS1</p><p><b>Description</b> : ATP phosphoribosyltransferase; protein abundance increased in ace2 mutant cells</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L00759g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L00759g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26387,7 +26387,7 @@ cy.$('#CAGL0L00979g').qtip({
                   }
   });
 cy.$('#CAGL0L02937g').qtip({
-                  content: "<h2>CAGL0L02937g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Putative imidazoleglycerol-phosphate dehydratase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L02937g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L02937g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0L02937g</h2><hr><p><b>Gene name</b> : HIS3</p><p><b>Description</b> : Putative imidazoleglycerol-phosphate dehydratase</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L02937g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L02937g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26443,7 +26443,7 @@ cy.$('#CAGL0L04070g').qtip({
                   }
   });
 cy.$('#CAGL0L04664g').qtip({
-                  content: "<h2>CAGL0L04664g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have 2 iron, 2 sulfur cluster binding, ferrochelatase activity, role in heme biosynthetic process and mitochondrial inner membrane localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L04664g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L04664g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0L04664g</h2><hr><p><b>Gene name</b> : HEM15</p><p><b>Description</b> : Ortholog(s) have 2 iron, 2 sulfur cluster binding, ferrochelatase activity, role in heme biosynthetic process and mitochondrial inner membrane localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L04664g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L04664g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26499,7 +26499,7 @@ cy.$('#CAGL0L08118g').qtip({
                   }
   });
 cy.$('#CAGL0L08184g').qtip({
-                  content: "<h2>CAGL0L08184g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Predicted fatty acid elongase with role in sphingolipid biosynthetic process; mutants show reduced sensitivity to caspofungin and increased sensitivity to micafungin</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08184g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08184g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0L08184g</h2><hr><p><b>Gene name</b> : FEN1</p><p><b>Description</b> : Predicted fatty acid elongase with role in sphingolipid biosynthetic process; mutants show reduced sensitivity to caspofungin and increased sensitivity to micafungin</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08184g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08184g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
@@ -26513,7 +26513,7 @@ cy.$('#CAGL0L08184g').qtip({
                   }
   });
 cy.$('#CAGL0L08426g').qtip({
-                  content: "<h2>CAGL0L08426g</h2><hr><p><b>Gene name</b> : </p><p><b>Description</b> : Ortholog(s) have role in protein catabolic process and mitochondrial envelope localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08426g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08426g'  target='_blank'> Link to GRYC</a>",
+                  content: "<h2>CAGL0L08426g</h2><hr><p><b>Gene name</b> : SUE1</p><p><b>Description</b> : Ortholog(s) have role in protein catabolic process and mitochondrial envelope localization</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=CAGL0L08426g&organism=C_glabrata_CBS138'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=CAGL0L08426g'  target='_blank'> Link to GRYC</a>",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
