@@ -189,7 +189,7 @@ subGraphWeb <- function(groupName, nodes, edges){
                   faveColorHigh: '",switchColor(nodes2[i,4]), "',
                   faveShape: '",switchShape(nodes2[i,5]), "',
                   type: 'bezier',
-                  content: \"<h2>",nodes2[i,1], "</h2><hr><p><b>Gene name</b> : ",data$Gene.name[which(data$Gene == nodes2[i,1] )],"</p><p><b>Description</b> : ",data$Description[which(data$Gene == nodes2[i,1] )],"</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=",nodes2[i,1],"&organism=C_glabrata_CBS138\'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=",nodes2[i,1],"'  target='_blank'> Link to GRYC</a>\",
+                  content: \"<h2>",nodes2[i,1], "</h2><hr><p><b>Gene name</b> : ",data[which(data$Gene == nodes2[i,1] ), "Gene name (locus name)"],"</p><p><b>Description</b> : ",data$Description[which(data$Gene == nodes2[i,1] )],"</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=",nodes2[i,1],"&organism=C_glabrata_CBS138\'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=",nodes2[i,1],"'  target='_blank'> Link to GRYC</a>\",
                   x : ",l[i,1],",
                   y : ",l[i,2],"
                   },
@@ -231,7 +231,7 @@ subGraphWeb <- function(groupName, nodes, edges){
   
   for (i in 1:nrow(nodes2)){
     write( paste0("cy.$('#",nodes2[i,1], "').qtip({
-                  content: \"<h2>",nodes2[i,1], "</h2><hr><p><b>Gene name</b> : ",data$Gene.name[which(data$Gene == nodes2[i,1] )],"</p><p><b>Description</b> : ",data$Description[which(data$Gene == nodes2[i,1] )],"</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=",nodes2[i,1],"&organism=C_glabrata_CBS138\'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=",nodes2[i,1],"'  target='_blank'> Link to GRYC</a>\",
+                  content: \"<h2>",nodes2[i,1], "</h2><hr><p><b>Gene name</b> : ",data[which(data$Gene == nodes2[i,1] ),"Gene name (locus name)"],"</p><p><b>Description</b> : ",data$Description[which(data$Gene == nodes2[i,1] )],"</p><a href='http://www.candidagenome.org/cgi-bin/locus.pl?locus=",nodes2[i,1],"&organism=C_glabrata_CBS138\'  target='_blank'>Link to CGD</a> <br><a href='http://gryc.inra.fr/index.php?page=locus&seqid=",nodes2[i,1],"'  target='_blank'> Link to GRYC</a>\",
                   position: {
                   my: 'top center',
                   at: 'bottom center'
