@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>iHKG in other datasets</title>
+
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+  <link href="./assets/img/IronYeast_logo_mini.png" rel="icon" type="image/png">
+
+  <!-- Include HTML  -->
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              if (this.status == 404) {
+                elmnt.innerHTML = "Page not found.";
+              }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+  </script>
+
+  <!-- BOOTSTRAP  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- END BOOTSTRAP -->
+
+  <!--  Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <!-- END Jquery -->
+
+  <!-- Style  -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- END Style  -->
+
+  <link href="./assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
+  <script src="./assets/js/FileSaver.min.js"></script>
+
+  <!-- plotly  -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+  <script src="assets/js/scriptPlotly.js"></script>
+  <!-- END plotly  -->
+
+  <!-- dataTable  -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+  <!-- END dataTable  -->
+
+</head>
+
+<body>
+  <div w3-include-html="navbar.html"></div>
+
+  <div class="container">
+
+    <h1 class="center">All iron responsive genes in other datasets</h1>
+    <hr>
+
+    <br>
+
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active h-100" id="pills-dataset1-tab" data-toggle="pill" href="#pills-dataset1" role="tab" aria-controls="pills-dataset1" aria-selected="true">Dataset 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link h-100" id="pills-dataset2-tab" data-toggle="pill" href="#pills-dataset2" role="tab" aria-controls="pills-dataset2" aria-selected="false">Dataset 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link h-100" id="pills-dataset3-tab" data-toggle="pill" href="#pills-dataset3" role="tab" aria-controls="pills-dataset3" aria-selected="false">Dataset 3</a>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-dataset1" role="tabpanel" aria-labelledby="pills-dataset1-tab">
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="center">Dataset 1</h3>
+            <div class="border">
+              <h5 class="center">Analysis</h5>
+              <p class="info center">Differential analyses were performed comparing 0.5, 1, 2 or 4 h to the 0 h time point. Note that this is
+              indirect comparisons since the microarray were done with a common reference (see the Experiment description). The tool
+              GEO2R was applied to generate R code with LIMMA method. Note that "singleton" genes were deleted before data import (as
+              described on the Broad Institute website).</p>
+            </div>
+
+            <div class="border">
+              <h5 class="center">Experiment</h5>
+              <p class="info center">In this study, the authors performed transcriptome analyses of the WT strain (C. glabrata) using microarrays. They
+              compared the compositions of transcriptomes at different time points (0.5 h, 1h, 2h, 4h) after iron depletion, to 0 h.
+              The cell growth conditions are described as followed (in the article) : "Cells were adjusted to 10^7 cells/ml in
+              iron-free citrate-buffered SD (pH 5.8) supplemented with 5 microM FeCl3 and grown.</p>
+            </div>
+
+            <div class="border">
+              <h5 class="center">Data source</h5>
+              <p class="info center">
+              Gerwien F, Safyan A, Wisgott S, et al. A Novel Hybrid Iron Regulation Network Combines Features from Pathogenic and
+              Nonpathogenic Yeasts. mBio. 2016;7(5):e01782-16. Published 2016 Oct 18. doi: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5082906/" target="_blank">10.1128/mBio.01782-16</a>  
+              </p>
+            </div>
+
+            <div class="border">
+              <h5 class="center">Violin plot</h5>
+              <div id='myDiv'>
+              </div>
+            </div>
+            
+            <div class="border">
+              <h5 class="center">Data table</h5>
+              <p class="info center">The following table is a the Supp Data S2 table (DE genes) with logFC and Pvalue find in this dataset.</p>
+              <table id="dt" class="display nowrap" width="100%"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="pills-dataset2" role="tabpanel" aria-labelledby="pills-dataset2-tab">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="center">Dataset 2</h3>
+            <div class="border">
+              <h5 class="center">Analysis</h5>
+              <p class="info center">
+                Protein abundances obtained in two cell growth conditions (alkaline pH or standard) were compared, in order to identify
+                differentially expressed proteins. LIMMA method was applied with default parameters, in order to calculate p-values.
+              </p>
+            </div>
+            
+            <div class="border">
+              <h5 class="center">Experiment</h5>
+              <p class="info center">
+                In these experiments, mass spectrometry analyses were performed in the yeast Candida glabrata. Proteins were extracted
+                using FASP protocol (by Camille Garcia from the platform proteomics@IJM). Technical and biolocal replicates were done in
+                order to evaluate the variability associated to each type of data reproduction.
+              </p>
+            </div>
+            
+            <div class="border">
+              <h5 class="center">Data source</h5>
+              <p class="info center">
+                Lelandais G, Denecker T, Garcia C, Danila N, Léger T, Camadro JM. Label-free quantitative proteomics in Candida yeast
+                species: technical and biological replicates to assess data reproducibility. BMC Res Notes. 2019;12(1):470. Published
+                2019 Aug 1. doi:<a href="https://bmcresnotes-biomedcentral-com.insb.bib.cnrs.fr/articles/10.1186/s13104-019-4505-8" target="_blank">10.1186/s13104-019-4505-8 </a>
+              </p>
+            </div>
+            
+            <div class="border">
+              <h5 class="center">Violin plot</h5>
+              <div id='myDiv2'>
+              </div>
+            </div>
+            
+            <div class="border">
+              <h5 class="center">Data table</h5>
+              <p class="info center">The following table is a the Supp Data S2 table (DE genes) with logFC and Pvalue find in this dataset. </p>
+              <table id="dt2" class="display nowrap" width="100%"></table>
+            </div>
+            </div>
+          </div>
+      </div>
+     
+      <div class="tab-pane fade" id="pills-dataset3" role="tabpanel" aria-labelledby="pills-dataset3-tab">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="center">Dataset 3</h3>
+            <div class="border">
+              <h5 class="center">Analysis</h5>
+              <p class="info center">
+                Differential expression measurements together with statistical p-values were obtained from the Supplementary Table S1 in
+                Linde et al. article. In this file we considered information in the spreadsheet named "Expression_pH_change". Note that
+                logFC represent the ratio between pH4 and pH8 conditions, i.e. log(pH4/pH8). This values were modified to rather
+                represent log(pH8/pH4).
+              </p>
+            </div>
+            
+            <div class="border">
+              <h5 class="center">Experiment</h5>
+              <p class="info center">
+                RNAseq experiments were performed to identify differentially expressed genes during pH shift in the pathogenic yeast
+                Candida glabrata. C. glabrata was cultured by two subsequent overnight cultures in M199 pH4 at 37°C. 10^6 cells/mL were
+                suspended in either M199 pH4 or pH8 for 60 min, at 37°C while shaking. More information can be found in Linde et al.
+                article. Primary datasets can be downloaded from GEO under accession number GSE61606.
+              </p>
+            </div>
+            
+            <div class="border">
+              <h5 class="center">Data source</h5>
+              <p class="info center">
+                Linde J, Duggan S, Weber M, et al. Defining the transcriptomic landscape of Candida glabrata by RNA-Seq. Nucleic Acids
+                Res. 2015;43(3):1392–1406. doi: <a href="https://academic-oup-com.insb.bib.cnrs.fr/nar/article/43/3/1392/2411170"
+                  target="_blank">10.1093/nar/gku1357</a>
+              </p>
+            </div>
+            
+            <div class="border">
+              <h5 class="center">Violin plot</h5>
+              <div id='myDiv3'>
+              </div>
+            </div>
+            
+            <div class="border">
+              <h5 class="center">Data table</h5>
+              <p class="info center">The following table is a the Supp Data S2 table (DE genes) with logFC and Pvalue find in this
+                dataset. </p>
+              <table id="dt3" class="display nowrap" width="100%"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div w3-include-html="footer.html"></div>
+
+  <script>
+    includeHTML();
+  </script>
+
+  <script type="text/javascript">
+  // DATASET 1
+  Plotly.d3.csv("./assets/ourData_VS_otherDatasets/dataset1Violin.csv", function (err, rows) {
+
+      function unpack(rows, key) {
+        return rows.map(function (row) { return row[key]; });
+      }
+
+      var data = [{
+        type: 'violin',
+        x: unpack(rows, 'Conditions'),
+        y: unpack(rows, 'logFC'),
+        points: 'all',
+        pointpos : -2,
+        box: {
+          visible: true
+        },
+        line: {
+          color: 'green',
+        },
+        meanline: {
+          visible: true
+        },
+        hovertext: unpack(rows, 'hovertext'),
+        hoverinfo:"text",
+        transforms: [{
+          type: 'groupby',
+          groups: unpack(rows, 'Conditions'),
+          styles: [
+            { target: 'log(0.5H/0H)', value: { line: { color: 'blue' } } },
+            { target: 'log(1H/0H)', value: { line: { color: 'orange' } } },
+            { target: 'log(2H/0H)', value: { line: { color: 'green' } } },
+            { target: 'log(4H/0H)', value: { line: { color: 'red' } } }
+          ]
+        }]
+      }]
+      var layout = {
+        yaxis: {
+          zeroline: false
+        }
+      }
+
+      Plotly.newPlot('myDiv', data, layout);
+    });
+
+    $(document).ready(function() {
+      Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset1.tsv", function(data) {
+
+        $('#dt').DataTable({
+          data: data,
+          dom: 'Bfrtip',
+          buttons: [
+            'copyHtml5',
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5'
+          ],
+          "scrollX": true,
+
+          columns: [{
+              title: "ORF (CGLAB)",
+              "data": "C1"
+            },
+            {
+              title: "Name",
+              "data": "C2"
+            },
+            {
+              title: "Description (extract from CGD database)",
+              "data": "C3"
+            },
+            {
+              title: "logFC (C1)",
+              "data": "C4"
+            },
+            {
+              title: "pval (C1)",
+              "data": "C5"
+            },
+            {
+              title: "logFC (C2)",
+              "data": "C6"
+            }, {
+              title: "pval (C2)",
+              "data": "C7"
+            }, {
+              title: "logFC (C3)",
+              "data": "C8"
+            }, {
+              title: "pval (C3)",
+              "data": "C9"
+            }, {
+              title: "logFC (C4)",
+              "data": "C10"
+            }, {
+              title: "pval (C4)",
+              "data": "C11"
+            }, {
+              title: "Zscore (C1)",
+              "data": "C12"
+            }, {
+              title: "Zscore (C2)",
+              "data": "C13"
+            }, {
+              title: "Zscore (C3)",
+              "data": "C14"
+            }, {
+              title: "Zscore (C4)",
+              "data": "C15"
+            }, {
+              title: "DE (C1)",
+              "data": "C16"
+            }, {
+              title: "DE (C2)",
+              "data": "C17"
+            }, {
+              title: "DE (C3)",
+              "data": "C18"
+            }, {
+              title: "DE (C4)",
+              "data": "C19"
+            }, {
+              title: "Functional classe (this study)",
+              "data": "C20"
+            }, {
+              title: "Functional sub-class (this study)",
+              "data": "C21"
+            }, {
+              title: "Function label (this study)",
+              "data": "C22"
+            }, {
+              title: "ORF",
+              "data": "C23"
+            }, {
+              title: "iHKG (this study)",
+              "data": "C24"
+            }, {
+              title: "Regulation (C1)",
+              "data": "C25"
+            }, {
+              title: "Regulation (C2)",
+              "data": "C26"
+            }, {
+              title: "Regulation (C3)",
+              "data": "C27"
+            }, {
+              title: "Regulation (C4)",
+              "data": "C28"
+            }, {
+              title: "Gene name",
+              "data": "C29"
+            } , {
+              title: "Orthologues (S.cerevisiea)",
+              "data": "C30"
+            }, 
+            {
+              title: "ID in SGD or CGD",
+              "data": "C31"
+            },
+            {
+              title: "Feature name",
+              "data": "C32"
+            },
+            {
+              title: "Gene name",
+              "data": "C33"
+            }, {
+              title: "Description",
+              "data": "C34"
+            },
+            {
+              title: "log(0.5H/0H) (value)",
+              "data": "C35"
+            }, {
+              title: "log(0.5H/0H) (Pvalue)",
+              "data": "C36"
+            }, {
+              title: "log(1H/0H) (value)",
+              "data": "C37"
+            }, {
+              title: "log(1H/0H) (Pvalue)",
+              "data": "C38"
+            }, {
+              title: "log(2H/0H) (value)",
+              "data": "C39"
+            }, {
+              title: "log(2H/0H) (Pvalue)",
+              "data": "C40"
+            }, {
+              title: "log(4H/0H) (value)",
+              "data": "C41"
+            }, {
+              title: "log(4H/0H) (Pvalue)",
+              "data": "C42"
+            }
+          ]
+        });
+      });
+
+    });
+
+    // DATASET 2
+      Plotly.d3.csv("./assets/ourData_VS_otherDatasets/dataset2Violin.csv", function (err, rows) {
+
+        function unpack(rows, key) {
+          return rows.map(function (row) { return row[key]; });
+        }
+
+        var data = [{
+          type: 'violin',
+          x: unpack(rows, 'Conditions'),
+          y: unpack(rows, 'logFC'),
+          points: 'all',
+          pointpos: -2,
+          box: {
+            visible: true
+          },
+          line: {
+            color: 'green',
+          },
+          meanline: {
+            visible: true
+          },
+          hovertext: unpack(rows, 'hovertext'),
+          hoverinfo: "text",
+          transforms: [{
+            type: 'groupby',
+            groups: unpack(rows, 'Conditions'),
+            styles: [
+              { target: 'T10', value: { line: { color: 'blue' } } },
+              { target: 'T60', value: { line: { color: 'orange' } } }
+            ]
+          }]
+        }]
+        var layout = {
+          yaxis: {
+            zeroline: false
+          }
+        }
+
+        Plotly.newPlot('myDiv2', data, layout);
+      });
+
+      $(document).ready(function () {
+        Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset2.tsv", function (data) {
+
+          $('#dt2').DataTable({
+            data: data,
+            dom: 'Bfrtip',
+            buttons: [
+              'copyHtml5',
+              'excelHtml5',
+              'csvHtml5',
+              'pdfHtml5'
+            ],
+            "scrollX": true,
+
+            columns: [{
+              title: "ORF (CGLAB)",
+              "data": "C1"
+            },
+            {
+              title: "Name",
+              "data": "C2"
+            },
+            {
+              title: "Description (extract from CGD database)",
+              "data": "C3"
+            },
+            {
+              title: "logFC (C1)",
+              "data": "C4"
+            },
+            {
+              title: "pval (C1)",
+              "data": "C5"
+            },
+            {
+              title: "logFC (C2)",
+              "data": "C6"
+            }, {
+              title: "pval (C2)",
+              "data": "C7"
+            }, {
+              title: "logFC (C3)",
+              "data": "C8"
+            }, {
+              title: "pval (C3)",
+              "data": "C9"
+            }, {
+              title: "logFC (C4)",
+              "data": "C10"
+            }, {
+              title: "pval (C4)",
+              "data": "C11"
+            }, {
+              title: "Zscore (C1)",
+              "data": "C12"
+            }, {
+              title: "Zscore (C2)",
+              "data": "C13"
+            }, {
+              title: "Zscore (C3)",
+              "data": "C14"
+            }, {
+              title: "Zscore (C4)",
+              "data": "C15"
+            }, {
+              title: "DE (C1)",
+              "data": "C16"
+            }, {
+              title: "DE (C2)",
+              "data": "C17"
+            }, {
+              title: "DE (C3)",
+              "data": "C18"
+            }, {
+              title: "DE (C4)",
+              "data": "C19"
+            }, {
+              title: "Functional classe (this study)",
+              "data": "C20"
+            }, {
+              title: "Functional sub-class (this study)",
+              "data": "C21"
+            }, {
+              title: "Function label (this study)",
+              "data": "C22"
+            }, {
+              title: "ORF",
+              "data": "C23"
+            }, {
+              title: "iHKG (this study)",
+              "data": "C24"
+            }, {
+              title: "Regulation (C1)",
+              "data": "C25"
+            }, {
+              title: "Regulation (C2)",
+              "data": "C26"
+            }, {
+              title: "Regulation (C3)",
+              "data": "C27"
+            }, {
+              title: "Regulation (C4)",
+              "data": "C28"
+            }, {
+              title: "Gene name",
+              "data": "C29"
+            }, {
+              title: "Orthologues (S.cerevisiea)",
+              "data": "C30"
+            },
+            {
+              title: "ID in SGD or CGD",
+              "data": "C31"
+            },
+            {
+              title: "Feature name",
+              "data": "C32"
+            },
+            {
+              title: "Gene name",
+              "data": "C33"
+            }, {
+              title: "Description",
+              "data": "C34"
+            },
+            {
+              title: "T10 (value)",
+              "data": "C35"
+            }, {
+              title: "T10 (Pvalue)",
+              "data": "C36"
+            }, {
+              title: "T60 (value)",
+              "data": "C37"
+            }, {
+              title: "T60 (Pvalue)",
+              "data": "C38"
+            }
+            ]
+          });
+        });
+
+      });
+
+      // DATASET 3
+        Plotly.d3.csv("./assets/ourData_VS_otherDatasets/dataset3Violin.csv", function (err, rows) {
+
+          function unpack(rows, key) {
+            return rows.map(function (row) { return row[key]; });
+          }
+
+          var data = [{
+            type: 'violin',
+            x: unpack(rows, 'Conditions'),
+            y: unpack(rows, 'logFC'),
+            points: 'all',
+            pointpos: -2,
+            box: {
+              visible: true
+            },
+            line: {
+              color: 'green',
+            },
+            meanline: {
+              visible: true
+            },
+            hovertext: unpack(rows, 'hovertext'),
+            hoverinfo: "text",
+            transforms: [{
+              type: 'groupby',
+              groups: unpack(rows, 'Conditions'),
+              styles: [
+                { target: 'log(pH8/pH4)', value: { line: { color: 'blue' } } }
+              ]
+            }]
+          }]
+          var layout = {
+            yaxis: {
+              zeroline: false
+            }
+          }
+
+          Plotly.newPlot('myDiv3', data, layout);
+        });
+
+        $(document).ready(function () {
+          Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset2.tsv", function (data) {
+
+            $('#dt3').DataTable({
+              data: data,
+              dom: 'Bfrtip',
+              buttons: [
+                'copyHtml5',
+                'excelHtml5',
+                'csvHtml5',
+                'pdfHtml5'
+              ],
+              "scrollX": true,
+
+              columns: [{
+                title: "ORF (CGLAB)",
+                "data": "C1"
+              },
+              {
+                title: "Name",
+                "data": "C2"
+              },
+              {
+                title: "Description (extract from CGD database)",
+                "data": "C3"
+              },
+              {
+                title: "logFC (C1)",
+                "data": "C4"
+              },
+              {
+                title: "pval (C1)",
+                "data": "C5"
+              },
+              {
+                title: "logFC (C2)",
+                "data": "C6"
+              }, {
+                title: "pval (C2)",
+                "data": "C7"
+              }, {
+                title: "logFC (C3)",
+                "data": "C8"
+              }, {
+                title: "pval (C3)",
+                "data": "C9"
+              }, {
+                title: "logFC (C4)",
+                "data": "C10"
+              }, {
+                title: "pval (C4)",
+                "data": "C11"
+              }, {
+                title: "Zscore (C1)",
+                "data": "C12"
+              }, {
+                title: "Zscore (C2)",
+                "data": "C13"
+              }, {
+                title: "Zscore (C3)",
+                "data": "C14"
+              }, {
+                title: "Zscore (C4)",
+                "data": "C15"
+              }, {
+                title: "DE (C1)",
+                "data": "C16"
+              }, {
+                title: "DE (C2)",
+                "data": "C17"
+              }, {
+                title: "DE (C3)",
+                "data": "C18"
+              }, {
+                title: "DE (C4)",
+                "data": "C19"
+              }, {
+                title: "Functional classe (this study)",
+                "data": "C20"
+              }, {
+                title: "Functional sub-class (this study)",
+                "data": "C21"
+              }, {
+                title: "Function label (this study)",
+                "data": "C22"
+              }, {
+                title: "ORF",
+                "data": "C23"
+              }, {
+                title: "iHKG (this study)",
+                "data": "C24"
+              }, {
+                title: "Regulation (C1)",
+                "data": "C25"
+              }, {
+                title: "Regulation (C2)",
+                "data": "C26"
+              }, {
+                title: "Regulation (C3)",
+                "data": "C27"
+              }, {
+                title: "Regulation (C4)",
+                "data": "C28"
+              }, {
+                title: "Gene name",
+                "data": "C29"
+              }, {
+                title: "Orthologues (S.cerevisiea)",
+                "data": "C30"
+              },
+              {
+                title: "ID in SGD or CGD",
+                "data": "C31"
+              },
+              {
+                title: "Feature name",
+                "data": "C32"
+              },
+              {
+                title: "Gene name",
+                "data": "C33"
+              }, {
+                title: "Description",
+                "data": "C34"
+              },
+              {
+                title: "log(pH8/pH4) (value)",
+                "data": "C35"
+              }, {
+                title: "log(pH8/pH4) (Pvalue)",
+                "data": "C36"
+              }
+              ]
+            });
+          });
+
+        });
+  </script>
+
+</body>
+
+</html>
