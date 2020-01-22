@@ -1098,24 +1098,24 @@ for(groupName in c(unique(data$Fsimplify),"all") ){
   P2 = data %>%
     filter(Fsimplify %in% groupName) %>% 
     mutate(
-      labels = case_when(C1_2_0.05 + C2_2_0.05 == 2 ~ "UP (30° and 37°)",
-                         C1_2_0.05 + C2_2_0.05 == 1 ~ "UP (30° or 37°)",
-                         C1_2_0.05 + C2_2_0.05 == 0 & abs(C1_2_0.05) == 1 ~ "NO",
-                         C1_2_0.05 + C2_2_0.05 == 0 & abs(C1_2_0.05) == 0 ~ "NO",
-                         C1_2_0.05 + C2_2_0.05 == -1 ~ "DOWN (30° or 37°)",
-                         C1_2_0.05 + C2_2_0.05 == -2 ~ "DOWN (30° and 37°)"
+      labels = case_when(C1_1.5_0.01 + C2_1.5_0.01 == 2 ~ "UP (30° and 37°)",
+                         C1_1.5_0.01 + C2_1.5_0.01 == 1 ~ "UP (30° or 37°)",
+                         C1_1.5_0.01 + C2_1.5_0.01 == 0 & abs(C1_1.5_0.01) == 1 ~ "NO",
+                         C1_1.5_0.01 + C2_1.5_0.01 == 0 & abs(C1_1.5_0.01) == 0 ~ "NO",
+                         C1_1.5_0.01 + C2_1.5_0.01 == -1 ~ "DOWN (30° or 37°)",
+                         C1_1.5_0.01 + C2_1.5_0.01 == -2 ~ "DOWN (30° and 37°)"
       )) %>%
     group_by(labels) %>% count() 
   
   P3 = data %>%
     filter(Fsimplify %in% groupName) %>% 
     mutate(
-      labels = case_when(C3_2_0.05 + C4_2_0.05 == 2 ~ "UP (30° and 37°)",
-                         C3_2_0.05 + C4_2_0.05 == 1 ~ "UP (30° or 37°)",
-                         C3_2_0.05 + C4_2_0.05 == 0 & abs(C3_2_0.05) == 1 ~ "NO",
-                         C3_2_0.05 + C4_2_0.05 == 0 & abs(C3_2_0.05) == 0 ~ "NO",
-                         C3_2_0.05 + C4_2_0.05 == -1 ~ "DOWN (30° or 37°)",
-                         C3_2_0.05 + C4_2_0.05 == -2 ~ "DOWN (30° and 37°)"
+      labels = case_when(C3_1.5_0.01 + C4_1.5_0.01 == 2 ~ "UP (30° and 37°)",
+                         C3_1.5_0.01 + C4_1.5_0.01 == 1 ~ "UP (30° or 37°)",
+                         C3_1.5_0.01 + C4_1.5_0.01 == 0 & abs(C3_1.5_0.01) == 1 ~ "NO",
+                         C3_1.5_0.01 + C4_1.5_0.01 == 0 & abs(C3_1.5_0.01) == 0 ~ "NO",
+                         C3_1.5_0.01 + C4_1.5_0.01 == -1 ~ "DOWN (30° or 37°)",
+                         C3_1.5_0.01 + C4_1.5_0.01 == -2 ~ "DOWN (30° and 37°)"
       )) %>%
     group_by(labels) %>% count()
   
@@ -1128,12 +1128,12 @@ for(groupName in c(unique(data$Fsimplify),"all") ){
   BP = data %>%
     filter(Fsimplify %in% groupName) %>% 
     mutate(
-      labels = case_when(C3_2_0.05 + C4_2_0.05 == 2 ~ "UP (30° and 37°)",
-                         C3_2_0.05 + C4_2_0.05 == 1 ~ "UP (30° or 37°)",
-                         C3_2_0.05 + C4_2_0.05 == 0 & abs(C3_2_0.05) == 1 ~ "NO",
-                         C3_2_0.05 + C4_2_0.05 == 0 & abs(C3_2_0.05) == 0 ~ "NO",
-                         C3_2_0.05 + C4_2_0.05 == -1 ~ "DOWN (30° or 37°)",
-                         C3_2_0.05 + C4_2_0.05 == -2 ~ "DOWN (30° and 37°)"
+      labels = case_when(C3_1.5_0.01 + C4_1.5_0.01 == 2 ~ "UP (30° and 37°)",
+                         C3_1.5_0.01 + C4_1.5_0.01 == 1 ~ "UP (30° or 37°)",
+                         C3_1.5_0.01 + C4_1.5_0.01 == 0 & abs(C3_1.5_0.01) == 1 ~ "NO",
+                         C3_1.5_0.01 + C4_1.5_0.01 == 0 & abs(C3_1.5_0.01) == 0 ~ "NO",
+                         C3_1.5_0.01 + C4_1.5_0.01 == -1 ~ "DOWN (30° or 37°)",
+                         C3_1.5_0.01 + C4_1.5_0.01 == -2 ~ "DOWN (30° and 37°)"
       ),
       type = case_when(type == "SWITCH" ~ "iHKG - Switch",
                        type == "Type I" ~ "iHKG - Type I",
@@ -1181,27 +1181,60 @@ for(groupName in c(unique(data$Fsimplify),"all") ){
                          "SubMetago",
                          "Fsimplify",
                          "Gene", 
-                         "type")]
+                         "type",
+                         "C1_1.5_0.01",                                                                  
+                         "C2_1.5_0.01",                                                                  
+                         "C3_1.5_0.01",                                                                  
+                         "C4_1.5_0.01")]
+  colnames(supTable)[24] = "Gene2"
   supTable <- supTable %>%
     mutate( 
-      RegulationC1 = case_when(C1_2_0.05 == 1 ~ "UP",
-                               C1_2_0.05 == -1 ~ "DOWN",
+      RegulationC1 = case_when(C1_1.5_0.01 == 1 ~ "UP",
+                               C1_1.5_0.01 == -1 ~ "DOWN",
                                TRUE ~ "0"
       ),
-      RegulationC2 = case_when(C2_2_0.05 == 1 ~ "UP",
-                               C2_2_0.05 == -1 ~ "DOWN",
+      RegulationC2 = case_when(C2_1.5_0.01 == 1 ~ "UP",
+                               C2_1.5_0.01 == -1 ~ "DOWN",
                                TRUE ~ "0"
       ),
-      RegulationC3 = case_when(C3_2_0.05 == 1 ~ "UP",
-                               C3_2_0.05 == -1 ~ "DOWN",
+      RegulationC3 = case_when(C3_1.5_0.01 == 1 ~ "UP",
+                               C3_1.5_0.01 == -1 ~ "DOWN",
                                TRUE ~ "0"
       ),
-      RegulationC4 = case_when(C4_2_0.05 == 1 ~ "UP",
-                               C4_2_0.05 == -1 ~ "DOWN",
+      RegulationC4 = case_when(C4_1.5_0.01 == 1 ~ "UP",
+                               C4_1.5_0.01 == -1 ~ "DOWN",
                                TRUE ~ "0"
       )
-      
-    )
+    ) %>% 
+    select(c("Gene",
+             "Gene name (locus name)",
+             "Description",
+             "C1",
+             "P.Val1",
+             "C2",
+             "P.Val2",
+             "C3",
+             "P.Val3",
+             "C4",
+             "P.Val4",
+             "Zscore1", 
+             "Zscore2",
+             "Zscore3",
+             "Zscore4",
+             "C1_2_0.05",                                                                  
+             "C2_2_0.05",                                                                  
+             "C3_2_0.05",                                                                  
+             "C4_2_0.05",
+             "Name of S. cerevisiae ortholog(s) (multiples separated by |)",
+             "Metago2019",
+             "SubMetago",
+             "Fsimplify",
+             "Gene2", 
+             "type", 
+             "RegulationC1",
+             "RegulationC2",
+             "RegulationC3", 
+             "RegulationC4"))
   
   colnames(supTable) = paste0('C', 1:29)
   
@@ -1335,27 +1368,63 @@ supTable = data[,c("Gene",
                    "SubMetago",
                    "Fsimplify",
                    "Gene", 
-                   "type")]
+                   "type",
+                   "C1_1.5_0.01",                                                                  
+                   "C2_1.5_0.01",                                                                  
+                   "C3_1.5_0.01",                                                                  
+                   "C4_1.5_0.01")]
+
+
+colnames(supTable)[23] = "GENE"
+
 supTable <- supTable %>%
   mutate( 
-    RegulationC1 = case_when(C1_2_0.05 == 1 ~ "UP",
-                             C1_2_0.05 == -1 ~ "DOWN",
+    RegulationC1 = case_when(C1_1.5_0.01 == 1 ~ "UP",
+                             C1_1.5_0.01 == -1 ~ "DOWN",
                              TRUE ~ "0"
     ),
-    RegulationC2 = case_when(C2_2_0.05 == 1 ~ "UP",
-                             C2_2_0.05 == -1 ~ "DOWN",
+    RegulationC2 = case_when(C2_1.5_0.01 == 1 ~ "UP",
+                             C2_1.5_0.01 == -1 ~ "DOWN",
                              TRUE ~ "0"
     ),
-    RegulationC3 = case_when(C3_2_0.05 == 1 ~ "UP",
-                             C3_2_0.05 == -1 ~ "DOWN",
+    RegulationC3 = case_when(C3_1.5_0.01 == 1 ~ "UP",
+                             C3_1.5_0.01 == -1 ~ "DOWN",
                              TRUE ~ "0"
     ),
-    RegulationC4 = case_when(C4_2_0.05 == 1 ~ "UP",
-                             C4_2_0.05 == -1 ~ "DOWN",
+    RegulationC4 = case_when(C4_1.5_0.01 == 1 ~ "UP",
+                             C4_1.5_0.01 == -1 ~ "DOWN",
                              TRUE ~ "0"
     )
     
-  )
+  )%>% 
+  select(c("Gene",
+           "Gene name (locus name)",
+           "Description",
+           "C1",
+           "P.Val1",
+           "C2",
+           "P.Val2",
+           "C3",
+           "P.Val3",
+           "C4",
+           "P.Val4",
+           "Zscore1", 
+           "Zscore2",
+           "Zscore3",
+           "Zscore4",
+           "C1_2_0.05",                                                                  
+           "C2_2_0.05",                                                                  
+           "C3_2_0.05",                                                                  
+           "C4_2_0.05",
+           "Metago2019",
+           "SubMetago",
+           "Fsimplify",
+           "GENE", 
+           "type",
+           "RegulationC1",
+           "RegulationC2",
+           "RegulationC3", 
+           "RegulationC4"))
 
 
 rownames(supTable) = supTable$Gene

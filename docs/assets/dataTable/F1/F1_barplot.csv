@@ -1,5 +1,5 @@
 type,DOWN (30° and 37°),DOWN (30° or 37°),NO,UP (30° and 37°),UP (30° or 37°)
 iHKG - Switch,0,0,2,0,0
-iHKG - Type I,1,0,2,1,2
-iHKG - Type II,1,22,13,4,15
-Other iron responsive genes,0,16,62,7,28
+iHKG - Type I,0,1,0,3,2
+iHKG - Type II,3,27,0,4,21
+Other iron responsive genes,1,15,64,7,26
