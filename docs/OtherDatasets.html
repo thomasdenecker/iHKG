@@ -252,7 +252,7 @@
 
   <script type="text/javascript">
   // DATASET 1
-  Plotly.d3.csv("./assets/ourData_VS_otherDatasets/dataset1Violin.csv", function (err, rows) {
+  Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset1Violin.tsv", function (err, rows) {
 
       function unpack(rows, key) {
         return rows.map(function (row) { return row[key]; });
@@ -452,7 +452,7 @@
     });
 
     // DATASET 2
-      Plotly.d3.csv("./assets/ourData_VS_otherDatasets/dataset2Violin.csv", function (err, rows) {
+      Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset2Violin.tsv", function (err, rows) {
 
         function unpack(rows, key) {
           return rows.map(function (row) { return row[key]; });
@@ -638,7 +638,7 @@
       });
 
       // DATASET 3
-        Plotly.d3.csv("./assets/ourData_VS_otherDatasets/dataset3Violin.csv", function (err, rows) {
+        Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset3Violin.tsv", function (err, rows) {
 
           function unpack(rows, key) {
             return rows.map(function (row) { return row[key]; });
