@@ -1236,6 +1236,11 @@ for(groupName in c(unique(data$Fsimplify),"all") ){
              "RegulationC3", 
              "RegulationC4"))
   
+  for(convPos in c("C1","P.Val1","C2","P.Val2","C3","P.Val3","C4","P.Val4","Zscore1", 
+                   "Zscore2","Zscore3","Zscore4")){
+    supTable[,convPos] =formatC(as.numeric(supTable[,convPos]),format="e", digits = 2)
+  }
+  
   colnames(supTable) = paste0('C', 1:29)
   
   write.table(supTable, paste0("docs/assets/dataTable/",groupName,"/SupData2_",groupName,".tsv" ), 
