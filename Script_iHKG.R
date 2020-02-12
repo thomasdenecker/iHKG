@@ -181,6 +181,7 @@ subGraphWeb <- function(groupName, nodes, edges){
                   data: {
                   id: '",nodes2[i,1], "',
                   name: '",nodes2[i,1], "',
+                  gene: '",data[which(data$Gene == nodes2[i,1] ), "Gene name (locus name)"], "',
                   size: ",nodes2[i,6], ",
                   width :",nodes2[i,6], ",
                   height :",nodes2[i,6], ",
@@ -1236,9 +1237,14 @@ for(groupName in c(unique(data$Fsimplify),"all") ){
              "RegulationC3", 
              "RegulationC4"))
   
-  for(convPos in c("C1","P.Val1","C2","P.Val2","C3","P.Val3","C4","P.Val4","Zscore1", 
-                   "Zscore2","Zscore3","Zscore4")){
-    supTable[,convPos] =formatC(as.numeric(supTable[,convPos]),format="e", digits = 2)
+  
+  for(convPos in c("C1","C2","C3","C4",
+                   "Zscore1", "Zscore2","Zscore3","Zscore4")){
+    supTable[,convPos] = round(as.numeric(supTable[,convPos]), digits = 3)
+  }
+  
+  for(convPos in c("P.Val1","P.Val2","P.Val3","P.Val4")){
+    supTable[,convPos] =formatC(as.numeric(supTable[,convPos]),format="e", digits = 3)
   }
   
   colnames(supTable) = paste0('C', 1:29)
