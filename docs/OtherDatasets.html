@@ -182,14 +182,14 @@
 
             <div class="border">
               <h5 class="center">Violin plot</h5>
-              <div id='myDiv'>
+              <div id='myDiv2'>
               </div>
             </div>
             
             <div class="border">
               <h5 class="center">Data table</h5>
               <p class="info center">The following table is a the Supp Data S2 table (DE genes) with logFC and Pvalue find in this dataset.</p>
-              <table id="dt" class="display nowrap" width="100%"></table>
+              <table id="dt2" class="display nowrap" width="100%"></table>
             </div>
           </div>
         </div>
@@ -234,14 +234,14 @@
             
             <div class="border">
               <h5 class="center">Violin plot</h5>
-              <div id='myDiv2'>
+              <div id='myDiv3'>
               </div>
             </div>
             
             <div class="border">
               <h5 class="center">Data table</h5>
               <p class="info center">The following table is a the Supp Data S2 table (DE genes) with logFC and Pvalue find in this dataset. </p>
-              <table id="dt2" class="display nowrap" width="100%"></table>
+              <table id="dt3" class="display nowrap" width="100%"></table>
             </div>
             </div>
           </div>
@@ -282,7 +282,7 @@
             
             <div class="border">
               <h5 class="center">Violin plot</h5>
-              <div id='myDiv3'>
+              <div id='myDiv4'>
               </div>
             </div>
             
@@ -290,7 +290,7 @@
               <h5 class="center">Data table</h5>
               <p class="info center">The following table is a the Supp Data S2 table (DE genes) with logFC and Pvalue find in this
                 dataset. </p>
-              <table id="dt3" class="display nowrap" width="100%"></table>
+              <table id="dt4" class="display nowrap" width="100%"></table>
             </div>
           </div>
         </div>
@@ -313,7 +313,6 @@
       function unpack(rows, key) {
         return rows.map(function (row) { return row[key]; });
       }
-
       var data = [{
         type: 'violin',
         x: unpack(rows, 'Conditions'),
@@ -335,10 +334,10 @@
           type: 'groupby',
           groups: unpack(rows, 'Conditions'),
           styles: [
-            { target: 'log(0.5H/0H)', value: { line: { color: 'blue' } } },
-            { target: 'log(1H/0H)', value: { line: { color: 'orange' } } },
-            { target: 'log(2H/0H)', value: { line: { color: 'green' } } },
-            { target: 'log(4H/0H)', value: { line: { color: 'red' } } }
+            { target: 'WT_4H-0H', value: { line: { color: 'blue' } } },
+            { target: 'aft1Δ-4H_WT-4H', value: { line: { color: 'orange' } } },
+            { target: 'sef1Δ-4H_WT-4H', value: { line: { color: 'green' } } },
+            { target: 'ftr1Δ-4H_WT-4H', value: { line: { color: 'red' } } }
           ]
         }]
       }]
@@ -477,6 +476,208 @@
               "data": "C34"
             },
             {
+              title: "WT 4h vs WT 0h (value)",
+              "data": "C35"
+            }, {
+              title: "WT 4h vs WT 0h (Pvalue)",
+              "data": "C36"
+            }, {
+              title: "aft1Δ 4h vs WT 4h (value)",
+              "data": "C37"
+            }, {
+              title: "aft1Δ 4h vs WT 4h (Pvalue)",
+              "data": "C38"
+            }, {
+              title: "sef1Δ 4h vs WT 4h (value)",
+              "data": "C39"
+            }, {
+              title: "sef1Δ 4h vs WT 4h (Pvalue)",
+              "data": "C40"
+            }, {
+              title: "ftr1Δ 4h vs WT 4h (value)",
+              "data": "C41"
+            }, {
+              title: "sef1Δ 4h vs WT 4h (Pvalue)",
+              "data": "C42"
+            }
+          ] ,
+          "columnDefs": [
+            { className: "otherData", "targets": [34,35,36,37,38,39,40,41] }
+          ]
+        });
+      });
+    });
+
+    // DATASET 2
+      Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset2Violin.tsv", function (err, rows) {
+
+        function unpack(rows, key) {
+          return rows.map(function (row) { return row[key]; });
+        }
+
+        var data = [{
+          type: 'violin',
+          x: unpack(rows, 'Conditions'),
+          y: unpack(rows, 'logFC'),
+          points: 'all',
+          pointpos: -2,
+          box: {
+            visible: true
+          },
+          line: {
+            color: 'green',
+          },
+          meanline: {
+            visible: true
+          },
+          hovertext: unpack(rows, 'hovertext'),
+          hoverinfo: "text",
+          transforms: [{
+            type: 'groupby',
+            groups: unpack(rows, 'Conditions'),
+            styles: [
+              { target: 'log(0.5H/0H)', value: { line: { color: 'blue' } } },
+              { target: 'log(1H/0H)', value: { line: { color: 'orange' } } },
+              { target: 'log(2H/0H)', value: { line: { color: 'green' } } },
+              { target: 'log(4H/0H)', value: { line: { color: 'red' } } }
+            ]
+          }]
+        }]
+        var layout = {
+          yaxis: {
+            zeroline: false
+          }
+        }
+
+        Plotly.newPlot('myDiv2', data, layout);
+      });
+
+      $(document).ready(function () {
+        Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset2.tsv", function (data) {
+
+          $('#dt2').DataTable({
+            data: data,
+            dom: 'Bfrtip',
+            buttons: [
+              'copyHtml5',
+              'excelHtml5',
+              'csvHtml5',
+              'pdfHtml5'
+            ],
+            "scrollX": true,
+            "pageLength": 5,
+            columns: [{
+              title: "ORF (CGLAB)",
+              "data": "C1"
+            },
+            {
+              title: "Name",
+              "data": "C2"
+            },
+            {
+              title: "Description (extract from CGD database)",
+              "data": "C3"
+            },
+            {
+              title: "logFC (C1)",
+              "data": "C4"
+            },
+            {
+              title: "pval (C1)",
+              "data": "C5"
+            },
+            {
+              title: "logFC (C2)",
+              "data": "C6"
+            }, {
+              title: "pval (C2)",
+              "data": "C7"
+            }, {
+              title: "logFC (C3)",
+              "data": "C8"
+            }, {
+              title: "pval (C3)",
+              "data": "C9"
+            }, {
+              title: "logFC (C4)",
+              "data": "C10"
+            }, {
+              title: "pval (C4)",
+              "data": "C11"
+            }, {
+              title: "Zscore (C1)",
+              "data": "C12"
+            }, {
+              title: "Zscore (C2)",
+              "data": "C13"
+            }, {
+              title: "Zscore (C3)",
+              "data": "C14"
+            }, {
+              title: "Zscore (C4)",
+              "data": "C15"
+            }, {
+              title: "DE (C1)",
+              "data": "C16"
+            }, {
+              title: "DE (C2)",
+              "data": "C17"
+            }, {
+              title: "DE (C3)",
+              "data": "C18"
+            }, {
+              title: "DE (C4)",
+              "data": "C19"
+            }, {
+              title: "Functional classe (this study)",
+              "data": "C20"
+            }, {
+              title: "Functional sub-class (this study)",
+              "data": "C21"
+            }, {
+              title: "Function label (this study)",
+              "data": "C22"
+            }, {
+              title: "ORF",
+              "data": "C23"
+            }, {
+              title: "iHKG (this study)",
+              "data": "C24"
+            }, {
+              title: "Regulation (C1)",
+              "data": "C25"
+            }, {
+              title: "Regulation (C2)",
+              "data": "C26"
+            }, {
+              title: "Regulation (C3)",
+              "data": "C27"
+            }, {
+              title: "Regulation (C4)",
+              "data": "C28"
+            }, {
+              title: "Gene name",
+              "data": "C29"
+            }, {
+              title: "Orthologues (S.cerevisiea)",
+              "data": "C30"
+            },
+            {
+              title: "ID in SGD or CGD",
+              "data": "C31"
+            },
+            {
+              title: "Feature name",
+              "data": "C32"
+            },
+            {
+              title: "Gene name",
+              "data": "C33"
+            }, {
+              title: "Description",
+              "data": "C34"
+            },
+            {
               title: "log(0.5H/0H) (value)",
               "data": "C35"
             }, {
@@ -501,18 +702,16 @@
               title: "log(4H/0H) (Pvalue)",
               "data": "C42"
             }
-          ] ,
-          "columnDefs": [
-            { className: "otherData", "targets": [34,35,36,37,38,39,40,41] }
-          ]
+            ],
+            "columnDefs": [
+              { className: "otherData", "targets": [34, 35, 36, 37, 38, 39, 40, 41] }
+            ]
+          });
         });
       });
-    });
-    
 
-
-    // DATASET 2
-      Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset2Violin.tsv", function (err, rows) {
+    // DATASET 3
+      Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset3Violin.tsv", function (err, rows) {
 
         function unpack(rows, key) {
           return rows.map(function (row) { return row[key]; });
@@ -550,13 +749,13 @@
           }
         }
 
-        Plotly.newPlot('myDiv2', data, layout);
+        Plotly.newPlot('myDiv3', data, layout);
       });
 
       $(document).ready(function () {
-        Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset2.tsv", function (data) {
+        Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset3.tsv", function (data) {
 
-          $('#dt2').DataTable({
+          $('#dt3').DataTable({
             data: data,
             dom: 'Bfrtip',
             buttons: [
@@ -700,8 +899,8 @@
 
       });
 
-      // DATASET 3
-        Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset3Violin.tsv", function (err, rows) {
+      // DATASET 4
+        Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset4Violin.tsv", function (err, rows) {
 
           function unpack(rows, key) {
             return rows.map(function (row) { return row[key]; });
@@ -738,13 +937,13 @@
             }
           }
 
-          Plotly.newPlot('myDiv3', data, layout);
+          Plotly.newPlot('myDiv4', data, layout);
         });
 
         $(document).ready(function () {
-          Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset2.tsv", function (data) {
+          Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset4.tsv", function (data) {
 
-            $('#dt3').DataTable({
+            $('#dt4').DataTable({
               data: data,
               dom: 'Bfrtip',
               buttons: [
