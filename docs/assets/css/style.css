@@ -70,7 +70,7 @@ nav pills
 .nav-pills .nav-item {
   background-color: #f2f2f2;
   margin: 0 auto;
-  width: 150px;
+  width: 200px;
   text-align: center;
   display: inline-block;
 }
@@ -87,6 +87,15 @@ nav pills
   background-color: #cccccc;
   color: black;
 }
+
+/* ----------------------------------------------------------------------
+Datatable
+---------------------------------------------------------------------- */
+
+.otherData {
+  background-color: #e6f7ff !important;
+}
+
 
 /* ----------------------------------------------------------------------
 Layout

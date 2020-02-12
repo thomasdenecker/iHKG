@@ -89,46 +89,95 @@
 
     <br>
 
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active h-100" id="pills-dataset1-tab" data-toggle="pill" href="#pills-dataset1" role="tab" aria-controls="pills-dataset1" aria-selected="true">Dataset 1</a>
+        <a class="nav-link active h-100" id="pills-dataset1-tab" data-toggle="pill" href="#pills-dataset1" role="tab" aria-controls="pills-dataset1" aria-selected="true"><b>Dataset 1</b> <br> Gerwien <i>et al</i> (2016) <br> Deleted strains <br> Microarrays</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link h-100" id="pills-dataset2-tab" data-toggle="pill" href="#pills-dataset2" role="tab" aria-controls="pills-dataset2" aria-selected="false">Dataset 2</a>
+        <a class="nav-link h-100" id="pills-dataset2-tab" data-toggle="pill" href="#pills-dataset2" role="tab" aria-controls="pills-dataset2" aria-selected="false"><b>Dataset 2</b> <br> Gerwien <i>et al</i> (2016) <br> Wild type <br> Microarrays</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link h-100" id="pills-dataset3-tab" data-toggle="pill" href="#pills-dataset3" role="tab" aria-controls="pills-dataset3" aria-selected="false">Dataset 3</a>
+        <a class="nav-link h-100" id="pills-dataset3-tab" data-toggle="pill" href="#pills-dataset3" role="tab" aria-controls="pills-dataset3" aria-selected="false"><b>Dataset 3</b> <br> Lelandais <i>et al</i> (2019) <br> Wild type <br> Proteomics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link h-100" id="pills-dataset4-tab" data-toggle="pill" href="#pills-dataset4" role="tab"
+          aria-controls="pills-dataset4" aria-selected="false"><b>Dataset 4</b> <br>Linde <i>et al</i> (2015) <br> Wild type <br> RNAseq</a>
       </li>
     </ul>
 
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-dataset1" role="tabpanel" aria-labelledby="pills-dataset1-tab">
-
+      
         <div class="card">
           <div class="card-body">
             <h3 class="center">Dataset 1</h3>
+            <h4 class="center">Gerwien <i>et al</i> (2016) - Deleted strains - Microarrays</h4>
+            <div class="border">
+              <h5 class="center">Data source</h5>
+              <p class="info center">
+                Gerwien F, Safyan A, Wisgott S, et al. A Novel Hybrid Iron Regulation Network Combines Features from
+                Pathogenic and
+                Nonpathogenic Yeasts. mBio. 2016;7(5):e01782-16. Published 2016 Oct 18. doi: <a
+                  href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5082906/" target="_blank">10.1128/mBio.01782-16</a>
+              </p>
+            </div>
+      
+            <div class="border">
+              <h5 class="center">Experiment</h5>
+              <p class="info center">In this study, the authors performed transcriptome analyses in the WT strain (<i>Candida glabrata</i>) and
+                strains deleted for AFT1, SEF1 and FTR1 genes using microarrays. They compared the compositions of transcriptomes 
+                between the deleted strains and the WT strain at 4 hours after iron depletion. Primary datasets were downloaded from GEO under accession number <a
+                  href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84816">GSE84816</a>.</p>
+            </div>
+            
             <div class="border">
               <h5 class="center">Analysis</h5>
-              <p class="info center">Differential analyses were performed comparing 0.5, 1, 2 or 4 h to the 0 h time point. Note that this is
-              indirect comparisons since the microarray were done with a common reference (see the Experiment description). The tool
-              GEO2R was applied to generate R code with LIMMA method. Note that "singleton" genes were deleted before data import (as
-              described on the Broad Institute website).</p>
+              <p class="info center">Differential analyses were performed comparing deleted strains to the WT strain at 4 h time
+                point. The tool
+                GEO2R was applied to generate R code with LIMMA method.</p>
+            </div>
+      
+            <div class="border">
+              <h5 class="center">Violin plot</h5>
+              <div id='myDiv'>
+              </div>
+            </div>
+      
+            <div class="border">
+              <h5 class="center">Data table</h5>
+              <p class="info center">The following table is a the Supp Data S2 table (DE genes) with logFC and Pvalue find in
+                this dataset.</p>
+              <table id="dt" class="display nowrap" width="100%"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade show active" id="pills-dataset2" role="tabpanel" aria-labelledby="pills-dataset2-tab">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="center">Dataset 2</h3>
+            <h4 class="center">Gerwien <i>et al</i> (2016) - Wild type - Microarrays</h4>
+            <div class="border">
+              <h5 class="center">Data source</h5>
+              <p class="info center">
+                Gerwien F, Safyan A, Wisgott S, et al. A Novel Hybrid Iron Regulation Network Combines Features from Pathogenic and
+                Nonpathogenic Yeasts. mBio. 2016;7(5):e01782-16. Published 2016 Oct 18. doi: <a
+                  href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5082906/" target="_blank">10.1128/mBio.01782-16</a>
+              </p>
             </div>
 
             <div class="border">
               <h5 class="center">Experiment</h5>
-              <p class="info center">In this study, the authors performed transcriptome analyses of the WT strain (C. glabrata) using microarrays. They
-              compared the compositions of transcriptomes at different time points (0.5 h, 1h, 2h, 4h) after iron depletion, to 0 h.
-              The cell growth conditions are described as followed (in the article) : "Cells were adjusted to 10^7 cells/ml in
-              iron-free citrate-buffered SD (pH 5.8) supplemented with 5 microM FeCl3 and grown.</p>
+              <p class="info center">In this study, the authors performed transcriptome analyses in the WT strain (<i>Candida glabrata</i>)
+                using microarrays. They compared the compositions of transcriptomes at different time points (0.5 h, 1h, 2h, 4h) after iron depletion, to 0
+                h. Primary datasets were downloaded from GEO under accession number <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84816">GSE84816</a>.</p>
             </div>
 
             <div class="border">
-              <h5 class="center">Data source</h5>
-              <p class="info center">
-              Gerwien F, Safyan A, Wisgott S, et al. A Novel Hybrid Iron Regulation Network Combines Features from Pathogenic and
-              Nonpathogenic Yeasts. mBio. 2016;7(5):e01782-16. Published 2016 Oct 18. doi: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5082906/" target="_blank">10.1128/mBio.01782-16</a>  
-              </p>
+              <h5 class="center">Analysis</h5>
+              <p class="info center">Differential analyses were performed comparing 0.5, 1, 2 or 4 h to the 0 h time point. The tool
+              GEO2R was applied to generate R code with LIMMA method.</p>
             </div>
 
             <div class="border">
@@ -146,33 +195,40 @@
         </div>
       </div>
 
-      <div class="tab-pane fade" id="pills-dataset2" role="tabpanel" aria-labelledby="pills-dataset2-tab">
+      <div class="tab-pane fade" id="pills-dataset3" role="tabpanel" aria-labelledby="pills-dataset3-tab">
         <div class="card">
           <div class="card-body">
-            <h3 class="center">Dataset 2</h3>
+            <h3 class="center">Dataset 3</h3>
+            <h4 class="center">Lelandais <i>et al</i> (2019) - Wild Type - Proteomics</h4>
+            <div class="border">
+              <h5 class="center">Data source</h5>
+              <p class="info center">
+                Lelandais G, Denecker T, Garcia C, Danila N, Léger T, Camadro JM. Label-free quantitative proteomics in Candida
+                yeast
+                species: technical and biological replicates to assess data reproducibility. BMC Res Notes. 2019;12(1):470.
+                Published
+                2019 Aug 1. doi:<a href="https://bmcresnotes-biomedcentral-com.insb.bib.cnrs.fr/articles/10.1186/s13104-019-4505-8"
+                  target="_blank">10.1186/s13104-019-4505-8 </a>
+              </p>
+            </div>
+
+            <div class="border">
+              <h5 class="center">Experiment</h5>
+              <p class="info center">
+                In these experiments, mass spectrometry analyses were performed in the yeast <i>Candida glabrata</i>. Technical and
+                biolocal replicates were done in order to evaluate the variability associated to each type of data reproduction.
+                Primary datasets were downloaded from PRIDE under accession number <a
+                  href="https://www.ebi.ac.uk/pride/archive/projects/PXD014125">PXD014125</a>.
+
+                
+              </p>
+            </div>
+            
             <div class="border">
               <h5 class="center">Analysis</h5>
               <p class="info center">
                 Protein abundances obtained in two cell growth conditions (alkaline pH or standard) were compared, in order to identify
                 differentially expressed proteins. LIMMA method was applied with default parameters, in order to calculate p-values.
-              </p>
-            </div>
-            
-            <div class="border">
-              <h5 class="center">Experiment</h5>
-              <p class="info center">
-                In these experiments, mass spectrometry analyses were performed in the yeast Candida glabrata. Proteins were extracted
-                using FASP protocol (by Camille Garcia from the platform proteomics@IJM). Technical and biolocal replicates were done in
-                order to evaluate the variability associated to each type of data reproduction.
-              </p>
-            </div>
-            
-            <div class="border">
-              <h5 class="center">Data source</h5>
-              <p class="info center">
-                Lelandais G, Denecker T, Garcia C, Danila N, Léger T, Camadro JM. Label-free quantitative proteomics in Candida yeast
-                species: technical and biological replicates to assess data reproducibility. BMC Res Notes. 2019;12(1):470. Published
-                2019 Aug 1. doi:<a href="https://bmcresnotes-biomedcentral-com.insb.bib.cnrs.fr/articles/10.1186/s13104-019-4505-8" target="_blank">10.1186/s13104-019-4505-8 </a>
               </p>
             </div>
             
@@ -191,10 +247,29 @@
           </div>
       </div>
      
-      <div class="tab-pane fade" id="pills-dataset3" role="tabpanel" aria-labelledby="pills-dataset3-tab">
+      <div class="tab-pane fade" id="pills-dataset4" role="tabpanel" aria-labelledby="pills-dataset4-tab">
         <div class="card">
           <div class="card-body">
-            <h3 class="center">Dataset 3</h3>
+            <h3 class="center">Dataset 4</h3>
+            <h4 class="center">Linde <i>et al</i> (2015) - Wild type - RNAseq</h4>
+            <div class="border">
+              <h5 class="center">Data source</h5>
+              <p class="info center">
+                Linde J, Duggan S, Weber M, et al. Defining the transcriptomic landscape of <i>Candida glabrata</i> by RNA-Seq. Nucleic
+                Acids
+                Res. 2015;43(3):1392–1406. doi: <a href="https://academic-oup-com.insb.bib.cnrs.fr/nar/article/43/3/1392/2411170"
+                  target="_blank">10.1093/nar/gku1357</a>
+              </p>
+            </div>
+
+            <div class="border">
+              <h5 class="center">Experiment</h5>
+              <p class="info center">
+                RNAseq experiments were performed to identify differentially expressed genes during pH alkaline shift in the
+                pathogenic yeast <i>Candida glabrata</i>. Primary datasets were downloaded from GEO under accession number <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61606">GSE61606</a>.
+              </p>
+            </div>
+
             <div class="border">
               <h5 class="center">Analysis</h5>
               <p class="info center">
@@ -202,25 +277,6 @@
                 Linde et al. article. In this file we considered information in the spreadsheet named "Expression_pH_change". Note that
                 logFC represent the ratio between pH4 and pH8 conditions, i.e. log(pH4/pH8). This values were modified to rather
                 represent log(pH8/pH4).
-              </p>
-            </div>
-            
-            <div class="border">
-              <h5 class="center">Experiment</h5>
-              <p class="info center">
-                RNAseq experiments were performed to identify differentially expressed genes during pH shift in the pathogenic yeast
-                Candida glabrata. C. glabrata was cultured by two subsequent overnight cultures in M199 pH4 at 37°C. 10^6 cells/mL were
-                suspended in either M199 pH4 or pH8 for 60 min, at 37°C while shaking. More information can be found in Linde et al.
-                article. Primary datasets can be downloaded from GEO under accession number GSE61606.
-              </p>
-            </div>
-            
-            <div class="border">
-              <h5 class="center">Data source</h5>
-              <p class="info center">
-                Linde J, Duggan S, Weber M, et al. Defining the transcriptomic landscape of Candida glabrata by RNA-Seq. Nucleic Acids
-                Res. 2015;43(3):1392–1406. doi: <a href="https://academic-oup-com.insb.bib.cnrs.fr/nar/article/43/3/1392/2411170"
-                  target="_blank">10.1093/nar/gku1357</a>
               </p>
             </div>
             
@@ -308,7 +364,7 @@
             'pdfHtml5'
           ],
           "scrollX": true,
-
+          "pageLength": 5,
           columns: [{
               title: "ORF (CGLAB)",
               "data": "C1"
@@ -445,11 +501,15 @@
               title: "log(4H/0H) (Pvalue)",
               "data": "C42"
             }
+          ] ,
+          "columnDefs": [
+            { className: "otherData", "targets": [34,35,36,37,38,39,40,41] }
           ]
         });
       });
-
     });
+    
+
 
     // DATASET 2
       Plotly.d3.tsv("./assets/ourData_VS_otherDatasets/dataset2Violin.tsv", function (err, rows) {
@@ -506,7 +566,7 @@
               'pdfHtml5'
             ],
             "scrollX": true,
-
+            "pageLength": 5,
             columns: [{
               title: "ORF (CGLAB)",
               "data": "C1"
@@ -631,6 +691,9 @@
               title: "T60 (Pvalue)",
               "data": "C38"
             }
+            ],
+            "columnDefs": [
+              { className: "otherData", "targets": [34, 35, 36, 37] }
             ]
           });
         });
@@ -691,7 +754,7 @@
                 'pdfHtml5'
               ],
               "scrollX": true,
-
+              "pageLength": 5,
               columns: [{
                 title: "ORF (CGLAB)",
                 "data": "C1"
@@ -810,6 +873,9 @@
                 title: "log(pH8/pH4) (Pvalue)",
                 "data": "C36"
               }
+              ],
+              "columnDefs": [
+                { className: "otherData", "targets": [34, 35] }
               ]
             });
           });
